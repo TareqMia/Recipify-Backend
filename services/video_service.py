@@ -47,19 +47,12 @@ class VideoService:
             "transcript": transcript[:4000]
         }
         
-        prompt = f"""Analyze this recipe video:
+        prompt = f"""
         Title: {context['title']}
 
         Description: {context['description']}
 
         Transcript excerpt: {context['transcript']}
-
-        Please provide:
-        1. List of ingredients
-        2. Step-by-step cooking instructions
-        3. Cooking time and temperature details
-        4. Special equipment needed
-        5. Tips and notes mentioned in the video
         """
         
         return {
