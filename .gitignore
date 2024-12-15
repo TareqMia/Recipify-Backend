@@ -1,3 +1,4 @@
 .env 
 recipify-9e8e7-firebase-adminsdk-ocdn4-64a5bd2b68.json
 *.pyc
+*.json
