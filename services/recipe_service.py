@@ -1,5 +1,5 @@
 import logging
-from typing import Optional
+from typing import Optional, Tuple
 import instructor
 from anthropic import AnthropicBedrock
 from pydantic import ValidationError
@@ -84,3 +84,4 @@ class RecipeService:
         except Exception as e:
             logging.error(f"Error generating recipe: {str(e)}")
             return None
+        

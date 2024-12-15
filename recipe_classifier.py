@@ -38,7 +38,7 @@ class RecipeClassification(BaseModel):
         description="Suggested tags for the video content"
     )
     recipe_details: Optional[dict] = Field(
-        description="If it's a recipe, extracted key recipe information",
+        description="If it's a recipe, extracted key recipe information such as ingredients, instructions, etc.",
         default=None
     )
     

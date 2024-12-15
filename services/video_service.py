@@ -24,13 +24,14 @@ class VideoService:
         return None
 
     @staticmethod
-    def get_video_info(video_id: str) -> tuple[str, str]:
+    def get_video_info(video_id: str) -> tuple[str, str, int]:
         try:
             with YoutubeDL(settings.YDL_OPTIONS) as ydl:
                 info = ydl.extract_info(video_id, download=False, process=False)
                 title = info.get("title", "No title available")
                 description = info.get("description", "No description available")
-                return title, description
+                duration = info.get("duration", 0)
+                return title, description, duration
                 
         except Exception as e:
             raise HTTPException(

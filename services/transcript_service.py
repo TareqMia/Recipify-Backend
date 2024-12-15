@@ -1,17 +1,25 @@
-from youtube_transcript_api import YouTubeTranscriptApi
-from fastapi import HTTPException
 import asyncio
+import logging
 from functools import partial
-import re
-import cleantext
-import nltk
+from typing import List, Dict
+
+from youtube_transcript_api import YouTubeTranscriptApi, CouldNotRetrieveTranscript
+from fastapi import HTTPException
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 from string import punctuation
 from heapq import nlargest
 from collections import defaultdict
 
+import cleantext
+import networkx as nx
+from itertools import combinations
+
+# Configure logging
+logger = logging.getLogger(__name__)
 class TranscriptService:
+    _stop_words = set()
+    _nltk_initialized = False
 
     @staticmethod
     async def get_transcript(video_id: str) -> str:
@@ -31,12 +39,15 @@ class TranscriptService:
                 partial(YouTubeTranscriptApi.get_transcript, video_id)
             )
             # Clean emojis from each text entry
+
             cleaned_text: str = ' '.join(
                 cleantext.clean(entry['text'], no_emoji=True)
                 for entry in transcript_list
             )
             return cleaned_text
         
+        except CouldNotRetrieveTranscript as e:
+            return 'no transcript'
         except YouTubeTranscriptApi.CouldNotRetrieveTranscript as e:
             raise HTTPException(
                 status_code=404,
@@ -49,44 +60,49 @@ class TranscriptService:
             )
 
     @staticmethod
-    def generate_summary(text: str, ratio: float = 0.5) -> str:
-        """
-        Generate summary using frequency-based extractive summarization.
-        """
-        # Download required NLTK data
-        try:
-            nltk.data.find('tokenizers/punkt')
-        except LookupError:
-            nltk.download('punkt')
-            nltk.download('stopwords')
-        
-        # Tokenize the text
+    async def generate_summary(text: str, ratio: float = 0.5) -> str:
+        TranscriptService.initialize_nltk()
+
+        logger.debug("Starting summary generation...")
+
+        # Tokenize sentences and words
         sentences = sent_tokenize(text)
         words = word_tokenize(text.lower())
-        
-        # Remove stopwords and punctuation
-        stop_words = set(stopwords.words('english') + list(punctuation))
+
+        # Calculate word frequencies
         word_freq = defaultdict(int)
-        
         for word in words:
-            if word not in stop_words:
+            if word not in TranscriptService._stop_words:
                 word_freq[word] += 1
-                
+
+        if not word_freq:
+            logger.warning("No valid words found for frequency analysis.")
+            return ''
+
         # Calculate sentence scores
         sent_scores = defaultdict(int)
         for sent in sentences:
             for word in word_tokenize(sent.lower()):
                 if word in word_freq:
                     sent_scores[sent] += word_freq[word]
-                    
-        # Select top sentences while maintaining order
+
+        if not sent_scores:
+            logger.warning("No sentence scores computed.")
+            return ''
+
+        # Determine number of sentences for summary
         select_length = max(1, int(len(sentences) * ratio))
+        logger.debug(f"Selecting top {select_length} sentences for summary.")
+
+        # Select top sentences
         top_sents = nlargest(select_length, sent_scores, key=sent_scores.get)
-        
-        # Sort sentences by their original position
-        ordered_sents = [sent for sent in sentences if sent in top_sents]
-        
-        return ' '.join(ordered_sents)
+
+        # Sort selected sentences by their original order
+        ordered_sents = sorted(top_sents, key=lambda s: sentences.index(s))
+
+        summary = ' '.join(ordered_sents)
+        logger.debug("Summary generation completed.")
+        return summary
 
     @staticmethod
     async def get_transcript_summary(video_id: str, ratio: float = 0.5) -> str:
@@ -102,4 +118,41 @@ class TranscriptService:
         """
         transcript = await TranscriptService.get_transcript(video_id)
         summary = TranscriptService.generate_summary(transcript, ratio)
+        return summary
+
+    @classmethod
+    async def generate_summary_textrank(text: str, ratio: float = 0.3) -> str:
+        TranscriptService.initialize_nltk()
+
+        logger.debug("Starting TextRank summary generation...")
+
+        sentences = sent_tokenize(text)
+        if not sentences:
+            logger.warning("No sentences found for TextRank summarization.")
+            return ''
+
+        # Build similarity matrix
+        similarity = defaultdict(dict)
+        for i, j in combinations(range(len(sentences)), 2):
+            sent1 = sentences[i]
+            sent2 = sentences[j]
+            words1 = set(word_tokenize(sent1.lower())) - cls._stop_words
+            words2 = set(word_tokenize(sent2.lower())) - cls._stop_words
+            common = words1.intersection(words2)
+            if common:
+                similarity[i][j] = len(common) / (len(words1) + len(words2))
+                similarity[j][i] = similarity[i][j]
+
+        # Create graph
+        graph = nx.Graph(similarity)
+        scores = nx.pagerank_numpy(graph)
+
+        # Rank sentences
+        ranked_sentences = sorted(((scores[i], s) for i, s in enumerate(sentences)), reverse=True)
+
+        select_length = max(1, int(len(sentences) * ratio))
+        selected_sentences = sorted(ranked_sentences[:select_length], key=lambda x: sentences.index(x[1]))
+
+        summary = ' '.join([s for score, s in selected_sentences])
+        logger.debug("TextRank summary generation completed.")
         return summary
