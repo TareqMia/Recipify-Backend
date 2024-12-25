@@ -5,7 +5,8 @@ from anthropic import AnthropicBedrock
 from pydantic import ValidationError
 
 from models.schemas import Recipe, VideoContent, RecipeClassification
-from recipe_classifier import classify_video_content  # Import the classification function
+from recipe_classifier import classify_video_content
+from cohere import Client 
 
 # Initialize the Anthropic client globally
 anthropic_bedrock_client = AnthropicBedrock()
@@ -57,6 +58,7 @@ class RecipeService:
         - Step-by-step cooking instructions
         - Estimated preparation and cooking time
         - Serving suggestions
+        - Keywords for the recipe
         """
 
         try:

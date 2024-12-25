@@ -25,10 +25,11 @@ class VideoRequest(BaseModel):
 class Recipe(BaseModel):
     ingredients: List[str]
     instructions: List[str]
-    preparation_time: Optional[int]  # in minutes
-    cooking_time: Optional[int]      # in minutes
-    servings: Optional[int]
-    serving_suggestions: Optional[List[str]]
+    preparation_time: Optional[int] = None  # in minutes
+    cooking_time: Optional[int] = None      # in minutes
+    servings: Optional[int] = None
+    serving_suggestions: Optional[List[str]] = None
+    keywords: Optional[List[str]] = []      # Add keywords field with empty list as default
     
     class Config:
         form_attributes = True

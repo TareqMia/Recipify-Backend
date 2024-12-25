@@ -53,7 +53,7 @@ def classify_video_content(video_content: VideoContent) -> RecipeClassification:
         RecipeClassification object with analysis results
     """
     analysis_prompt = f"""
-    Please analyze this video content to determine if it's a recipe:
+    Please analyze this video content to determine if it's a recipe and extract detailed recipe information:
     
     TITLE: {video_content.title}
     
@@ -61,12 +61,23 @@ def classify_video_content(video_content: VideoContent) -> RecipeClassification:
     
     TRANSCRIPT: {video_content.transcript}
     
-    Determine if this is a recipe video by analyzing:
-    1. Presence of ingredient lists
-    2. Cooking instructions or steps
-    3. Kitchen/cooking terminology
-    4. Food-related terminology
-    5. Teaching/instructional language related to food preparation
+    If this is a recipe video, please provide:
+    1. Complete list of ingredients with measurements
+    2. Step-by-step cooking instructions
+    3. Estimated preparation time in minutes
+    4. Estimated cooking time in minutes
+    5. Number of servings
+    6. Serving suggestions
+    7. Keywords/tags related to this recipe (e.g., breakfast, healthy, quick, vegetarian)
+    
+    Format the recipe details as a structured object with these exact fields:
+    - ingredients (list)
+    - instructions (list)
+    - preparation_time (number in minutes)
+    - cooking_time (number in minutes)
+    - servings (number)
+    - serving_suggestions (list)
+    - keywords (list of relevant recipe tags)
     """
     
     response = client.messages.create(
@@ -77,13 +88,14 @@ def classify_video_content(video_content: VideoContent) -> RecipeClassification:
             {
                 "role": "system",
                 "content": """You are a video content analyzer specializing in identifying recipe content.
-                Look for key indicators like:
-                - Lists of ingredients
-                - Cooking instructions
-                - Measurements and quantities
-                - Cooking techniques
-                - Kitchen equipment mentions
-                - Food preparation terminology"""
+                Extract complete recipe details including all required fields:
+                - ingredients (with measurements)
+                - instructions (step by step)
+                - preparation_time (in minutes)
+                - cooking_time (in minutes)
+                - servings (number)
+                - serving_suggestions (list)
+                - keywords (list of relevant recipe tags)"""
             },
             {"role": "user", "content": analysis_prompt}
         ]
