@@ -208,3 +208,91 @@ recipe.keywords
 2024-12-25 15:36:19.942 - INFO - Found credentials in environment variables.
 2024-12-25 15:36:25.961 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
 2024-12-25 15:36:25.974 - INFO - Successfully classified video content
+2024-12-25 17:48:32.955 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=10&ab_channel=JoeXFitness
+2024-12-25 17:48:32.957 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=10&ab_channel=JoeXFitness
+2024-12-25 17:48:32.958 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-25 17:48:33.503 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-25 17:48:34.790 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-25 17:48:40.972 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-25 17:48:40.979 - INFO - Successfully classified video content
+2024-12-25 17:48:41.202 - ERROR - Error processing video: 10 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid string [type=string_type, input_value={'item': 'English cucumber', 'amount': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.1
+  Input should be a valid string [type=string_type, input_value={'item': 'tuna', 'amount': 170, 'unit': 'g'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.2
+  Input should be a valid string [type=string_type, input_value={'item': 'light cream che...unt': 1, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.3
+  Input should be a valid string [type=string_type, input_value={'item': 'red onion', 'amount': 0.25}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.4
+  Input should be a valid string [type=string_type, input_value={'item': 'light mayo', 'a...unt': 2, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.5
+  Input should be a valid string [type=string_type, input_value={'item': 'dill seasoning'...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.6
+  Input should be a valid string [type=string_type, input_value={'item': 'Dijon mustard',...unt': 1, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.7
+  Input should be a valid string [type=string_type, input_value={'item': 'black pepper', ...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.8
+  Input should be a valid string [type=string_type, input_value={'item': 'lemon juice', '...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.9
+  Input should be a valid string [type=string_type, input_value={'item': 'avocado', 'amount': 0.5}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+Traceback (most recent call last):
+  File "/Users/tareqmia/_recipify-backend/api/routes.py", line 123, in process_video
+    return VideoResponse(**video_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pydantic/main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 10 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid string [type=string_type, input_value={'item': 'English cucumber', 'amount': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.1
+  Input should be a valid string [type=string_type, input_value={'item': 'tuna', 'amount': 170, 'unit': 'g'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.2
+  Input should be a valid string [type=string_type, input_value={'item': 'light cream che...unt': 1, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.3
+  Input should be a valid string [type=string_type, input_value={'item': 'red onion', 'amount': 0.25}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.4
+  Input should be a valid string [type=string_type, input_value={'item': 'light mayo', 'a...unt': 2, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.5
+  Input should be a valid string [type=string_type, input_value={'item': 'dill seasoning'...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.6
+  Input should be a valid string [type=string_type, input_value={'item': 'Dijon mustard',...unt': 1, 'unit': 'tbsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.7
+  Input should be a valid string [type=string_type, input_value={'item': 'black pepper', ...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.8
+  Input should be a valid string [type=string_type, input_value={'item': 'lemon juice', '...ount': 1, 'unit': 'tsp'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+recipe.ingredients.9
+  Input should be a valid string [type=string_type, input_value={'item': 'avocado', 'amount': 0.5}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/string_type
+2024-12-25 17:50:03.293 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=10&ab_channel=JoeXFitness
+2024-12-25 17:50:03.293 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=10&ab_channel=JoeXFitness
+2024-12-25 17:50:03.294 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-25 17:50:03.653 - INFO - Document exists: DfMRrGkqnKQ
+2024-12-25 17:50:03.653 - INFO - Video DfMRrGkqnKQ already processed, returning cached data.
+2024-12-25 17:52:22.711 - INFO - Processing video URL: https://youtu.be/-76o1x84DyI?si=FZBpnX47ZfTyWQ-w
+2024-12-25 17:52:22.712 - INFO - Starting to process video URL: https://youtu.be/-76o1x84DyI?si=FZBpnX47ZfTyWQ-w
+2024-12-25 17:52:22.712 - INFO - Checking if video -76o1x84DyI exists in Firebase
+2024-12-25 17:52:22.827 - INFO - Video -76o1x84DyI not found in cache, processing...
+2024-12-25 17:52:24.039 - INFO - Fetched video info: Title='Smash Burgers Made From SALMON?!', Duration=52
+2024-12-25 17:52:24.740 - INFO - Found credentials in environment variables.
+2024-12-25 17:52:28.633 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-25 17:52:28.646 - INFO - Successfully classified video content

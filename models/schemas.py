@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Union
 from pydantic import BaseModel, Field, field_validator
 import re
 from datetime import datetime
@@ -22,17 +22,39 @@ class VideoRequest(BaseModel):
         return v
     
     
+class Ingredient(BaseModel):
+    item: str
+    amount: Union[int, float]
+    unit: Optional[str] = None
+
 class Recipe(BaseModel):
-    ingredients: List[str]
+    ingredients: List[Union[str, Dict[str, Union[str, int, float]], Ingredient]]
     instructions: List[str]
-    preparation_time: Optional[int] = None  # in minutes
-    cooking_time: Optional[int] = None      # in minutes
+    preparation_time: Optional[int] = None
+    cooking_time: Optional[int] = None
     servings: Optional[int] = None
     serving_suggestions: Optional[List[str]] = None
-    keywords: Optional[List[str]] = []      # Add keywords field with empty list as default
-    
+    keywords: Optional[List[str]] = []
+
+    def __init__(self, **data):
+        # Convert ingredient dictionaries to strings if needed
+        if 'ingredients' in data:
+            ingredients = []
+            for ing in data['ingredients']:
+                if isinstance(ing, dict):
+                    # Format ingredient string based on available fields
+                    amount = ing.get('amount', '')
+                    unit = ing.get('unit', '')
+                    item = ing.get('item', '')
+                    ingredients.append(f"{amount} {unit} {item}".strip())
+                else:
+                    ingredients.append(ing)
+            data['ingredients'] = ingredients
+        super().__init__(**data)
+
     class Config:
         form_attributes = True
+
 class VideoResponse(BaseModel):
     video_id: str
     title: str
