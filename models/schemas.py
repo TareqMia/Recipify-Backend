@@ -5,6 +5,36 @@ import re
 from datetime import datetime
 from typing import List
 
+class NutritionIngredient(BaseModel):
+    name: str
+    amount: Optional[float] = None
+    unit: Optional[str] = None
+
+class NutritionRequest(BaseModel):
+    ingredients: List[NutritionIngredient]
+
+class NutrientInfo(BaseModel):
+    amount: float
+    unit: str
+
+class NutritionLabel(BaseModel):
+    serving_size: NutrientInfo
+    calories: float
+    total_fat: NutrientInfo
+    saturated_fat: NutrientInfo
+    trans_fat: NutrientInfo
+    cholesterol: NutrientInfo
+    sodium: NutrientInfo
+    total_carbohydrates: NutrientInfo
+    dietary_fiber: NutrientInfo
+    total_sugars: NutrientInfo
+    added_sugars: NutrientInfo
+    protein: NutrientInfo
+    vitamin_d: NutrientInfo
+    calcium: NutrientInfo
+    iron: NutrientInfo
+    potassium: NutrientInfo
+
 class VideoRequest(BaseModel):
     url: str
 
@@ -63,6 +93,7 @@ class VideoResponse(BaseModel):
     processed_data: Optional[str]
     is_recipe_video: bool
     recipe: Optional[Recipe]
+    nutrition: Optional[NutritionLabel] = None
     created_at: datetime
     
 class ContentCategory(str, Enum):
