@@ -134,7 +134,7 @@ async def process_video(
                     "llm_prompt": processed_data.get('prompt', '')
                 }),
                 "recipe": recipe,
-                "nutrition": nutrition_label.model_dump() if nutrition_label else None
+                "nutrition": None
             })
         else:
             video_data.update({

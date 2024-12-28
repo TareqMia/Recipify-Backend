@@ -342,3 +342,204 @@ recipe.ingredients.9
 2024-12-28 16:13:23.856 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
 2024-12-28 16:13:23.995 - INFO - Successfully classified video content
 2024-12-28 16:13:35.211 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 16:37:29.641 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:37:29.642 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:37:29.643 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 16:37:30.123 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 16:37:30.951 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 16:37:31.617 - INFO - Found credentials in environment variables.
+2024-12-28 16:37:36.755 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 16:37:36.765 - INFO - Successfully classified video content
+2024-12-28 16:37:36.766 - ERROR - Error calculating nutrition facts: 1 validation error for NutritionIngredient
+amount
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='170g', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_parsing
+2024-12-28 16:39:05.169 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:39:05.169 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:39:05.170 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 16:39:05.540 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 16:39:06.487 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 16:39:07.279 - INFO - Found credentials in environment variables.
+2024-12-28 16:39:13.317 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 16:39:13.331 - INFO - Successfully classified video content
+2024-12-28 16:45:17.793 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:45:17.794 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 16:45:17.794 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 16:45:18.260 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 16:45:18.966 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 16:45:20.189 - INFO - Found credentials in environment variables.
+2024-12-28 16:45:26.449 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 16:45:26.463 - INFO - Successfully classified video content
+2024-12-28 17:07:57.837 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:07:57.838 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:07:57.839 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 17:07:58.232 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 17:07:58.975 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 17:07:59.652 - INFO - Found credentials in environment variables.
+2024-12-28 17:08:04.967 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 17:08:04.983 - INFO - Successfully classified video content
+2024-12-28 17:10:45.817 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:10:45.817 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:10:45.821 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 17:10:46.184 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 17:10:47.096 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 17:10:47.697 - INFO - Found credentials in environment variables.
+2024-12-28 17:10:52.752 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 17:10:52.764 - INFO - Successfully classified video content
+2024-12-28 17:27:50.008 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 17:28:29.596 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 17:35:41.911 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:35:41.912 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 17:35:41.913 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 17:35:42.296 - INFO - Video DfMRrGkqnKQ not found in cache, processing...
+2024-12-28 17:35:43.062 - INFO - Fetched video info: Title='20g protein in THIS sushi roll #lowcalorie #weightlossfood #healthyrecipes', Duration=43
+2024-12-28 17:35:44.201 - INFO - Found credentials in environment variables.
+2024-12-28 17:35:49.854 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 17:35:49.865 - INFO - Successfully classified video content
+2024-12-28 17:55:04.445 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:01:57.407 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:03:05.748 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:03:40.134 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:04:07.560 - INFO - Processing video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 18:04:07.561 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=DfMRrGkqnKQ&list=LL&index=11&ab_channel=JoeXFitness
+2024-12-28 18:04:07.561 - INFO - Checking if video DfMRrGkqnKQ exists in Firebase
+2024-12-28 18:04:07.794 - INFO - Document exists: DfMRrGkqnKQ
+2024-12-28 18:04:07.795 - INFO - Video DfMRrGkqnKQ already processed, returning cached data.
+2024-12-28 18:04:23.780 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:05:40.341 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:05:40.342 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:05:40.342 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:05:40.536 - INFO - Video MBLTkCrwIWo not found in cache, processing...
+2024-12-28 18:05:41.528 - INFO - Fetched video info: Title='BREAKFAST POWER BOWL🥚🍲⚡', Duration=29
+2024-12-28 18:05:46.813 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 18:05:46.821 - INFO - Successfully classified video content
+2024-12-28 18:05:55.619 - ERROR - Error processing video: 8 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid dictionary [type=dict_type, input_value='2 eggs', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.1
+  Input should be a valid dictionary [type=dict_type, input_value='1 serving cottage cheese', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.2
+  Input should be a valid dictionary [type=dict_type, input_value='1/2 avocado (approx. 65g)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.3
+  Input should be a valid dictionary [type=dict_type, input_value='Fresh cilantro', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.4
+  Input should be a valid dictionary [type=dict_type, input_value='Thinly sliced red onion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.5
+  Input should be a valid dictionary [type=dict_type, input_value='Chile lime seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.6
+  Input should be a valid dictionary [type=dict_type, input_value='Everything bagel seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.7
+  Input should be a valid dictionary [type=dict_type, input_value='Hot sauce (to taste)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+Traceback (most recent call last):
+  File "/Users/tareqmia/_recipify-backend/api/routes.py", line 151, in process_video
+    return VideoResponse(**video_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pydantic/main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 8 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid dictionary [type=dict_type, input_value='2 eggs', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.1
+  Input should be a valid dictionary [type=dict_type, input_value='1 serving cottage cheese', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.2
+  Input should be a valid dictionary [type=dict_type, input_value='1/2 avocado (approx. 65g)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.3
+  Input should be a valid dictionary [type=dict_type, input_value='Fresh cilantro', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.4
+  Input should be a valid dictionary [type=dict_type, input_value='Thinly sliced red onion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.5
+  Input should be a valid dictionary [type=dict_type, input_value='Chile lime seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.6
+  Input should be a valid dictionary [type=dict_type, input_value='Everything bagel seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+recipe.ingredients.7
+  Input should be a valid dictionary [type=dict_type, input_value='Hot sauce (to taste)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+2024-12-28 18:07:05.512 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:07:05.513 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:07:05.513 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:07:05.878 - INFO - Document exists: MBLTkCrwIWo
+2024-12-28 18:07:05.879 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2024-12-28 18:11:26.904 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:11:26.904 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:11:26.905 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:11:27.284 - INFO - Video MBLTkCrwIWo not found in cache, processing...
+2024-12-28 18:11:28.161 - INFO - Fetched video info: Title='BREAKFAST POWER BOWL🥚🍲⚡', Duration=29
+2024-12-28 18:11:28.965 - INFO - Found credentials in environment variables.
+2024-12-28 18:11:34.455 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 18:11:34.469 - INFO - Successfully classified video content
+2024-12-28 18:11:43.190 - ERROR - Error processing video: 8 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='2 eggs', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.1
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='1 serving cottage cheese', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.2
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='1/2 avocado (about 65g)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.3
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Fresh cilantro', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.4
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Thinly sliced red onion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.5
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Chile lime seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.6
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Everything bagel seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.7
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Hot sauce (optional)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+Traceback (most recent call last):
+  File "/Users/tareqmia/_recipify-backend/api/routes.py", line 151, in process_video
+    return VideoResponse(**video_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pydantic/main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 8 validation errors for VideoResponse
+recipe.ingredients.0
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='2 eggs', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.1
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='1 serving cottage cheese', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.2
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='1/2 avocado (about 65g)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.3
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Fresh cilantro', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.4
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Thinly sliced red onion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.5
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Chile lime seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.6
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Everything bagel seasoning', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+recipe.ingredients.7
+  Input should be a valid dictionary or instance of RecipeIngredient [type=model_type, input_value='Hot sauce (optional)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/model_type
+2024-12-28 18:13:01.995 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:13:01.995 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:13:01.995 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:13:02.348 - INFO - Document exists: MBLTkCrwIWo
+2024-12-28 18:13:02.349 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
