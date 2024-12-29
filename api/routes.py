@@ -9,7 +9,7 @@ import dotenv
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import ValidationError
 
-from models.schemas import ContentCategory, VideoRequest, VideoResponse, VideoContent, NutritionRequest, NutritionLabel, NutritionIngredient
+from models.schemas import ContentCategory, VideoRequest, VideoResponse, VideoContent, NutritionRequest, NutritionLabel, NutritionIngredient, NutritionResponse
 from services.recipe_service import RecipeService
 from services.transcript_service import TranscriptService
 from services.video_service import VideoService
@@ -62,7 +62,15 @@ async def process_video(
         if cached_data:
             try:
                 logger.info(f"Video {video_id} already processed, returning cached data.")
-                return VideoResponse(**cached_data)
+                response = VideoResponse(**cached_data)
+                print(f"\n=== CACHED VIDEO RESPONSE ===")
+                if response.nutrition:
+                    print(f"Nutrition data present:")
+                    print(f"Total calories: {response.nutrition.total.calories}")
+                    print(f"Total protein: {response.nutrition.total.protein.amount}g")
+                else:
+                    print("No nutrition data in cached response")
+                return response
             except ValidationError as ve:
                 logger.error(f"Validation error with cached data: {ve}")
                 # Proceed to process the video anew
@@ -120,6 +128,10 @@ async def process_video(
                     
                     if nutrition_ingredients:
                         nutrition_label = nutrition_service.calculate_nutrition(nutrition_ingredients)
+                        print(f"\n=== NUTRITION LABEL FOR VIDEO ===")
+                        print(f"Total calories: {nutrition_label.total.calories}")
+                        print(f"Total protein: {nutrition_label.total.protein.amount}g")
+                        print(f"Total fat: {nutrition_label.total.total_fat.amount}g")
                 except Exception as e:
                     logger.error(f"Error calculating nutrition facts: {str(e)}")
                     nutrition_label = None
@@ -134,7 +146,7 @@ async def process_video(
                     "llm_prompt": processed_data.get('prompt', '')
                 }),
                 "recipe": recipe,
-                "nutrition": None
+                "nutrition": nutrition_label
             })
         else:
             video_data.update({
@@ -159,15 +171,34 @@ async def process_video(
             detail="An unexpected error occurred while processing the video."
         )
         
-@router.post("/nutrition/", response_model=NutritionLabel)
-async def get_nutrition_facts(
+@router.post("/nutrition/", response_model=NutritionResponse)
+def get_nutrition_facts(
     request: NutritionRequest,
     nutrition_service: NutritionService = Depends()
 ):
     try:
         logger.info(f"Calculating nutrition facts for {len(request.ingredients)} ingredients")
-        nutrition_label = nutrition_service.calculate_nutrition(request.ingredients)
-        return nutrition_label
+        nutrition_response = nutrition_service.calculate_nutrition(request.ingredients)
+        
+        # Log the response before returning
+        logger.info("\n=== NUTRITION ENDPOINT RESPONSE ===")
+        logger.info(f"Total calories: {nutrition_response.total.calories}")
+        logger.info(f"Total protein: {nutrition_response.total.protein.amount}g")
+        logger.info(f"Total fat: {nutrition_response.total.total_fat.amount}g")
+        logger.info(f"Total carbs: {nutrition_response.total.total_carbohydrates.amount}g")
+        logger.info("\nPer ingredient breakdown:")
+        for ing in nutrition_response.ingredients:
+            logger.info(f"\n{ing.ingredient.name}:")
+            logger.info(f"  Calories: {ing.nutrition.calories}")
+            logger.info(f"  Protein: {ing.nutrition.protein.amount}g")
+            logger.info(f"  Fat: {ing.nutrition.total_fat.amount}g")
+            logger.info(f"  Carbs: {ing.nutrition.total_carbohydrates.amount}g")
+        
+        # Print the raw response model
+        logger.info("\nRaw response model:")
+        logger.info(nutrition_response.model_dump_json(indent=2))
+        
+        return nutrition_response
     except Exception as e:
         logger.error(f"Error calculating nutrition facts: {str(e)}", exc_info=True)
         raise HTTPException(

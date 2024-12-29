@@ -34,6 +34,16 @@ class NutritionIngredient(BaseModel):
                 return match.group(1)
         return v
 
+    def get_clean_name(self) -> str:
+        """Get clean ingredient name for API search"""
+        # Remove amounts and units if present at start
+        name = re.sub(r'^\d+/\d+|\d*\.?\d+\s*[a-zA-Z]*\s+', '', self.name)
+        # Remove content in parentheses
+        name = re.sub(r'\s*\([^)]*\)', '', name)
+        # Remove common prep instructions
+        name = re.sub(r'\b(chopped|diced|sliced|minced|thinly|fresh)\b', '', name, flags=re.IGNORECASE)
+        return name.strip()
+
 class NutritionRequest(BaseModel):
     ingredients: List[NutritionIngredient]
     serving_size: Optional[NutrientInfo] = Field(
@@ -77,19 +87,65 @@ class VideoRequest(BaseModel):
     
     
 class MeasurementUnit(str, Enum):
+    # Weight units
     GRAM = "g"
     KILOGRAM = "kg"
+    OUNCE = "oz"
+    POUND = "lb"
+    
+    # Volume units
     MILLILITER = "ml"
     LITER = "l"
     CUP = "cup"
     TABLESPOON = "tbsp"
     TEASPOON = "tsp"
-    OUNCE = "oz"
-    POUND = "lb"
+    
+    # Count units
+    WHOLE = "whole"
     PIECE = "piece"
     SERVING = "serving"
+    
+    # Small amounts
     PINCH = "pinch"
+    
+    # Empty
     NONE = ""
+
+    @classmethod
+    def get_weight_in_grams(cls, amount: float, unit: str, ingredient_name: str = "") -> float:
+        """Convert a unit to grams for nutrition calculation"""
+        # Common ingredient weights
+        ingredient_weights = {
+            "egg": 50,  # 50g per large egg
+            "eggs": 50,  # 50g per large egg
+            "avocado": 170,  # 170g per medium avocado
+            "onion": 110,  # 110g per medium onion
+            "cottage cheese": 226,  # 226g per cup/serving of cottage cheese
+        }
+
+        # First check if this is a common ingredient with known weight
+        ingredient_name = ingredient_name.lower()
+        for item, weight in ingredient_weights.items():
+            if item in ingredient_name:
+                return amount * weight
+
+        # If not a common ingredient, use unit conversion
+        conversion_map = {
+            cls.GRAM: 1,
+            cls.KILOGRAM: 1000,
+            cls.OUNCE: 28.3495,
+            cls.POUND: 453.592,
+            cls.MILLILITER: 1,
+            cls.LITER: 1000,
+            cls.CUP: 236.588,
+            cls.TABLESPOON: 14.7868,
+            cls.TEASPOON: 4.92892,
+            cls.SERVING: 100,
+            cls.PINCH: 0.5,
+            cls.NONE: 100,  # Default to 100g if no unit specified
+        }
+        
+        return amount * conversion_map.get(unit, 100)
 
 class RecipeIngredient(BaseModel):
     amount: float = 0
@@ -116,6 +172,10 @@ class RecipeIngredient(BaseModel):
             else:
                 amount = float(amount_str)
                 
+        # Clean ingredient text
+        ingredient = ingredient.strip()
+        ingredient = re.sub(r'\s*\([^)]*\)', '', ingredient)  # Remove parenthetical notes
+        
         # Clean and validate unit
         unit = MeasurementUnit.NONE
         if unit_str:
@@ -126,15 +186,15 @@ class RecipeIngredient(BaseModel):
                 # If unit is not valid, it might be part of the ingredient name
                 ingredient = f"{unit_str} {ingredient}"
                 
-        # Clean ingredient text
-        ingredient = ingredient.strip()
-        ingredient = re.sub(r'\s*\([^)]*\)', '', ingredient)  # Remove parenthetical notes
-        
         return cls(
             amount=amount,
             unit=unit,
             ingredient=ingredient.strip()
         )
+
+    def get_weight_in_grams(self) -> float:
+        """Get the weight of this ingredient in grams"""
+        return MeasurementUnit.get_weight_in_grams(self.amount, self.unit, self.ingredient)
 
 class Recipe(BaseModel):
     ingredients: List[Union[str, Dict[str, Any], RecipeIngredient]]

@@ -543,3 +543,1732 @@ recipe.ingredients.7
 2024-12-28 18:13:01.995 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
 2024-12-28 18:13:02.348 - INFO - Document exists: MBLTkCrwIWo
 2024-12-28 18:13:02.349 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2024-12-28 18:17:22.148 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:19:41.619 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:22:29.574 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:22:29.576 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:22:29.576 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:22:29.957 - INFO - Video MBLTkCrwIWo not found in cache, processing...
+2024-12-28 18:22:30.824 - INFO - Fetched video info: Title='BREAKFAST POWER BOWL🥚🍲⚡', Duration=29
+2024-12-28 18:22:31.442 - INFO - Found credentials in environment variables.
+2024-12-28 18:22:36.800 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-28 18:22:36.814 - INFO - Successfully classified video content
+2024-12-28 18:23:57.723 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:25:00.198 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:29:16.425 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:31:29.713 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:34:34.103 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:37:13.194 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:39:03.891 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:39:57.899 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:39:57.900 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&list=LL&index=10&ab_channel=ShredHappens
+2024-12-28 18:39:57.901 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2024-12-28 18:39:58.456 - INFO - Document exists: MBLTkCrwIWo
+2024-12-28 18:39:58.457 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2024-12-28 18:40:32.740 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 18:41:09.349 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:44:18.283 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:46:33.491 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:56:07.610 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:56:07.612 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x1762113c0>}
+
+2024-12-28 18:56:12.686 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:56:12.686 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x1762113c0>}
+
+2024-12-28 18:56:57.652 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:56:57.653 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x16aa01560>}
+
+2024-12-28 18:58:06.286 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:58:06.287 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x31762df80>}
+
+2024-12-28 18:59:22.294 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:59:22.294 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x318be9f80>}
+
+2024-12-28 18:59:55.160 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 18:59:55.160 - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': <coroutine object NutritionService.calculate_nutrition at 0x177459f80>}
+
+2024-12-28 19:00:15.236 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 19:01:51.151 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 19:05:16.326 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 19:10:16.667 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 19:10:29.371 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2024-12-28 19:10:29.372 - INFO - Total calories: 633.7
+2024-12-28 19:10:29.372 - INFO - Total protein: 32.0g
+2024-12-28 19:10:29.372 - INFO - Total fat: 39.0g
+2024-12-28 19:10:29.372 - INFO - Total carbs: 41.0g
+2024-12-28 19:10:29.372 - INFO - 
+Per ingredient breakdown:
+2024-12-28 19:10:29.372 - INFO - 
+English cucumber:
+2024-12-28 19:10:29.372 - INFO -   Calories: 34.0
+2024-12-28 19:10:29.372 - INFO -   Protein: 0.5g
+2024-12-28 19:10:29.372 - INFO -   Fat: 0.1g
+2024-12-28 19:10:29.372 - INFO -   Carbs: 6.8g
+2024-12-28 19:10:29.372 - INFO - 
+tuna:
+2024-12-28 19:10:29.373 - INFO -   Calories: 317.9
+2024-12-28 19:10:29.373 - INFO -   Protein: 27.3g
+2024-12-28 19:10:29.373 - INFO -   Fat: 15.7g
+2024-12-28 19:10:29.373 - INFO -   Carbs: 16.0g
+2024-12-28 19:10:29.373 - INFO - 
+light cream cheese:
+2024-12-28 19:10:29.373 - INFO -   Calories: 39.0
+2024-12-28 19:10:29.373 - INFO -   Protein: 1.3g
+2024-12-28 19:10:29.373 - INFO -   Fat: 3.4g
+2024-12-28 19:10:29.373 - INFO -   Carbs: 0.8g
+2024-12-28 19:10:29.373 - INFO - 
+red onion:
+2024-12-28 19:10:29.373 - INFO -   Calories: 12.1
+2024-12-28 19:10:29.373 - INFO -   Protein: 0.3g
+2024-12-28 19:10:29.373 - INFO -   Fat: 0.0g
+2024-12-28 19:10:29.373 - INFO -   Carbs: 2.7g
+2024-12-28 19:10:29.373 - INFO - 
+light mayonnaise:
+2024-12-28 19:10:29.373 - INFO -   Calories: 70.4
+2024-12-28 19:10:29.373 - INFO -   Protein: 0.1g
+2024-12-28 19:10:29.373 - INFO -   Fat: 6.6g
+2024-12-28 19:10:29.373 - INFO -   Carbs: 2.7g
+2024-12-28 19:10:29.373 - INFO - 
+dill seasoning:
+2024-12-28 19:10:29.373 - INFO -   Calories: 0.6
+2024-12-28 19:10:29.374 - INFO -   Protein: 0.0g
+2024-12-28 19:10:29.374 - INFO -   Fat: 0.0g
+2024-12-28 19:10:29.374 - INFO -   Carbs: 0.1g
+2024-12-28 19:10:29.374 - INFO - 
+Dijon mustard:
+2024-12-28 19:10:29.374 - INFO -   Calories: 10.2
+2024-12-28 19:10:29.374 - INFO -   Protein: 0.6g
+2024-12-28 19:10:29.374 - INFO -   Fat: 0.5g
+2024-12-28 19:10:29.374 - INFO -   Carbs: 0.8g
+2024-12-28 19:10:29.374 - INFO - 
+black pepper:
+2024-12-28 19:10:29.374 - INFO -   Calories: 12.4
+2024-12-28 19:10:29.374 - INFO -   Protein: 0.5g
+2024-12-28 19:10:29.374 - INFO -   Fat: 0.2g
+2024-12-28 19:10:29.374 - INFO -   Carbs: 3.2g
+2024-12-28 19:10:29.374 - INFO - 
+lemon juice:
+2024-12-28 19:10:29.374 - INFO -   Calories: 1.1
+2024-12-28 19:10:29.375 - INFO -   Protein: 0.0g
+2024-12-28 19:10:29.375 - INFO -   Fat: 0.0g
+2024-12-28 19:10:29.375 - INFO -   Carbs: 0.3g
+2024-12-28 19:10:29.375 - INFO - 
+avocado:
+2024-12-28 19:10:29.375 - INFO -   Calories: 136.0
+2024-12-28 19:10:29.375 - INFO -   Protein: 1.7g
+2024-12-28 19:10:29.375 - INFO -   Fat: 12.5g
+2024-12-28 19:10:29.375 - INFO -   Carbs: 7.3g
+2024-12-28 19:10:29.375 - INFO - 
+Raw response model:
+2024-12-28 19:10:29.376 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "English cucumber",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 34.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 236.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 6.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 5.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 14.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 137.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tuna",
+        "amount": 170.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 170.0,
+          "unit": "g"
+        },
+        "calories": 317.9,
+        "total_fat": {
+          "amount": 15.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 22.1,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 683.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 16.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 27.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 28.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 302.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "light cream cheese",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 39.0,
+        "total_fat": {
+          "amount": 3.4,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 10.5,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 70.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 26.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 26.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "red onion",
+        "amount": 0.25,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 27.5,
+          "unit": "g"
+        },
+        "calories": 12.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 54.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "light mayonnaise",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 70.4,
+        "total_fat": {
+          "amount": 6.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 244.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 9.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "dill seasoning",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 0.6,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 39.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "Dijon mustard",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 10.2,
+        "total_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 162.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 9.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 22.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "black pepper",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 12.4,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 21.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 65.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "lemon juice",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 1.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "avocado",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 85.0,
+          "unit": "g"
+        },
+        "calories": 136.0,
+        "total_fat": {
+          "amount": 12.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 7.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 10.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 412.2,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 456.43395999999996,
+      "unit": "g"
+    },
+    "calories": 633.7,
+    "total_fat": {
+      "amount": 39.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 37.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1445.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 41.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 9.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 32.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 121.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 3.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1040.0,
+      "unit": "mg"
+    }
+  }
+}
+2024-12-28 19:13:00.350 - INFO - Calculating nutrition facts for 10 ingredients
+2024-12-28 19:13:23.071 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2024-12-28 19:13:23.072 - INFO - Total calories: 633.7
+2024-12-28 19:13:23.072 - INFO - Total protein: 32.0g
+2024-12-28 19:13:23.072 - INFO - Total fat: 39.0g
+2024-12-28 19:13:23.072 - INFO - Total carbs: 41.0g
+2024-12-28 19:13:23.072 - INFO - 
+Per ingredient breakdown:
+2024-12-28 19:13:23.072 - INFO - 
+English cucumber:
+2024-12-28 19:13:23.072 - INFO -   Calories: 34.0
+2024-12-28 19:13:23.072 - INFO -   Protein: 0.5g
+2024-12-28 19:13:23.072 - INFO -   Fat: 0.1g
+2024-12-28 19:13:23.072 - INFO -   Carbs: 6.8g
+2024-12-28 19:13:23.072 - INFO - 
+tuna:
+2024-12-28 19:13:23.072 - INFO -   Calories: 317.9
+2024-12-28 19:13:23.072 - INFO -   Protein: 27.3g
+2024-12-28 19:13:23.072 - INFO -   Fat: 15.7g
+2024-12-28 19:13:23.072 - INFO -   Carbs: 16.0g
+2024-12-28 19:13:23.072 - INFO - 
+light cream cheese:
+2024-12-28 19:13:23.072 - INFO -   Calories: 39.0
+2024-12-28 19:13:23.073 - INFO -   Protein: 1.3g
+2024-12-28 19:13:23.073 - INFO -   Fat: 3.4g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 0.8g
+2024-12-28 19:13:23.073 - INFO - 
+red onion:
+2024-12-28 19:13:23.073 - INFO -   Calories: 12.1
+2024-12-28 19:13:23.073 - INFO -   Protein: 0.3g
+2024-12-28 19:13:23.073 - INFO -   Fat: 0.0g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 2.7g
+2024-12-28 19:13:23.073 - INFO - 
+light mayonnaise:
+2024-12-28 19:13:23.073 - INFO -   Calories: 70.4
+2024-12-28 19:13:23.073 - INFO -   Protein: 0.1g
+2024-12-28 19:13:23.073 - INFO -   Fat: 6.6g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 2.7g
+2024-12-28 19:13:23.073 - INFO - 
+dill seasoning:
+2024-12-28 19:13:23.073 - INFO -   Calories: 0.6
+2024-12-28 19:13:23.073 - INFO -   Protein: 0.0g
+2024-12-28 19:13:23.073 - INFO -   Fat: 0.0g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 0.1g
+2024-12-28 19:13:23.073 - INFO - 
+Dijon mustard:
+2024-12-28 19:13:23.073 - INFO -   Calories: 10.2
+2024-12-28 19:13:23.073 - INFO -   Protein: 0.6g
+2024-12-28 19:13:23.073 - INFO -   Fat: 0.5g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 0.8g
+2024-12-28 19:13:23.073 - INFO - 
+black pepper:
+2024-12-28 19:13:23.073 - INFO -   Calories: 12.4
+2024-12-28 19:13:23.073 - INFO -   Protein: 0.5g
+2024-12-28 19:13:23.073 - INFO -   Fat: 0.2g
+2024-12-28 19:13:23.073 - INFO -   Carbs: 3.2g
+2024-12-28 19:13:23.074 - INFO - 
+lemon juice:
+2024-12-28 19:13:23.074 - INFO -   Calories: 1.1
+2024-12-28 19:13:23.074 - INFO -   Protein: 0.0g
+2024-12-28 19:13:23.074 - INFO -   Fat: 0.0g
+2024-12-28 19:13:23.074 - INFO -   Carbs: 0.3g
+2024-12-28 19:13:23.074 - INFO - 
+avocado:
+2024-12-28 19:13:23.074 - INFO -   Calories: 136.0
+2024-12-28 19:13:23.074 - INFO -   Protein: 1.7g
+2024-12-28 19:13:23.074 - INFO -   Fat: 12.5g
+2024-12-28 19:13:23.074 - INFO -   Carbs: 7.3g
+2024-12-28 19:13:23.074 - INFO - 
+Raw response model:
+2024-12-28 19:13:23.074 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "English cucumber",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 34.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 236.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 6.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 5.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 14.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 137.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tuna",
+        "amount": 170.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 170.0,
+          "unit": "g"
+        },
+        "calories": 317.9,
+        "total_fat": {
+          "amount": 15.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 22.1,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 683.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 16.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 27.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 28.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 302.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "light cream cheese",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 39.0,
+        "total_fat": {
+          "amount": 3.4,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 10.5,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 70.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 26.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 26.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "red onion",
+        "amount": 0.25,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 27.5,
+          "unit": "g"
+        },
+        "calories": 12.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 54.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "light mayonnaise",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 70.4,
+        "total_fat": {
+          "amount": 6.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 244.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 9.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "dill seasoning",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 0.6,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 39.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "Dijon mustard",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 10.2,
+        "total_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 162.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 9.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 22.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "black pepper",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 12.4,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 21.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 65.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "lemon juice",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 1.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "avocado",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 85.0,
+          "unit": "g"
+        },
+        "calories": 136.0,
+        "total_fat": {
+          "amount": 12.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 7.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 10.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 412.2,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 456.43395999999996,
+      "unit": "g"
+    },
+    "calories": 633.7,
+    "total_fat": {
+      "amount": 39.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 37.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1445.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 41.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 9.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 32.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 121.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 3.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1040.0,
+      "unit": "mg"
+    }
+  }
+}
