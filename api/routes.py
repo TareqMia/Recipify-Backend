@@ -108,34 +108,6 @@ async def process_video(
             processed_data = video_service.process_recipe_for_llm(title, description, transcript)
             recipe = classification.recipe_details
             
-            # Calculate nutrition facts if we have ingredients
-            nutrition_label = None
-            if recipe and recipe.get('ingredients'):
-                try:
-                    # Convert recipe ingredients to nutrition ingredients
-                    nutrition_ingredients = []
-                    for ing in recipe['ingredients']:
-                        if isinstance(ing, str):
-                            # Handle comma-separated ingredients
-                            nutrition_ingredients.append(NutritionIngredient(name=ing))
-                        elif isinstance(ing, dict):
-                            # Handle structured ingredients
-                            nutrition_ingredients.append(NutritionIngredient(
-                                name=ing.get('item', ''),
-                                amount=ing.get('amount'),
-                                unit=ing.get('unit')
-                            ))
-                    
-                    if nutrition_ingredients:
-                        nutrition_label = nutrition_service.calculate_nutrition(nutrition_ingredients)
-                        print(f"\n=== NUTRITION LABEL FOR VIDEO ===")
-                        print(f"Total calories: {nutrition_label.total.calories}")
-                        print(f"Total protein: {nutrition_label.total.protein.amount}g")
-                        print(f"Total fat: {nutrition_label.total.total_fat.amount}g")
-                except Exception as e:
-                    logger.error(f"Error calculating nutrition facts: {str(e)}")
-                    nutrition_label = None
-            
             # Ensure keywords are included in recipe data
             if recipe and 'keywords' not in recipe:
                 recipe['keywords'] = classification.suggested_tags
@@ -146,7 +118,7 @@ async def process_video(
                     "llm_prompt": processed_data.get('prompt', '')
                 }),
                 "recipe": recipe,
-                "nutrition": nutrition_label
+                "nutrition": None  # Don't calculate nutrition facts initially
             })
         else:
             video_data.update({

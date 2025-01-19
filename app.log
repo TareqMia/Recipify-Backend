@@ -2272,3 +2272,2162 @@ Raw response model:
     }
   }
 }
+2024-12-28 19:14:26.930 - INFO - Calculating nutrition facts for 8 ingredients
+2024-12-28 19:14:45.948 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2024-12-28 19:14:45.949 - INFO - Total calories: 456.4
+2024-12-28 19:14:45.950 - INFO - Total protein: 29.0g
+2024-12-28 19:14:45.950 - INFO - Total fat: 27.0g
+2024-12-28 19:14:45.950 - INFO - Total carbs: 26.0g
+2024-12-28 19:14:45.950 - INFO - 
+Per ingredient breakdown:
+2024-12-28 19:14:45.950 - INFO - 
+eggs:
+2024-12-28 19:14:45.950 - INFO -   Calories: 143.0
+2024-12-28 19:14:45.950 - INFO -   Protein: 12.6g
+2024-12-28 19:14:45.950 - INFO -   Fat: 9.5g
+2024-12-28 19:14:45.950 - INFO -   Carbs: 0.7g
+2024-12-28 19:14:45.950 - INFO - 
+cottage cheese:
+2024-12-28 19:14:45.950 - INFO -   Calories: 94.9
+2024-12-28 19:14:45.950 - INFO -   Protein: 12.4g
+2024-12-28 19:14:45.950 - INFO -   Fat: 2.6g
+2024-12-28 19:14:45.950 - INFO -   Carbs: 4.9g
+2024-12-28 19:14:45.950 - INFO - 
+avocado:
+2024-12-28 19:14:45.950 - INFO -   Calories: 136.0
+2024-12-28 19:14:45.950 - INFO -   Protein: 1.7g
+2024-12-28 19:14:45.950 - INFO -   Fat: 12.5g
+2024-12-28 19:14:45.950 - INFO -   Carbs: 7.3g
+2024-12-28 19:14:45.950 - INFO - 
+fresh cilantro:
+2024-12-28 19:14:45.950 - INFO -   Calories: 2.3
+2024-12-28 19:14:45.951 - INFO -   Protein: 0.2g
+2024-12-28 19:14:45.951 - INFO -   Fat: 0.1g
+2024-12-28 19:14:45.951 - INFO -   Carbs: 0.4g
+2024-12-28 19:14:45.951 - INFO - 
+thinly sliced red onion:
+2024-12-28 19:14:45.951 - INFO -   Calories: 48.4
+2024-12-28 19:14:45.951 - INFO -   Protein: 1.0g
+2024-12-28 19:14:45.951 - INFO -   Fat: 0.1g
+2024-12-28 19:14:45.951 - INFO -   Carbs: 10.9g
+2024-12-28 19:14:45.951 - INFO - 
+chile lime seasoning:
+2024-12-28 19:14:45.951 - INFO -   Calories: 8.3
+2024-12-28 19:14:45.951 - INFO -   Protein: 0.4g
+2024-12-28 19:14:45.951 - INFO -   Fat: 0.4g
+2024-12-28 19:14:45.951 - INFO -   Carbs: 1.5g
+2024-12-28 19:14:45.951 - INFO - 
+everything bagel seasoning:
+2024-12-28 19:14:45.951 - INFO -   Calories: 23.3
+2024-12-28 19:14:45.951 - INFO -   Protein: 0.8g
+2024-12-28 19:14:45.951 - INFO -   Fat: 2.3g
+2024-12-28 19:14:45.951 - INFO -   Carbs: 0.4g
+2024-12-28 19:14:45.951 - INFO - 
+hot sauce:
+2024-12-28 19:14:45.951 - INFO -   Calories: 0.1
+2024-12-28 19:14:45.951 - INFO -   Protein: 0.0g
+2024-12-28 19:14:45.951 - INFO -   Fat: 0.0g
+2024-12-28 19:14:45.951 - INFO -   Carbs: 0.0g
+2024-12-28 19:14:45.951 - INFO - 
+Raw response model:
+2024-12-28 19:14:45.952 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "eggs",
+        "amount": 2.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 143.0,
+        "total_fat": {
+          "amount": 9.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 372.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 142.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 12.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 2.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 56.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 138.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cottage cheese",
+        "amount": 1.0,
+        "unit": "serving"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 113.0,
+          "unit": "g"
+        },
+        "calories": 94.9,
+        "total_fat": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 13.6,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 362.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 4.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 12.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 116.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 135.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "avocado",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 85.0,
+          "unit": "g"
+        },
+        "calories": 136.0,
+        "total_fat": {
+          "amount": 12.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 7.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 10.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 412.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "fresh cilantro",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 10.0,
+          "unit": "g"
+        },
+        "calories": 2.3,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 52.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "thinly sliced red onion",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 110.0,
+          "unit": "g"
+        },
+        "calories": 48.4,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 216.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chile lime seasoning",
+        "amount": 0.2,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 2.95736,
+          "unit": "g"
+        },
+        "calories": 8.3,
+        "total_fat": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 84.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 9.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 57.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "everything bagel seasoning",
+        "amount": 0.25,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 3.6967,
+          "unit": "g"
+        },
+        "calories": 23.3,
+        "total_fat": {
+          "amount": 2.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 13.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "hot sauce",
+        "amount": 0.1,
+        "unit": "ml"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "calories": 0.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 2.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.3,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 424.75406000000004,
+      "unit": "g"
+    },
+    "calories": 456.4,
+    "total_fat": {
+      "amount": 27.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 7.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 386.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 605.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 26.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 10.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 1.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 29.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 2.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 220.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 4.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1026.0,
+      "unit": "mg"
+    }
+  }
+}
+2024-12-31 21:54:54.816 - INFO - Processing video URL: https://www.youtube.com/shorts/OI0nFwCJeBY
+2024-12-31 21:54:54.817 - INFO - Starting to process video URL: https://www.youtube.com/shorts/OI0nFwCJeBY
+2024-12-31 21:54:54.818 - INFO - Checking if video OI0nFwCJeBY exists in Firebase
+2024-12-31 21:54:55.551 - INFO - Video OI0nFwCJeBY not found in cache, processing...
+2024-12-31 21:54:56.680 - INFO - Fetched video info: Title='The most perfect chocolate-chip cookies you will ever see', Duration=39
+2024-12-31 21:54:57.390 - INFO - Found credentials in environment variables.
+2024-12-31 21:55:02.987 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2024-12-31 21:55:03.002 - INFO - Successfully classified video content
+2025-01-17 22:20:04.215 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-17 22:20:04.218 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-17 22:20:04.218 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-17 22:20:04.751 - INFO - Document exists: MBLTkCrwIWo
+2025-01-17 22:20:04.752 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:23:05.879 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:23:05.879 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:23:05.879 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:23:06.331 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:23:06.331 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:26:09.510 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:26:09.514 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:26:09.515 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:26:09.725 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:26:09.726 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:28:30.605 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:28:30.607 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:28:30.607 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:28:30.705 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:28:30.706 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:30:27.251 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:30:27.253 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:30:27.253 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:30:27.351 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:30:27.351 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:31:29.885 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:31:29.887 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:31:29.888 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:31:29.987 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:31:29.988 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:32:20.734 - INFO - Calculating nutrition facts for 8 ingredients
+2025-01-18 19:32:41.827 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-18 19:32:41.828 - INFO - Total calories: 563.3
+2025-01-18 19:32:41.828 - INFO - Total protein: 32.0g
+2025-01-18 19:32:41.828 - INFO - Total fat: 29.0g
+2025-01-18 19:32:41.828 - INFO - Total carbs: 46.0g
+2025-01-18 19:32:41.828 - INFO - 
+Per ingredient breakdown:
+2025-01-18 19:32:41.828 - INFO - 
+eggs:
+2025-01-18 19:32:41.828 - INFO -   Calories: 143.0
+2025-01-18 19:32:41.828 - INFO -   Protein: 12.6g
+2025-01-18 19:32:41.828 - INFO -   Fat: 9.5g
+2025-01-18 19:32:41.828 - INFO -   Carbs: 0.7g
+2025-01-18 19:32:41.828 - INFO - 
+cottage cheese:
+2025-01-18 19:32:41.828 - INFO -   Calories: 94.9
+2025-01-18 19:32:41.828 - INFO -   Protein: 12.4g
+2025-01-18 19:32:41.828 - INFO -   Fat: 2.6g
+2025-01-18 19:32:41.828 - INFO -   Carbs: 4.9g
+2025-01-18 19:32:41.828 - INFO - 
+avocado:
+2025-01-18 19:32:41.828 - INFO -   Calories: 136.0
+2025-01-18 19:32:41.828 - INFO -   Protein: 1.7g
+2025-01-18 19:32:41.828 - INFO -   Fat: 12.5g
+2025-01-18 19:32:41.828 - INFO -   Carbs: 7.3g
+2025-01-18 19:32:41.828 - INFO - 
+fresh cilantro:
+2025-01-18 19:32:41.829 - INFO -   Calories: 2.3
+2025-01-18 19:32:41.830 - INFO -   Protein: 0.2g
+2025-01-18 19:32:41.830 - INFO -   Fat: 0.1g
+2025-01-18 19:32:41.830 - INFO -   Carbs: 0.4g
+2025-01-18 19:32:41.830 - INFO - 
+thinly sliced red onion:
+2025-01-18 19:32:41.831 - INFO -   Calories: 48.4
+2025-01-18 19:32:41.831 - INFO -   Protein: 1.0g
+2025-01-18 19:32:41.831 - INFO -   Fat: 0.1g
+2025-01-18 19:32:41.831 - INFO -   Carbs: 10.9g
+2025-01-18 19:32:41.831 - INFO - 
+chile lime seasoning:
+2025-01-18 19:32:41.831 - INFO -   Calories: 14.1
+2025-01-18 19:32:41.831 - INFO -   Protein: 0.7g
+2025-01-18 19:32:41.831 - INFO -   Fat: 0.7g
+2025-01-18 19:32:41.831 - INFO -   Carbs: 2.5g
+2025-01-18 19:32:41.831 - INFO - 
+everything bagel seasoning:
+2025-01-18 19:32:41.831 - INFO -   Calories: 31.6
+2025-01-18 19:32:41.831 - INFO -   Protein: 1.0g
+2025-01-18 19:32:41.831 - INFO -   Fat: 3.1g
+2025-01-18 19:32:41.831 - INFO -   Carbs: 0.6g
+2025-01-18 19:32:41.831 - INFO - 
+hot sauce:
+2025-01-18 19:32:41.831 - INFO -   Calories: 93.0
+2025-01-18 19:32:41.832 - INFO -   Protein: 1.9g
+2025-01-18 19:32:41.832 - INFO -   Fat: 0.9g
+2025-01-18 19:32:41.832 - INFO -   Carbs: 19.2g
+2025-01-18 19:32:41.832 - INFO - 
+Raw response model:
+2025-01-18 19:32:41.835 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "eggs",
+        "amount": 2.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 143.0,
+        "total_fat": {
+          "amount": 9.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 372.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 142.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 12.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 2.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 56.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 138.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cottage cheese",
+        "amount": 1.0,
+        "unit": "serving"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 113.0,
+          "unit": "g"
+        },
+        "calories": 94.9,
+        "total_fat": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 13.6,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 362.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 4.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 12.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 116.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 135.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "avocado",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 85.0,
+          "unit": "g"
+        },
+        "calories": 136.0,
+        "total_fat": {
+          "amount": 12.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 7.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 10.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 412.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "fresh cilantro",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 10.0,
+          "unit": "g"
+        },
+        "calories": 2.3,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 52.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "thinly sliced red onion",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 110.0,
+          "unit": "g"
+        },
+        "calories": 48.4,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 216.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chile lime seasoning",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 5.0,
+          "unit": "g"
+        },
+        "calories": 14.1,
+        "total_fat": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 143.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 16.5,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 97.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "everything bagel seasoning",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 5.0,
+          "unit": "g"
+        },
+        "calories": 31.6,
+        "total_fat": {
+          "amount": 3.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 2.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 18.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "hot sauce",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 93.0,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 2124.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 19.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 15.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 321.0,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 528.0,
+      "unit": "g"
+    },
+    "calories": 563.3,
+    "total_fat": {
+      "amount": 29.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 7.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 386.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 2786.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 46.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 13.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 17.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 32.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 2.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 245.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 6.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1392.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-18 19:34:01.035 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:34:01.038 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:34:01.039 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:34:01.140 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:34:01.140 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:34:56.907 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:34:56.908 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:34:56.908 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:34:57.012 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:34:57.012 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:37:02.404 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:37:02.406 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:37:02.406 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:37:02.502 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:37:02.502 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:39:25.703 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:39:25.705 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:39:25.706 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:39:25.808 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:39:25.809 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:40:57.457 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:40:57.460 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:40:57.460 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:40:57.556 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:40:57.556 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:41:19.166 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:41:19.166 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:41:19.166 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:41:19.259 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:41:19.260 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:41:39.257 - INFO - Processing video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:41:39.259 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=MBLTkCrwIWo&ab_channel=ShredHappens
+2025-01-18 19:41:39.259 - INFO - Checking if video MBLTkCrwIWo exists in Firebase
+2025-01-18 19:41:39.355 - INFO - Document exists: MBLTkCrwIWo
+2025-01-18 19:41:39.356 - INFO - Video MBLTkCrwIWo already processed, returning cached data.
+2025-01-18 19:44:18.814 - INFO - Calculating nutrition facts for 8 ingredients
+2025-01-18 19:44:39.948 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-18 19:44:39.948 - INFO - Total calories: 729.4
+2025-01-18 19:44:39.948 - INFO - Total protein: 44.0g
+2025-01-18 19:44:39.948 - INFO - Total fat: 48.0g
+2025-01-18 19:44:39.948 - INFO - Total carbs: 35.0g
+2025-01-18 19:44:39.948 - INFO - 
+Per ingredient breakdown:
+2025-01-18 19:44:39.948 - INFO - 
+eggs:
+2025-01-18 19:44:39.949 - INFO -   Calories: 286.0
+2025-01-18 19:44:39.949 - INFO -   Protein: 25.1g
+2025-01-18 19:44:39.949 - INFO -   Fat: 19.0g
+2025-01-18 19:44:39.949 - INFO -   Carbs: 1.4g
+2025-01-18 19:44:39.949 - INFO - 
+cottage cheese:
+2025-01-18 19:44:39.949 - INFO -   Calories: 99.4
+2025-01-18 19:44:39.949 - INFO -   Protein: 13.0g
+2025-01-18 19:44:39.949 - INFO -   Fat: 2.7g
+2025-01-18 19:44:39.949 - INFO -   Carbs: 5.1g
+2025-01-18 19:44:39.949 - INFO - 
+avocado:
+2025-01-18 19:44:39.949 - INFO -   Calories: 272.0
+2025-01-18 19:44:39.949 - INFO -   Protein: 3.4g
+2025-01-18 19:44:39.949 - INFO -   Fat: 24.9g
+2025-01-18 19:44:39.949 - INFO -   Carbs: 14.5g
+2025-01-18 19:44:39.949 - INFO - 
+fresh cilantro:
+2025-01-18 19:44:39.949 - INFO -   Calories: 2.3
+2025-01-18 19:44:39.949 - INFO -   Protein: 0.2g
+2025-01-18 19:44:39.949 - INFO -   Fat: 0.1g
+2025-01-18 19:44:39.949 - INFO -   Carbs: 0.4g
+2025-01-18 19:44:39.949 - INFO - 
+thinly sliced red onion:
+2025-01-18 19:44:39.949 - INFO -   Calories: 48.4
+2025-01-18 19:44:39.949 - INFO -   Protein: 1.0g
+2025-01-18 19:44:39.950 - INFO -   Fat: 0.1g
+2025-01-18 19:44:39.950 - INFO -   Carbs: 10.9g
+2025-01-18 19:44:39.950 - INFO - 
+chile lime seasoning:
+2025-01-18 19:44:39.950 - INFO -   Calories: 14.1
+2025-01-18 19:44:39.950 - INFO -   Protein: 0.7g
+2025-01-18 19:44:39.950 - INFO -   Fat: 0.7g
+2025-01-18 19:44:39.950 - INFO -   Carbs: 2.5g
+2025-01-18 19:44:39.950 - INFO - 
+everything bagel seasoning:
+2025-01-18 19:44:39.950 - INFO -   Calories: 6.3
+2025-01-18 19:44:39.950 - INFO -   Protein: 0.2g
+2025-01-18 19:44:39.950 - INFO -   Fat: 0.6g
+2025-01-18 19:44:39.950 - INFO -   Carbs: 0.1g
+2025-01-18 19:44:39.950 - INFO - 
+hot sauce:
+2025-01-18 19:44:39.950 - INFO -   Calories: 0.9
+2025-01-18 19:44:39.950 - INFO -   Protein: 0.0g
+2025-01-18 19:44:39.950 - INFO -   Fat: 0.0g
+2025-01-18 19:44:39.950 - INFO -   Carbs: 0.2g
+2025-01-18 19:44:39.950 - INFO - 
+Raw response model:
+2025-01-18 19:44:39.950 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "eggs",
+        "amount": 4.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 286.0,
+        "total_fat": {
+          "amount": 19.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 6.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 744.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 284.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 25.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 4.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 112.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 276.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cottage cheese",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 118.294,
+          "unit": "g"
+        },
+        "calories": 99.4,
+        "total_fat": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 14.2,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 379.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 5.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 13.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 121.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 142.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "avocado",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 170.0,
+          "unit": "g"
+        },
+        "calories": 272.0,
+        "total_fat": {
+          "amount": 24.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 11.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 14.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 11.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 3.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 20.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 824.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "fresh cilantro",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 10.0,
+          "unit": "g"
+        },
+        "calories": 2.3,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 52.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "thinly sliced red onion",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 110.0,
+          "unit": "g"
+        },
+        "calories": 48.4,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 216.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chile lime seasoning",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 5.0,
+          "unit": "g"
+        },
+        "calories": 14.1,
+        "total_fat": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 143.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 16.5,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 97.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "everything bagel seasoning",
+        "amount": 1.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "calories": 6.3,
+        "total_fat": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "hot sauce",
+        "amount": 1.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "calories": 0.9,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 21.2,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3.2,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 615.294,
+      "unit": "g"
+    },
+    "calories": 729.4,
+    "total_fat": {
+      "amount": 48.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 12.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 758.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 846.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 35.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 16.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 2.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 44.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 4.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 297.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 6.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1616.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-18 19:46:38.974 - INFO - Processing video URL: https://youtu.be/PPkRmvrAHGQ?si=c5kHw2-XraMwFk2N
+2025-01-18 19:46:38.976 - INFO - Starting to process video URL: https://youtu.be/PPkRmvrAHGQ?si=c5kHw2-XraMwFk2N
+2025-01-18 19:46:38.976 - INFO - Checking if video PPkRmvrAHGQ exists in Firebase
+2025-01-18 19:46:39.148 - INFO - Video PPkRmvrAHGQ not found in cache, processing...
+2025-01-18 19:48:19.536 - INFO - Processing video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:48:19.539 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:48:19.539 - INFO - Checking if video PPkRmvrAHGQ exists in Firebase
+2025-01-18 19:48:19.651 - INFO - Video PPkRmvrAHGQ not found in cache, processing...
+2025-01-18 19:51:22.472 - INFO - Processing video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:51:22.473 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:51:22.474 - INFO - Checking if video PPkRmvrAHGQ exists in Firebase
+2025-01-18 19:51:22.972 - INFO - Video PPkRmvrAHGQ not found in cache, processing...
+2025-01-18 19:51:38.009 - INFO - Fetched video info: Title='When you’re craving a junior chicken but don’t want to go to McDonald’s', Duration=33
+2025-01-18 19:51:38.830 - INFO - Found credentials in environment variables.
+2025-01-18 19:51:43.394 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-18 19:51:43.411 - INFO - Successfully classified video content
+2025-01-18 19:53:18.066 - INFO - Processing video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:53:18.066 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:53:18.066 - INFO - Checking if video PPkRmvrAHGQ exists in Firebase
+2025-01-18 19:53:18.523 - INFO - Video PPkRmvrAHGQ not found in cache, processing...
+2025-01-18 19:53:39.625 - INFO - Processing video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:53:39.626 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=PPkRmvrAHGQ&list=LL&index=11&ab_channel=Sara-NutrientMatters
+2025-01-18 19:53:39.626 - INFO - Checking if video PPkRmvrAHGQ exists in Firebase
+2025-01-18 19:53:39.748 - INFO - Video PPkRmvrAHGQ not found in cache, processing...
+2025-01-18 19:53:43.988 - INFO - Fetched video info: Title='When you’re craving a junior chicken but don’t want to go to McDonald’s', Duration=33
+2025-01-18 19:53:44.921 - INFO - Found credentials in environment variables.
+2025-01-18 19:53:49.573 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-18 19:53:49.586 - INFO - Successfully classified video content

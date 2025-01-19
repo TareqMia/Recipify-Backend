@@ -5,6 +5,20 @@ import re
 from typing import Optional
 
 class VideoService:
+    YDL_OPTIONS = {
+        'quiet': True,
+        'no_warnings': True,
+        'extract_flat': True,
+        'no_playlist': True,
+        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'http_headers': {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-us,en;q=0.5',
+            'Sec-Fetch-Mode': 'navigate',
+        },
+        'cookiesfrombrowser': ('chrome',),  # Use cookies from Chrome browser
+    }
     
     @staticmethod 
     def extract_video_id(url: str) -> Optional[str]:
@@ -26,8 +40,8 @@ class VideoService:
     @staticmethod
     def get_video_info(video_id: str) -> tuple[str, str, int]:
         try:
-            with YoutubeDL(settings.YDL_OPTIONS) as ydl:
-                info = ydl.extract_info(video_id, download=False, process=False)
+            with YoutubeDL(VideoService.YDL_OPTIONS) as ydl:
+                info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
                 title = info.get("title", "No title available")
                 description = info.get("description", "No description available")
                 duration = info.get("duration", 0)
