@@ -3,6 +3,7 @@ import json
 import logging
 import os
 from datetime import datetime
+from typing import List
 
 import boto3
 import dotenv
@@ -176,6 +177,31 @@ def get_nutrition_facts(
         raise HTTPException(
             status_code=500,
             detail="An error occurred while calculating nutrition facts"
+        )
+        
+@router.get("/recipes/{user_id}")
+async def get_user_recipes(
+    user_id: str,
+    firebase_service: FirebaseService = Depends()
+):
+    """
+    Get all recipes for a specific user
+    """
+    try:
+        # Get all recipes for the user from Firebase
+        recipes = firebase_service.get_user_recipes(user_id)
+        logger.info(f"Retrieved {len(recipes)} recipes from Firebase")
+        
+        if not recipes:
+            return []
+
+        return recipes
+        
+    except Exception as e:
+        logger.error(f"Error fetching recipes for user {user_id}: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while fetching recipes for user {user_id}"
         )
         
     

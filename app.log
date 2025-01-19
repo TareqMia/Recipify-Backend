@@ -4431,3 +4431,56 @@ Raw response model:
 2025-01-18 19:53:44.921 - INFO - Found credentials in environment variables.
 2025-01-18 19:53:49.573 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
 2025-01-18 19:53:49.586 - INFO - Successfully classified video content
+2025-01-18 20:01:43.401 - ERROR - Error fetching recipes for user oi8nU9QbcdRcgnG18KrA2T4kAjk1: module 'google.cloud.firestore' has no attribute 'client'
+Traceback (most recent call last):
+  File "/Users/tareqmia/_recipify-backend/api/routes.py", line 192, in get_user_recipes
+    recipes = firebase_service.get_user_recipes(user_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tareqmia/_recipify-backend/services/firebase_service.py", line 55, in get_user_recipes
+    db = firestore.client()
+         ^^^^^^^^^^^^^^^^
+AttributeError: module 'google.cloud.firestore' has no attribute 'client'. Did you mean: 'Client'?
+2025-01-18 20:18:06.018 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-18 20:18:06.020 - INFO - Querying user_recipes collection...
+2025-01-18 20:18:06.555 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo
+2025-01-18 20:18:06.557 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ
+2025-01-18 20:18:06.559 - INFO - Querying recipes collection...
+2025-01-18 20:18:06.655 - INFO - Total recipes found: 2
+2025-01-18 20:18:06.656 - INFO - Recipe: oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo - BREAKFAST POWER BOWL🥚🍲⚡
+2025-01-18 20:18:06.656 - INFO - Recipe: oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ - When you’re craving a junior chicken but don’t want to go to McDonald’s
+2025-01-18 20:19:40.611 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-18 20:19:40.613 - INFO - Querying user_recipes collection...
+2025-01-18 20:19:41.147 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo
+2025-01-18 20:19:41.148 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo: {'total_carbohydrates': {'unit': 'g', 'amount': 35}, 'iron': {'unit': 'mg', 'amount': 6}, 'total_fat': {'unit': 'g', 'amount': 48}, 'cholesterol': {'unit': 'mg', 'amount': 758}, 'total_sugars': {'unit': 'g', 'amount': 2}, 'dietary_fiber': {'unit': 'g', 'amount': 16}, 'calories': 729.4, 'sodium': {'unit': 'mg', 'amount': 846}, 'trans_fat': {'unit': 'g', 'amount': 0}, 'serving_size': {'unit': 'g', 'amount': 615.294}, 'saturated_fat': {'unit': 'g', 'amount': 12}, 'protein': {'unit': 'g', 'amount': 44}, 'vitamin_d': {'unit': 'mcg', 'amount': 4}, 'potassium': {'unit': 'mg', 'amount': 1616}, 'added_sugars': {'unit': 'g', 'amount': 0}, 'calcium': {'unit': 'mg', 'amount': 297}}
+2025-01-18 20:19:41.149 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ
+2025-01-18 20:19:41.149 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ: None
+2025-01-18 20:19:41.149 - INFO - Total recipes found: 2
+2025-01-18 20:19:41.150 - INFO - Recipe: MBLTkCrwIWo - BREAKFAST POWER BOWL🥚🍲⚡
+2025-01-18 20:19:41.150 - INFO - Recipe: PPkRmvrAHGQ - When you’re craving a junior chicken but don’t want to go to McDonald’s
+2025-01-18 20:20:59.249 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-18 20:20:59.252 - INFO - Querying user_recipes collection...
+2025-01-18 20:20:59.733 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo
+2025-01-18 20:20:59.733 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo: {'total_carbohydrates': {'unit': 'g', 'amount': 35}, 'iron': {'unit': 'mg', 'amount': 6}, 'total_fat': {'unit': 'g', 'amount': 48}, 'cholesterol': {'unit': 'mg', 'amount': 758}, 'total_sugars': {'unit': 'g', 'amount': 2}, 'dietary_fiber': {'unit': 'g', 'amount': 16}, 'calories': 729.4, 'sodium': {'unit': 'mg', 'amount': 846}, 'trans_fat': {'unit': 'g', 'amount': 0}, 'serving_size': {'unit': 'g', 'amount': 615.294}, 'saturated_fat': {'unit': 'g', 'amount': 12}, 'protein': {'unit': 'g', 'amount': 44}, 'vitamin_d': {'unit': 'mcg', 'amount': 4}, 'potassium': {'unit': 'mg', 'amount': 1616}, 'added_sugars': {'unit': 'g', 'amount': 0}, 'calcium': {'unit': 'mg', 'amount': 297}}
+2025-01-18 20:20:59.735 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ
+2025-01-18 20:20:59.735 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ: None
+2025-01-18 20:20:59.736 - INFO - Total recipes found: 2
+2025-01-18 20:20:59.736 - INFO - Recipe: MBLTkCrwIWo - BREAKFAST POWER BOWL🥚🍲⚡
+2025-01-18 20:20:59.736 - INFO - Recipe: PPkRmvrAHGQ - When you’re craving a junior chicken but don’t want to go to McDonald’s
+2025-01-18 20:20:59.736 - INFO - Retrieved 2 recipes from Firebase
+2025-01-18 20:20:59.736 - INFO - Processing recipe: MBLTkCrwIWo - BREAKFAST POWER BOWL🥚🍲⚡
+2025-01-18 20:20:59.736 - INFO - Successfully converted recipe MBLTkCrwIWo
+2025-01-18 20:20:59.737 - INFO - Processing recipe: PPkRmvrAHGQ - When you’re craving a junior chicken but don’t want to go to McDonald’s
+2025-01-18 20:20:59.737 - INFO - Successfully converted recipe PPkRmvrAHGQ
+2025-01-18 20:20:59.737 - INFO - Returning 2 recipes
+2025-01-18 20:23:54.161 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-18 20:23:54.163 - INFO - Querying user_recipes collection...
+2025-01-18 20:23:54.752 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo
+2025-01-18 20:23:54.753 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_MBLTkCrwIWo: {'total_carbohydrates': {'unit': 'g', 'amount': 35}, 'iron': {'unit': 'mg', 'amount': 6}, 'total_fat': {'unit': 'g', 'amount': 48}, 'cholesterol': {'unit': 'mg', 'amount': 758}, 'total_sugars': {'unit': 'g', 'amount': 2}, 'dietary_fiber': {'unit': 'g', 'amount': 16}, 'calories': 729.4, 'sodium': {'unit': 'mg', 'amount': 846}, 'trans_fat': {'unit': 'g', 'amount': 0}, 'serving_size': {'unit': 'g', 'amount': 615.294}, 'saturated_fat': {'unit': 'g', 'amount': 12}, 'protein': {'unit': 'g', 'amount': 44}, 'vitamin_d': {'unit': 'mcg', 'amount': 4}, 'potassium': {'unit': 'mg', 'amount': 1616}, 'added_sugars': {'unit': 'g', 'amount': 0}, 'calcium': {'unit': 'mg', 'amount': 297}}
+2025-01-18 20:23:54.754 - INFO - Found document in user_recipes: oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ
+2025-01-18 20:23:54.755 - INFO - Nutrition data found for oi8nU9QbcdRcgnG18KrA2T4kAjk1_PPkRmvrAHGQ: None
+2025-01-18 20:23:54.755 - INFO - Total recipes found: 2
+2025-01-18 20:23:54.755 - INFO - Recipe: MBLTkCrwIWo - BREAKFAST POWER BOWL🥚🍲⚡
+2025-01-18 20:23:54.755 - INFO - Recipe: PPkRmvrAHGQ - When you’re craving a junior chicken but don’t want to go to McDonald’s
+2025-01-18 20:23:54.755 - INFO - Retrieved 2 recipes from Firebase
+2025-01-18 20:24:56.732 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-18 20:24:57.277 - INFO - Retrieved 2 recipes from Firebase
