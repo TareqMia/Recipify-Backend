@@ -1,34 +1,22 @@
-from yt_dlp import YoutubeDL 
-from fastapi import HTTPException 
-from core.config import settings
+from typing import Tuple, Optional, Dict
+from fastapi import HTTPException
+from yt_dlp import YoutubeDL
 import re
-from typing import Optional
+from logger import logger
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+import os
 
 class VideoService:
-    YDL_OPTIONS = {
-        'quiet': True,
-        'no_warnings': True,
-        'extract_flat': True,
-        'no_playlist': True,
-        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'http_headers': {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'en-us,en;q=0.5',
-            'Sec-Fetch-Mode': 'navigate',
-        },
-        'cookiesfrombrowser': ('chrome',),  # Use cookies from Chrome browser
-    }
-    
-    @staticmethod 
-    def extract_video_id(url: str) -> Optional[str]:
-        """
-        Extract YouTube video ID from various YouTube URL formats.
-        Returns None if no valid ID is found.
-        """
+    def __init__(self, yt_dlp_client: Optional[YoutubeDL] = None):
+        self.yt_dlp_client = yt_dlp_client
+        self.youtube = build('youtube', 'v3', developerKey=os.getenv('YOUTUBE_API_KEY'))
+
+    def extract_video_id(self, url: str) -> Optional[str]:
+        # YouTube URL patterns
         patterns = [
-            r'(?:v=|\/)([\w-]{11})(?:\?|&|\/|$)',  # Standard and embedded URLs
-            r'(?:youtu\.be\/)([\w-]{11})',          # Short URLs
+            r'(?:v=|/v/|youtu\.be/|/embed/)([^&?/]+)',
+            r'youtube.com/shorts/([^&?/]+)',
         ]
         
         for pattern in patterns:
@@ -37,25 +25,91 @@ class VideoService:
                 return match.group(1)
         return None
 
-    @staticmethod
-    def get_video_info(video_id: str) -> tuple[str, str, int]:
+    def get_video_info(self, video_id: str) -> Tuple[str, str, int]:
+        """
+        Get video information using YouTube Data API
+        """
         try:
-            with YoutubeDL(VideoService.YDL_OPTIONS) as ydl:
-                info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
-                title = info.get("title", "No title available")
-                description = info.get("description", "No description available")
-                duration = info.get("duration", 0)
-                return title, description, duration
-                
-        except Exception as e:
+            # Call the YouTube Data API
+            request = self.youtube.videos().list(
+                part="snippet,contentDetails",
+                id=video_id
+            )
+            response = request.execute()
+
+            if not response.get('items'):
+                logger.error(f"No video found for ID: {video_id}")
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Video not found with ID: {video_id}"
+                )
+
+            video_info = response['items'][0]
+            snippet = video_info['snippet']
+            content_details = video_info['contentDetails']
+
+            # Extract duration in ISO 8601 format and convert to seconds
+            duration_str = content_details['duration']
+            duration = self._parse_duration(duration_str)
+
+            title = snippet.get('title', '')
+            description = snippet.get('description', '')
+
+            logger.info(f"Successfully retrieved video info - Title: {title}, Duration: {duration}")
+            return title, description, duration
+
+        except HttpError as e:
+            error_message = str(e)
+            logger.error(f"YouTube API error: {error_message}")
+            if "quotaExceeded" in error_message:
+                raise HTTPException(
+                    status_code=429,
+                    detail="YouTube API quota exceeded. Please try again later."
+                )
             raise HTTPException(
-                status_code=404,
+                status_code=500,
+                detail=f"YouTube API error: {error_message}"
+            )
+        except Exception as e:
+            logger.error(f"Error fetching video info: {str(e)}")
+            raise HTTPException(
+                status_code=500,
                 detail=f"Error fetching video info: {str(e)}"
             )
-            
-    
-    @staticmethod
-    def process_recipe_for_llm(title: str, description: str, transcript: str) -> dict:
+
+    def _parse_duration(self, duration_str: str) -> int:
+        """
+        Parse ISO 8601 duration to seconds
+        Example: PT1H2M10S -> 3730 seconds
+        """
+        try:
+            import isodate
+            return int(isodate.parse_duration(duration_str).total_seconds())
+        except ImportError:
+            logger.warning("isodate package not installed, falling back to regex parsing")
+            try:
+                # Basic regex parsing for duration
+                hours = minutes = seconds = 0
+                
+                # Extract hours, minutes, seconds from PT#H#M#S format
+                h_match = re.search(r'(\d+)H', duration_str)
+                m_match = re.search(r'(\d+)M', duration_str)
+                s_match = re.search(r'(\d+)S', duration_str)
+                
+                if h_match: hours = int(h_match.group(1))
+                if m_match: minutes = int(m_match.group(1))
+                if s_match: seconds = int(s_match.group(1))
+                
+                total_seconds = hours * 3600 + minutes * 60 + seconds
+                return total_seconds
+            except Exception as e:
+                logger.error(f"Error parsing duration {duration_str}: {str(e)}")
+                return 0
+        except Exception as e:
+            logger.error(f"Error parsing duration {duration_str}: {str(e)}")
+            return 0
+
+    def process_recipe_for_llm(self, title: str, description: str, transcript: str) -> Dict:
         context = {
             "title": title,
             "description": description[:1000],

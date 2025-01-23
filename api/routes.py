@@ -9,6 +9,7 @@ import boto3
 import dotenv
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import ValidationError
+from yt_dlp import YoutubeDL
 
 from models.schemas import ContentCategory, VideoRequest, VideoResponse, VideoContent, NutritionRequest, NutritionLabel, NutritionIngredient, NutritionResponse
 from services.recipe_service import RecipeService
@@ -19,6 +20,7 @@ from services.nutrition_service import NutritionService
 
 from logger import logger
 from pyinstrument import Profiler
+from api.dependencies import get_yt_dlp_client
 
 # Load environment variables
 dotenv.load_dotenv()
@@ -43,7 +45,7 @@ def get_recipe_service() -> RecipeService:
 @router.post("/videos/", response_model=VideoResponse)
 async def process_video(
     video: VideoRequest,
-    video_service: VideoService = Depends(),
+    yt_dlp_client: YoutubeDL = Depends(get_yt_dlp_client),
     transcript_service: TranscriptService = Depends(),
     recipe_service: RecipeService = Depends(get_recipe_service),
     nutrition_service: NutritionService = Depends(),
@@ -51,6 +53,9 @@ async def process_video(
     logger.info(f"Processing video URL: {video.url}")
     
     try:
+        # Initialize VideoService with the yt-dlp client
+        video_service = VideoService(yt_dlp_client=yt_dlp_client)
+        
         logger.info(f"Starting to process video URL: {video.url}")
         video_id = video_service.extract_video_id(video.url)
         if not video_id:
@@ -135,10 +140,15 @@ async def process_video(
 
         return VideoResponse(**video_data)
 
-    except HTTPException as http_exc:
-        raise http_exc
     except Exception as e:
-        logger.error(f"Error processing video: {str(e)}", exc_info=True)
+        error_message = str(e)
+        if "Sign in to confirm you're not a bot" in error_message:
+            logger.error(f"YouTube bot detection triggered: {error_message}")
+            raise HTTPException(
+                status_code=429,
+                detail="YouTube has detected automated access. Please try again later or provide authentication cookies."
+            )
+        logger.error(f"Error processing video: {error_message}", exc_info=True)
         raise HTTPException(
             status_code=500,
             detail="An unexpected error occurred while processing the video."
