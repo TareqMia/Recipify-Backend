@@ -9609,3 +9609,2687 @@ fastapi.exceptions.HTTPException: 500: Error fetching video info: No module name
 2025-01-22 20:00:30.395 - INFO - Found credentials in environment variables.
 2025-01-22 20:00:35.068 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
 2025-01-22 20:00:35.084 - INFO - Successfully classified video content
+2025-01-23 13:08:44.265 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:08:44.700 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:08:55.391 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:08:55.520 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:09:04.987 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:09:05.095 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:09:21.918 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:09:22.080 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:09:22.083 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:09:22.214 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:09:25.808 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:09:25.942 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:09:27.613 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:09:27.733 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:13:20.503 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:13:20.714 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:13:20.717 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:13:20.846 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:15:55.138 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:15:55.289 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:15:55.292 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:15:55.416 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:17:29.556 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:17:29.735 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:17:29.737 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:17:29.842 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:19:25.790 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:19:25.984 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:19:25.987 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:19:26.095 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:19:32.264 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:19:32.395 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:19:49.544 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:19:49.674 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:20:35.278 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:20:35.527 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:20:35.531 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:20:35.653 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:21:05.976 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:21:06.119 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:21:15.510 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:21:15.610 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:21:23.492 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:21:23.603 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:22:35.141 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:22:35.349 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:22:35.353 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:22:35.477 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:22:46.837 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:22:46.946 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:22:59.850 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:22:59.986 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:23:07.760 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:23:07.933 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:23:08.702 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:23:08.805 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:23:42.236 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:23:42.355 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 13:23:58.947 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 13:23:59.185 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 15:12:42.180 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 15:12:42.865 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 15:12:42.869 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 15:12:43.019 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 15:13:00.969 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 15:13:01.189 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:51:33.609 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:51:33.668 - ERROR - AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0x1792656d0>" raised exception!
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/transport/requests.py", line 187, in __call__
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/oauth2/_client.py", line 298, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/oauth2/_client.py", line 258, in _token_endpoint_request
+    response_status_ok, response_data, retryable_error = _token_endpoint_request_no_throw(
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/oauth2/_client.py", line 191, in _token_endpoint_request_no_throw
+    response = request(
+               ^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/google/auth/transport/requests.py", line 193, in __call__
+    raise new_exc from caught_exc
+google.auth.exceptions.TransportError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-23 17:51:34.305 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:51:34.308 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:51:34.421 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:51:47.758 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:51:47.877 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:51:56.068 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:51:56.171 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:52:14.117 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:52:14.258 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:52:17.499 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:52:17.612 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:52:36.309 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:52:36.411 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:52:38.941 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:52:39.046 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 17:52:42.073 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 17:52:42.180 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:05:51.628 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:05:51.900 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:05:51.905 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:05:52.034 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:40:47.800 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:40:48.054 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:40:48.060 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:40:48.191 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:41:43.225 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-23 18:41:45.445 - INFO - Processing video URL: https://www.youtube.com/shorts/bAu4-iclG5U
+2025-01-23 18:41:45.449 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-23 18:41:45.453 - INFO - Starting to process video URL: https://www.youtube.com/shorts/bAu4-iclG5U
+2025-01-23 18:41:45.453 - INFO - Checking if video bAu4-iclG5U exists in Firebase
+2025-01-23 18:41:45.583 - INFO - Video bAu4-iclG5U not found in cache, processing...
+2025-01-23 18:41:45.852 - INFO - Successfully retrieved video info - Title: Soft Potato Taco Bowl | Quick and Easy Recipe #onestopchop, Duration: 61
+2025-01-23 18:41:45.852 - INFO - Fetched video info: Title='Soft Potato Taco Bowl | Quick and Easy Recipe #onestopchop', Duration=61
+2025-01-23 18:41:47.041 - INFO - Found credentials in environment variables.
+2025-01-23 18:41:53.174 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-23 18:41:53.189 - INFO - Successfully classified video content
+2025-01-23 18:42:22.898 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:42:23.023 - INFO - Retrieved 3 recipes from Firebase
+2025-01-23 18:42:28.593 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:42:28.726 - INFO - Retrieved 4 recipes from Firebase
+2025-01-23 18:42:49.595 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:42:49.722 - INFO - Retrieved 4 recipes from Firebase
+2025-01-23 18:42:49.727 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:42:49.856 - INFO - Retrieved 4 recipes from Firebase
+2025-01-23 18:43:49.670 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:43:49.796 - INFO - Retrieved 4 recipes from Firebase
+2025-01-23 18:44:05.785 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-23 18:44:05.884 - INFO - Processing video URL: https://www.youtube.com/shorts/WS713vCV8u0
+2025-01-23 18:44:05.890 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-23 18:44:05.893 - INFO - Starting to process video URL: https://www.youtube.com/shorts/WS713vCV8u0
+2025-01-23 18:44:05.893 - INFO - Checking if video WS713vCV8u0 exists in Firebase
+2025-01-23 18:44:06.002 - INFO - Video WS713vCV8u0 not found in cache, processing...
+2025-01-23 18:44:06.172 - INFO - Successfully retrieved video info - Title: SUPER CRISPY POTATOES, Duration: 85
+2025-01-23 18:44:06.172 - INFO - Fetched video info: Title='SUPER CRISPY POTATOES', Duration=85
+2025-01-23 18:44:13.897 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-23 18:44:13.902 - INFO - Successfully classified video content
+2025-01-23 18:44:35.067 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:44:35.179 - INFO - Retrieved 4 recipes from Firebase
+2025-01-23 18:44:46.126 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:44:46.264 - INFO - Retrieved 5 recipes from Firebase
+2025-01-23 18:44:52.659 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:44:53.029 - INFO - Retrieved 5 recipes from Firebase
+2025-01-23 18:49:34.786 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:49:35.328 - INFO - Retrieved 5 recipes from Firebase
+2025-01-23 18:49:35.334 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:49:35.451 - INFO - Retrieved 5 recipes from Firebase
+2025-01-23 18:50:25.641 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-23 18:50:25.810 - INFO - Processing video URL: https://www.youtube.com/shorts/aIVX8wRI2JI
+2025-01-23 18:50:25.815 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-23 18:50:25.823 - INFO - Starting to process video URL: https://www.youtube.com/shorts/aIVX8wRI2JI
+2025-01-23 18:50:25.823 - INFO - Checking if video aIVX8wRI2JI exists in Firebase
+2025-01-23 18:50:25.963 - INFO - Video aIVX8wRI2JI not found in cache, processing...
+2025-01-23 18:50:26.280 - INFO - Successfully retrieved video info - Title: This recipe is the PERFECT Healthy Meal Prep😮‍💨 #highprotein #mealprep #healthyrecipes #lowcalorie, Duration: 44
+2025-01-23 18:50:26.280 - INFO - Fetched video info: Title='This recipe is the PERFECT Healthy Meal Prep😮‍💨 #highprotein #mealprep #healthyrecipes #lowcalorie', Duration=44
+2025-01-23 18:50:33.371 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-23 18:50:33.379 - INFO - Successfully classified video content
+2025-01-23 18:50:42.571 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:50:42.712 - INFO - Retrieved 5 recipes from Firebase
+2025-01-23 18:50:48.300 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:50:48.659 - INFO - Retrieved 6 recipes from Firebase
+2025-01-23 18:52:05.587 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:52:05.787 - INFO - Retrieved 6 recipes from Firebase
+2025-01-23 18:52:05.793 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:52:05.935 - INFO - Retrieved 6 recipes from Firebase
+2025-01-23 18:52:23.077 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-23 18:52:23.165 - INFO - Processing video URL: https://www.youtube.com/shorts/McvboBbu5vw
+2025-01-23 18:52:23.167 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-23 18:52:23.197 - INFO - Starting to process video URL: https://www.youtube.com/shorts/McvboBbu5vw
+2025-01-23 18:52:23.197 - INFO - Checking if video McvboBbu5vw exists in Firebase
+2025-01-23 18:52:23.289 - INFO - Video McvboBbu5vw not found in cache, processing...
+2025-01-23 18:52:23.466 - INFO - Successfully retrieved video info - Title: Creamy Marry Me Chicken Recipe #onestopchop, Duration: 59
+2025-01-23 18:52:23.466 - INFO - Fetched video info: Title='Creamy Marry Me Chicken Recipe #onestopchop', Duration=59
+2025-01-23 18:52:31.229 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-23 18:52:31.237 - INFO - Successfully classified video content
+2025-01-23 18:52:47.291 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:52:47.509 - INFO - Retrieved 6 recipes from Firebase
+2025-01-23 18:52:47.950 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:52:48.086 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 18:53:16.485 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:53:16.624 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 18:54:27.654 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:54:27.808 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 18:54:27.815 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:54:28.031 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 18:58:16.324 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 18:58:16.503 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:00:22.066 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:00:22.241 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:00:25.387 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:00:25.528 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:00:41.112 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:00:41.278 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:00:56.380 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:00:56.553 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:09:14.209 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:09:14.560 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:09:14.566 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:09:14.706 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:10:44.653 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:10:44.855 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:10:44.861 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:10:45.089 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:10:53.162 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:10:53.308 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:11:25.666 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:11:25.815 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:11:25.818 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:11:25.992 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:11:37.585 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:11:37.723 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:23:49.565 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:23:49.930 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:23:49.937 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:23:50.095 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:24:03.277 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:24:03.460 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:28:55.039 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:28:55.400 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:28:55.410 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:28:55.547 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:29:02.950 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:29:03.098 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:33:54.459 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:33:54.801 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:33:54.808 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:33:54.941 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:34:05.502 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:34:05.668 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:34:08.095 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:34:08.298 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:34:43.575 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:34:43.733 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:34:43.739 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:34:43.932 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:35:13.466 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:35:13.609 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:35:13.615 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:35:13.823 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:35:37.110 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:35:37.266 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:35:37.272 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:35:37.471 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:35:59.760 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:35:59.995 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:36:00.005 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:36:00.228 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:36:12.797 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:36:12.946 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:36:33.875 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:36:34.033 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:36:34.039 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:36:34.187 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:39:16.941 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:39:17.134 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:39:17.142 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:39:17.282 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:42:49.796 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:42:50.004 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:42:50.013 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:42:50.142 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:43:35.539 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:43:35.727 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:43:35.737 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:43:35.945 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:43:47.562 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:43:47.710 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:43:55.916 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:43:56.068 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:44:13.230 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:44:13.383 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:45:18.537 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:45:18.687 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:45:18.702 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:45:18.966 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:45:24.985 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:45:25.119 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:45:32.632 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:45:32.787 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:45:42.362 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:45:42.587 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:00.853 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:01.371 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:01.379 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:01.528 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:05.443 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:05.583 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:09.348 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:09.482 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:20.534 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:20.769 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:29.606 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:29.747 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:47:36.169 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:47:36.379 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:55:33.508 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:55:33.848 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:55:33.862 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:55:34.131 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:56:21.268 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:56:21.477 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:56:24.950 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:56:25.142 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:56:32.199 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:56:32.348 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:56:44.278 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:56:44.445 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:56:47.440 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:56:47.584 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:59:48.587 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:59:48.772 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 19:59:48.777 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 19:59:48.992 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:00:34.283 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:00:34.595 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:00:34.603 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:00:34.783 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:01:00.738 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:01:00.925 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:01:00.931 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:01:01.095 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:01:20.931 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:01:21.120 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:01:21.126 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:01:21.289 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:04:15.944 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:04:16.118 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:04:16.127 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:04:16.251 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:07:15.740 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:07:16.007 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:07:16.017 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:07:16.153 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:07:33.147 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:07:33.261 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:07:53.521 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:07:53.692 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:07:53.697 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:07:53.828 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:08:31.111 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:08:31.272 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:08:36.652 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:08:36.808 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:09:18.541 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:09:18.679 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:10:11.616 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:10:11.780 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:10:11.786 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:10:11.932 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:10:11.935 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:10:12.044 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:10:12.048 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:10:12.190 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:10:34.815 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:10:34.987 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:11:23.983 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:11:24.126 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:11:24.135 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:11:24.246 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:15:55.370 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:15:55.777 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:15:55.787 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:15:55.934 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:17:47.078 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:17:47.321 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:17:47.328 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:17:47.489 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:22:16.550 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:22:16.886 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:22:16.919 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:22:17.137 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:22:52.707 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:22:52.881 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:22:52.888 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:22:53.036 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:24:43.042 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:24:43.254 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:24:43.259 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:24:43.485 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:25:14.080 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:25:14.249 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 20:25:14.256 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 20:25:14.423 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 22:59:22.095 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 22:59:22.631 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 22:59:22.634 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 22:59:22.804 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 22:59:49.143 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 22:59:49.297 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:00:23.877 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:00:24.149 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:00:24.157 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:00:24.326 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:00:42.588 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:00:42.772 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:00:52.914 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:00:53.056 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:02:38.861 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:02:39.067 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:02:39.073 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:02:39.230 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:02:45.023 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:02:45.175 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:02:54.064 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:02:54.221 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:03:10.566 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:03:10.722 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:03:10.732 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:03:10.887 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:03:35.353 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:04:03.301 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:04:03.320 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:04:03.449 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:04:03.453 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:04:03.596 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:04:03.604 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:04:03.742 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:04:08.906 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:04:09.056 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:05:10.794 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:05:10.979 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:05:10.986 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:05:11.127 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:07:48.291 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:07:48.479 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:07:48.486 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:07:48.626 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:07:59.408 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:07:59.564 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:08:26.929 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:08:27.127 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:08:27.138 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:08:27.278 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:09:54.860 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:09:55.067 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:09:55.074 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:09:55.249 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:10:51.551 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:10:51.758 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:10:51.767 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:10:51.926 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:13:10.249 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:13:10.426 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:13:10.437 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:13:10.597 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:14:11.841 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:14:12.033 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:14:12.040 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:14:12.185 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:14:58.319 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:14:58.471 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:15:05.462 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:15:05.615 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:15:51.594 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:15:51.757 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:16:02.819 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:16:02.976 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:16:06.328 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:16:06.469 - INFO - Retrieved 7 recipes from Firebase
+2025-01-23 23:17:33.501 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-23 23:17:33.663 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:19:06.700 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:19:08.076 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:19:08.084 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:19:08.375 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:19:20.990 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:19:21.148 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:24:43.734 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:24:44.159 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:24:44.167 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:24:44.339 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:25:27.645 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:25:27.927 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:25:27.933 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:25:28.060 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:26:04.966 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:26:05.459 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:29:41.942 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:29:42.349 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:29:42.358 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:29:42.671 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:30:24.966 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:30:25.122 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:39:53.997 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:39:54.381 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:39:54.391 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:39:54.521 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:40:01.379 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:40:01.536 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:40:04.627 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:40:04.766 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:40:08.448 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:40:08.576 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:40:16.883 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:40:17.027 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:40:20.699 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:40:20.840 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:41:44.510 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:41:44.703 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:41:44.708 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:41:44.868 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:44:20.389 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:44:20.557 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:44:20.562 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:44:20.693 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:45:58.339 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:45:58.511 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:45:58.519 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:45:58.652 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:46:39.157 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:46:39.340 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:46:39.345 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:46:39.475 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:47:44.716 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:47:44.875 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:47:44.882 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:47:45.024 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:48:12.951 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:48:13.088 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:48:13.096 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:48:13.243 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:49:31.212 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:49:31.376 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:49:31.382 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:49:31.517 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:50:00.766 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:50:00.917 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:50:00.922 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:50:01.068 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:50:40.667 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:50:40.834 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:50:40.840 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:50:40.988 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:54:06.508 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:54:06.701 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:54:06.704 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 07:54:06.838 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 07:55:00.483 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 07:55:03.697 - INFO - Processing video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 07:55:03.704 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 07:55:03.715 - INFO - Starting to process video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 07:55:03.715 - INFO - Checking if video CWg_Rhgqxfc exists in Firebase
+2025-01-24 07:55:03.814 - INFO - Video CWg_Rhgqxfc not found in cache, processing...
+2025-01-24 07:55:04.027 - INFO - Successfully retrieved video info - Title: The BEST Way to Make Lasagna, Duration: 61
+2025-01-24 07:55:04.027 - INFO - Fetched video info: Title='The BEST Way to Make Lasagna', Duration=61
+2025-01-24 07:55:13.138 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 07:55:20.507 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 07:55:28.601 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 07:55:28.606 - ERROR - Error during video classification: The output is incomplete due to a max_tokens length limit.
+2025-01-24 07:55:28.607 - ERROR - Error processing video: The output is incomplete due to a max_tokens length limit.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/retry.py", line 147, in retry_sync
+    return process_response(  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/process_response.py", line 157, in process_response
+    model = response_model.from_response(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/function_calls.py", line 116, in from_response
+    return cls.parse_anthropic_tools(completion, validation_context, strict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/function_calls.py", line 191, in parse_anthropic_tools
+    raise IncompleteOutputException(last_completion=completion)
+instructor.exceptions.IncompleteOutputException: The output is incomplete due to a max_tokens length limit.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/retry.py", line 137, in retry_sync
+    for attempt in max_retries:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tenacity/__init__.py", line 443, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tenacity/__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x112881f10 state=finished raised IncompleteOutputException>]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tareqmia/recipify-backend/api/routes.py", line 102, in process_video
+    classification = recipe_service.classify_video_content(video_content)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tareqmia/recipify-backend/services/recipe_service.py", line 33, in classify_video_content
+    classification = classify_video_content(video_content)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tareqmia/recipify-backend/recipe_classifier.py", line 83, in classify_video_content
+    response = client.messages.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/client.py", line 176, in create
+    return self.create_fn(
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/patch.py", line 193, in new_create_sync
+    response = retry_sync(
+               ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/instructor/retry.py", line 167, in retry_sync
+    raise InstructorRetryException(
+instructor.exceptions.InstructorRetryException: The output is incomplete due to a max_tokens length limit.
+2025-01-24 08:00:54.876 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 08:00:55.959 - INFO - Processing video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 08:00:55.961 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 08:00:55.963 - INFO - Starting to process video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 08:00:55.963 - INFO - Checking if video CWg_Rhgqxfc exists in Firebase
+2025-01-24 08:00:56.375 - INFO - Video CWg_Rhgqxfc not found in cache, processing...
+2025-01-24 08:00:56.595 - INFO - Successfully retrieved video info - Title: The BEST Way to Make Lasagna, Duration: 61
+2025-01-24 08:00:56.595 - INFO - Fetched video info: Title='The BEST Way to Make Lasagna', Duration=61
+2025-01-24 08:00:57.315 - INFO - Found credentials in environment variables.
+2025-01-24 08:01:00.156 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 08:01:00.164 - INFO - Successfully classified video content
+2025-01-24 08:01:00.462 - ERROR - Error processing video: 2 validation errors for VideoResponse
+recipe.ingredients
+  Field required [type=missing, input_value={'name': 'Lasagna', 'cuis...a', 'italian', 'pasta']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.instructions
+  Field required [type=missing, input_value={'name': 'Lasagna', 'cuis...a', 'italian', 'pasta']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "/Users/tareqmia/recipify-backend/api/routes.py", line 141, in process_video
+    return VideoResponse(**video_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pydantic/main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for VideoResponse
+recipe.ingredients
+  Field required [type=missing, input_value={'name': 'Lasagna', 'cuis...a', 'italian', 'pasta']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.instructions
+  Field required [type=missing, input_value={'name': 'Lasagna', 'cuis...a', 'italian', 'pasta']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2025-01-24 08:02:18.198 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 08:02:18.977 - INFO - Processing video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 08:02:18.978 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 08:02:18.980 - INFO - Starting to process video URL: https://www.youtube.com/shorts/CWg_Rhgqxfc
+2025-01-24 08:02:18.980 - INFO - Checking if video CWg_Rhgqxfc exists in Firebase
+2025-01-24 08:02:19.494 - INFO - Document exists: CWg_Rhgqxfc
+2025-01-24 08:02:19.494 - INFO - Video CWg_Rhgqxfc already processed, returning cached data.
+2025-01-24 08:02:19.496 - ERROR - Validation error with cached data: 6 validation errors for VideoResponse
+recipe.description
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.ingredients
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.instructions
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.prep_time
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.cook_time
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.servings
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2025-01-24 08:02:19.496 - INFO - Video CWg_Rhgqxfc not found in cache, processing...
+2025-01-24 08:02:19.778 - INFO - Successfully retrieved video info - Title: The BEST Way to Make Lasagna, Duration: 61
+2025-01-24 08:02:19.778 - INFO - Fetched video info: Title='The BEST Way to Make Lasagna', Duration=61
+2025-01-24 08:02:20.828 - INFO - Found credentials in environment variables.
+2025-01-24 08:02:28.185 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 08:02:28.205 - INFO - Successfully classified video content
+2025-01-24 08:02:54.235 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:02:54.397 - INFO - Retrieved 7 recipes from Firebase
+2025-01-24 08:02:54.908 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:02:55.055 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:03:27.250 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:03:27.422 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:03:51.723 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:03:51.887 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:05:44.850 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:05:45.004 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:05:53.284 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:05:53.499 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:06:00.344 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:06:00.499 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:06:19.212 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:06:19.361 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:08:18.181 - INFO - Calculating nutrition facts for 12 ingredients
+2025-01-24 08:08:33.589 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-24 08:08:33.590 - INFO - Total calories: 2033.5
+2025-01-24 08:08:33.591 - INFO - Total protein: 82.0g
+2025-01-24 08:08:33.592 - INFO - Total fat: 86.0g
+2025-01-24 08:08:33.592 - INFO - Total carbs: 235.0g
+2025-01-24 08:08:33.592 - INFO - 
+Per ingredient breakdown:
+2025-01-24 08:08:33.592 - INFO - 
+chicken thighs:
+2025-01-24 08:08:33.592 - INFO -   Calories: 226.0
+2025-01-24 08:08:33.592 - INFO -   Protein: 22.5g
+2025-01-24 08:08:33.592 - INFO -   Fat: 15.1g
+2025-01-24 08:08:33.592 - INFO -   Carbs: 0.1g
+2025-01-24 08:08:33.592 - INFO - 
+chicken breast:
+2025-01-24 08:08:33.592 - INFO -   Calories: 144.0
+2025-01-24 08:08:33.593 - INFO -   Protein: 28.0g
+2025-01-24 08:08:33.593 - INFO -   Fat: 3.6g
+2025-01-24 08:08:33.593 - INFO -   Carbs: 0.0g
+2025-01-24 08:08:33.593 - INFO - 
+white vinegar:
+2025-01-24 08:08:33.593 - INFO -   Calories: 3.1
+2025-01-24 08:08:33.593 - INFO -   Protein: 0.0g
+2025-01-24 08:08:33.593 - INFO -   Fat: 0.0g
+2025-01-24 08:08:33.593 - INFO -   Carbs: 0.1g
+2025-01-24 08:08:33.593 - INFO - 
+garlic powder:
+2025-01-24 08:08:33.593 - INFO -   Calories: 48.9
+2025-01-24 08:08:33.594 - INFO -   Protein: 2.4g
+2025-01-24 08:08:33.594 - INFO -   Fat: 0.1g
+2025-01-24 08:08:33.594 - INFO -   Carbs: 10.8g
+2025-01-24 08:08:33.594 - INFO - 
+paprika:
+2025-01-24 08:08:33.594 - INFO -   Calories: 41.7
+2025-01-24 08:08:33.594 - INFO -   Protein: 2.1g
+2025-01-24 08:08:33.594 - INFO -   Fat: 1.9g
+2025-01-24 08:08:33.594 - INFO -   Carbs: 8.0g
+2025-01-24 08:08:33.594 - INFO - 
+salt:
+2025-01-24 08:08:33.594 - INFO -   Calories: 55.2
+2025-01-24 08:08:33.594 - INFO -   Protein: 0.7g
+2025-01-24 08:08:33.594 - INFO -   Fat: 5.4g
+2025-01-24 08:08:33.594 - INFO -   Carbs: 0.9g
+2025-01-24 08:08:33.594 - INFO - 
+white pepper:
+2025-01-24 08:08:33.594 - INFO -   Calories: 21.9
+2025-01-24 08:08:33.594 - INFO -   Protein: 0.8g
+2025-01-24 08:08:33.595 - INFO -   Fat: 0.2g
+2025-01-24 08:08:33.595 - INFO -   Carbs: 5.1g
+2025-01-24 08:08:33.595 - INFO - 
+flour:
+2025-01-24 08:08:33.595 - INFO -   Calories: 844.6
+2025-01-24 08:08:33.595 - INFO -   Protein: 0.7g
+2025-01-24 08:08:33.595 - INFO -   Fat: 0.2g
+2025-01-24 08:08:33.595 - INFO -   Carbs: 208.6g
+2025-01-24 08:08:33.595 - INFO - 
+eggs:
+2025-01-24 08:08:33.595 - INFO -   Calories: 286.0
+2025-01-24 08:08:33.595 - INFO -   Protein: 25.1g
+2025-01-24 08:08:33.595 - INFO -   Fat: 19.0g
+2025-01-24 08:08:33.595 - INFO -   Carbs: 1.4g
+2025-01-24 08:08:33.595 - INFO - 
+oil for frying:
+2025-01-24 08:08:33.595 - INFO -   Calories: 261.4
+2025-01-24 08:08:33.595 - INFO -   Protein: 0.0g
+2025-01-24 08:08:33.595 - INFO -   Fat: 29.6g
+2025-01-24 08:08:33.595 - INFO -   Carbs: 0.0g
+2025-01-24 08:08:33.595 - INFO - 
+mayonnaise:
+2025-01-24 08:08:33.596 - INFO -   Calories: 100.6
+2025-01-24 08:08:33.596 - INFO -   Protein: 0.1g
+2025-01-24 08:08:33.596 - INFO -   Fat: 11.1g
+2025-01-24 08:08:33.596 - INFO -   Carbs: 0.1g
+2025-01-24 08:08:33.596 - INFO - 
+Raw response model:
+2025-01-24 08:08:33.600 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "chicken thighs",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 226.0,
+        "total_fat": {
+          "amount": 15.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 127.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 335.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 22.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 16.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 255.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chicken breast",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 144.0,
+        "total_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 86.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 328.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 28.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 13.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 284.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "white vinegar",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 3.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 10.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "garlic powder",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 48.9,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 8.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 11.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 176.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "paprika",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 41.7,
+        "total_fat": {
+          "amount": 1.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 10.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.5,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 33.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 337.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 7.3934,
+          "unit": "g"
+        },
+        "calories": 55.2,
+        "total_fat": {
+          "amount": 5.4,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 28.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 25.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "white pepper",
+        "amount": 0.5,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 7.3934,
+          "unit": "g"
+        },
+        "calories": 21.9,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 5.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 19.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "flour",
+        "amount": 1.0,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 236.588,
+          "unit": "g"
+        },
+        "calories": 844.6,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 208.6,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 94.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 26.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "eggs",
+        "amount": 4.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 286.0,
+        "total_fat": {
+          "amount": 19.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 6.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 744.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 284.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 25.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 4.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 112.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 276.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "oil for frying",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 261.4,
+        "total_fat": {
+          "amount": 29.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mayonnaise",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 100.6,
+        "total_fat": {
+          "amount": 11.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 6.2,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 93.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3.0,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 740.0956,
+      "unit": "g"
+    },
+    "calories": 2033.5,
+    "total_fat": {
+      "amount": 86.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 17.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 963.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1094.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 235.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 17.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 82.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 4.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 307.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 11.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1399.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-24 08:08:54.322 - INFO - Calculating nutrition facts for 12 ingredients
+2025-01-24 08:09:09.367 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-24 08:09:09.367 - INFO - Total calories: 2033.5
+2025-01-24 08:09:09.367 - INFO - Total protein: 82.0g
+2025-01-24 08:09:09.367 - INFO - Total fat: 86.0g
+2025-01-24 08:09:09.367 - INFO - Total carbs: 235.0g
+2025-01-24 08:09:09.367 - INFO - 
+Per ingredient breakdown:
+2025-01-24 08:09:09.367 - INFO - 
+chicken thighs:
+2025-01-24 08:09:09.367 - INFO -   Calories: 226.0
+2025-01-24 08:09:09.367 - INFO -   Protein: 22.5g
+2025-01-24 08:09:09.367 - INFO -   Fat: 15.1g
+2025-01-24 08:09:09.367 - INFO -   Carbs: 0.1g
+2025-01-24 08:09:09.367 - INFO - 
+chicken breast:
+2025-01-24 08:09:09.367 - INFO -   Calories: 144.0
+2025-01-24 08:09:09.368 - INFO -   Protein: 28.0g
+2025-01-24 08:09:09.368 - INFO -   Fat: 3.6g
+2025-01-24 08:09:09.368 - INFO -   Carbs: 0.0g
+2025-01-24 08:09:09.368 - INFO - 
+white vinegar:
+2025-01-24 08:09:09.368 - INFO -   Calories: 3.1
+2025-01-24 08:09:09.368 - INFO -   Protein: 0.0g
+2025-01-24 08:09:09.368 - INFO -   Fat: 0.0g
+2025-01-24 08:09:09.368 - INFO -   Carbs: 0.1g
+2025-01-24 08:09:09.368 - INFO - 
+garlic powder:
+2025-01-24 08:09:09.368 - INFO -   Calories: 48.9
+2025-01-24 08:09:09.368 - INFO -   Protein: 2.4g
+2025-01-24 08:09:09.368 - INFO -   Fat: 0.1g
+2025-01-24 08:09:09.368 - INFO -   Carbs: 10.8g
+2025-01-24 08:09:09.369 - INFO - 
+paprika:
+2025-01-24 08:09:09.370 - INFO -   Calories: 41.7
+2025-01-24 08:09:09.370 - INFO -   Protein: 2.1g
+2025-01-24 08:09:09.370 - INFO -   Fat: 1.9g
+2025-01-24 08:09:09.370 - INFO -   Carbs: 8.0g
+2025-01-24 08:09:09.370 - INFO - 
+salt:
+2025-01-24 08:09:09.370 - INFO -   Calories: 55.2
+2025-01-24 08:09:09.370 - INFO -   Protein: 0.7g
+2025-01-24 08:09:09.370 - INFO -   Fat: 5.4g
+2025-01-24 08:09:09.371 - INFO -   Carbs: 0.9g
+2025-01-24 08:09:09.371 - INFO - 
+white pepper:
+2025-01-24 08:09:09.371 - INFO -   Calories: 21.9
+2025-01-24 08:09:09.371 - INFO -   Protein: 0.8g
+2025-01-24 08:09:09.371 - INFO -   Fat: 0.2g
+2025-01-24 08:09:09.371 - INFO -   Carbs: 5.1g
+2025-01-24 08:09:09.371 - INFO - 
+flour:
+2025-01-24 08:09:09.371 - INFO -   Calories: 844.6
+2025-01-24 08:09:09.371 - INFO -   Protein: 0.7g
+2025-01-24 08:09:09.371 - INFO -   Fat: 0.2g
+2025-01-24 08:09:09.371 - INFO -   Carbs: 208.6g
+2025-01-24 08:09:09.371 - INFO - 
+eggs:
+2025-01-24 08:09:09.371 - INFO -   Calories: 286.0
+2025-01-24 08:09:09.371 - INFO -   Protein: 25.1g
+2025-01-24 08:09:09.371 - INFO -   Fat: 19.0g
+2025-01-24 08:09:09.371 - INFO -   Carbs: 1.4g
+2025-01-24 08:09:09.371 - INFO - 
+oil for frying:
+2025-01-24 08:09:09.372 - INFO -   Calories: 261.4
+2025-01-24 08:09:09.372 - INFO -   Protein: 0.0g
+2025-01-24 08:09:09.372 - INFO -   Fat: 29.6g
+2025-01-24 08:09:09.372 - INFO -   Carbs: 0.0g
+2025-01-24 08:09:09.372 - INFO - 
+mayonnaise:
+2025-01-24 08:09:09.372 - INFO -   Calories: 100.6
+2025-01-24 08:09:09.372 - INFO -   Protein: 0.1g
+2025-01-24 08:09:09.372 - INFO -   Fat: 11.1g
+2025-01-24 08:09:09.372 - INFO -   Carbs: 0.1g
+2025-01-24 08:09:09.372 - INFO - 
+Raw response model:
+2025-01-24 08:09:09.372 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "chicken thighs",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 226.0,
+        "total_fat": {
+          "amount": 15.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 127.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 335.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 22.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 16.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 255.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chicken breast",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 144.0,
+        "total_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 86.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 328.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 28.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 13.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 284.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "white vinegar",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 3.1,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 10.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "garlic powder",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 48.9,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 8.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 11.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 176.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "paprika",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 41.7,
+        "total_fat": {
+          "amount": 1.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 10.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 5.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.5,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 33.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 337.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 7.3934,
+          "unit": "g"
+        },
+        "calories": 55.2,
+        "total_fat": {
+          "amount": 5.4,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 28.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 25.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "white pepper",
+        "amount": 0.5,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 7.3934,
+          "unit": "g"
+        },
+        "calories": 21.9,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 5.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 19.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "flour",
+        "amount": 1.0,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 236.588,
+          "unit": "g"
+        },
+        "calories": 844.6,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 208.6,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 94.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 26.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "eggs",
+        "amount": 4.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 286.0,
+        "total_fat": {
+          "amount": 19.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 6.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 744.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 284.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 25.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 4.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 112.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 276.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "oil for frying",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 261.4,
+        "total_fat": {
+          "amount": 29.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 8.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mayonnaise",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 100.6,
+        "total_fat": {
+          "amount": 11.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 6.2,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 93.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3.0,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 740.0956,
+      "unit": "g"
+    },
+    "calories": 2033.5,
+    "total_fat": {
+      "amount": 86.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 17.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 8.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 963.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1094.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 235.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 17.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 82.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 4.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 307.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 11.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1399.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-24 08:09:40.041 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:09:40.204 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 08:10:24.481 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 08:10:24.656 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:29:44.228 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:29:45.732 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:29:45.740 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:29:46.058 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:30:04.115 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:30:04.285 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:30:14.261 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:30:14.420 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:34:04.886 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:34:05.223 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:34:12.057 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:34:12.217 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:34:12.224 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:34:12.358 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:34:57.002 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 19:35:00.528 - INFO - Processing video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:35:00.633 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 19:35:00.661 - INFO - Starting to process video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:35:00.662 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-24 19:35:00.876 - INFO - Video ghrNqrSDGvo not found in cache, processing...
+2025-01-24 19:35:01.153 - INFO - Successfully retrieved video info - Title: The BEST Fried Chicken | Quick and Easy #onestopchop, Duration: 59
+2025-01-24 19:35:01.153 - INFO - Fetched video info: Title='The BEST Fried Chicken | Quick and Easy #onestopchop', Duration=59
+2025-01-24 19:35:06.075 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-24 19:35:06.086 - INFO - Successfully classified video content
+2025-01-24 19:35:41.793 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:35:41.950 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:35:42.397 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:35:42.554 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:36:19.276 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:36:19.493 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:44:42.966 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:44:43.392 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:44:43.411 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:44:43.546 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:44:51.899 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 19:44:52.035 - INFO - Processing video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:44:52.041 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 19:44:52.062 - INFO - Starting to process video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:44:52.062 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-24 19:44:52.168 - INFO - Document exists: ghrNqrSDGvo
+2025-01-24 19:44:52.169 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-24 19:44:57.405 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:44:57.591 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:44:58.004 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:44:58.140 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:45:11.013 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:45:11.220 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:46:47.782 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:46:47.959 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:46:47.968 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:46:48.128 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:47:07.743 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 19:47:07.862 - INFO - Processing video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:47:07.867 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 19:47:08.283 - INFO - Starting to process video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:47:08.283 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-24 19:47:08.370 - INFO - Document exists: ghrNqrSDGvo
+2025-01-24 19:47:08.370 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-24 19:47:13.041 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 19:47:13.100 - INFO - Processing video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:47:13.101 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 19:47:13.103 - INFO - Starting to process video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:47:13.103 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-24 19:47:13.189 - INFO - Document exists: ghrNqrSDGvo
+2025-01-24 19:47:13.190 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-24 19:47:17.241 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:47:17.383 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:47:17.870 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:47:18.006 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:47:42.544 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:47:42.704 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:49:30.067 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:49:30.231 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:54:12.999 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:54:13.263 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:54:13.268 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:54:13.411 - INFO - Retrieved 9 recipes from Firebase
+2025-01-24 19:54:50.902 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:54:51.081 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:55:05.756 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-24 19:55:08.915 - INFO - Processing video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:55:08.922 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-24 19:55:08.928 - INFO - Starting to process video URL: https://www.youtube.com/shorts/ghrNqrSDGvo
+2025-01-24 19:55:08.928 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-24 19:55:09.023 - INFO - Document exists: ghrNqrSDGvo
+2025-01-24 19:55:09.024 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-24 19:55:27.312 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:55:27.479 - INFO - Retrieved 8 recipes from Firebase
+2025-01-24 19:55:27.952 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-24 19:55:28.090 - INFO - Retrieved 9 recipes from Firebase

@@ -40,25 +40,27 @@ class RecipeService:
     async def generate_recipe(self, video_url: str, prompt: str) -> Optional[Recipe]:
         """
         Generate a recipe using Claude based on the provided prompt.
-        
-        Args:
-            video_url: The URL of the video being processed
-            prompt: The prompt generated from the video content
-            
-        Returns:
-            Recipe object if generation is successful, else None
         """
+        # Truncate prompt content
+        truncated_prompt = prompt[:3000]  # Limit prompt length
+        
         analysis_prompt = f"""
-        Generate a detailed recipe based on the following information:
+        Based on this content, generate a recipe in the following EXACT format:
 
-        {prompt}
+        {truncated_prompt}
 
-        Ensure the recipe includes:
-        - Ingredients list with measurements
-        - Step-by-step cooking instructions
-        - Estimated preparation and cooking time
-        - Serving suggestions
-        - Keywords for the recipe
+        Your response MUST include ALL these fields in a structured format:
+        - name: The recipe name
+        - description: A brief description
+        - ingredients: A list of ingredients with measurements
+        - instructions: A numbered list of cooking steps
+        - prep_time: Preparation time in minutes (just the number)
+        - cook_time: Cooking time in minutes (just the number)
+        - servings: Number of servings (just the number)
+        - serving_suggestions: [Optional] List of serving suggestions
+        - keywords: List of 2-3 relevant recipe tags
+
+        Ensure ALL fields are present and properly formatted.
         """
 
         try:
@@ -66,16 +68,25 @@ class RecipeService:
             
             response = self.client.messages.create(
                 model="anthropic.claude-3-haiku-20240307-v1:0",
-                max_tokens=1024,
+                max_tokens=4096,
+                temperature=0.7,
                 response_model=Recipe,
                 messages=[
                     {
                         "role": "system",
-                        "content": """You are a culinary expert specializing in creating detailed and easy-to-follow recipes based on provided information."""
+                        "content": """You are a culinary expert who creates recipes. 
+                        Always include all required fields: name, description, ingredients (list), 
+                        instructions (list), prep_time (number), cook_time (number), servings (number), 
+                        serving_suggestions (list), and keywords (list)."""
                     },
                     {"role": "user", "content": analysis_prompt}
                 ]
             )
+
+            # Validate the response structure
+            if not isinstance(response.ingredients, list) or not isinstance(response.instructions, list):
+                logging.error("Invalid response structure - missing required lists")
+                return None
 
             logging.info(f"Recipe generated successfully for video URL: {video_url}")
             return response

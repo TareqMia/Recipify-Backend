@@ -43,72 +43,66 @@ class RecipeClassification(BaseModel):
     )
     
 def classify_video_content(video_content: VideoContent) -> RecipeClassification:
-    """
-    Analyze video content using Claude to determine if it's recipe-related.
+    """Classify video content using Claude"""
     
-    Args:
-        video_content: VideoContent object containing title, description, and transcript
-        
-    Returns:
-        RecipeClassification object with analysis results
-    """
+    # Truncate content to fit within token limits
+    title = video_content.title[:200]
+    description = video_content.description[:500]
+    transcript = video_content.transcript[:2000]
+    
     analysis_prompt = f"""
-    Please analyze this video content to determine if it's a recipe and extract detailed recipe information:
-    
-    TITLE: {video_content.title}
-    
-    DESCRIPTION: {video_content.description}
-    
-    TRANSCRIPT: {video_content.transcript}
-    
-    If this is a recipe video, please provide:
-    1. Complete list of ingredients with measurements
-    2. Step-by-step cooking instructions
-    3. Estimated preparation time in minutes
-    4. Estimated cooking time in minutes
-    5. Number of servings
-    6. Serving suggestions
-    7. Keywords/tags related to this recipe (e.g., breakfast, healthy, quick, vegetarian)
-    
-    Format the recipe details as a structured object with these exact fields:
-    - ingredients (list)
-    - instructions (list)
-    - preparation_time (number in minutes)
-    - cooking_time (number in minutes)
-    - servings (number)
-    - serving_suggestions (list)
-    - keywords (list of relevant recipe tags)
+    Analyze this cooking video content and extract recipe details:
+
+    Title: {title}
+    Description: {description}
+    Transcript excerpt: {transcript}
+
+    Provide a structured response with these EXACT fields:
+    - is_recipe: "recipe" if this is a recipe video, "not_a_recipe" if not
+    - confidence_level: "HIGH", "MEDIUM", or "LOW"
+    - confidence_score: A number between 0 and 1
+    - recipe_indicators: List of phrases that indicate this is a recipe
+    - suggested_tags: List of relevant tags
+    - recipe_details: {{
+        "name": Recipe name,
+        "description": Brief description,
+        "ingredients": List of ingredients with measurements,
+        "instructions": List of numbered steps,
+        "prep_time": Time in minutes (number),
+        "cook_time": Time in minutes (number),
+        "servings": Number of servings (number),
+        "serving_suggestions": List of serving suggestions,
+        "keywords": List of 2-3 relevant keywords
+    }}
+
+    Ensure ALL fields are present and properly formatted.
     """
-    
-    response = client.messages.create(
-        model="anthropic.claude-3-haiku-20240307-v1:0",
-        max_tokens=1024,
-        response_model=RecipeClassification,
-        messages=[
-            {
-                "role": "system",
-                "content": """You are a video content analyzer specializing in identifying recipe content.
-                Extract complete recipe details including all required fields:
-                - ingredients (with measurements)
-                - instructions (step by step)
-                - preparation_time (in minutes)
-                - cooking_time (in minutes)
-                - servings (number)
-                - serving_suggestions (list)
-                - keywords (list of relevant recipe tags)"""
-            },
-            {"role": "user", "content": analysis_prompt}
-        ]
-    )
-    
-    return response
+
+    try:
+        response = client.messages.create(
+            model="anthropic.claude-3-haiku-20240307-v1:0",
+            max_tokens=4096,
+            temperature=0.7,
+            response_model=RecipeClassification,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a culinary expert who analyzes cooking videos and provides structured recipe classifications with ALL required fields."
+                },
+                {"role": "user", "content": analysis_prompt}
+            ]
+        )
+        return response
+    except Exception as e:
+        logger.error(f"Error during video classification: {str(e)}")
+        raise
 
 # Example usage
 def main():
     # Example video content
     sample_video = VideoContent(
         title="High Protein Kimchi Noodle Recipe #healthyrecipesY",
-        description="Full recipe 🍝 ⇩ \n\nIngredients:\n- 1 tbsp Gochujang\n- 1 tbsp brown sugar\n- 1/2 tbsp Rice Vinegar\n- 1 tbsp Soy Sauce\n- 1 tbsp Gochugaru\n- 100g Kimchi\n- 30g Green Onion\n- 1 tbsp minced garlic\n- 100g Sempio korean high protein noodles (20g protein 360 calories)\n- 150g light canned tuna\nrecipe inspo: @__cookim_\n\nMakes 1 serving: 650 calories, 52g Protein, 105g Carbs, 4g Fat\n\nHow to make it yourself:\n1. Dice your green onions\n2. Cook the noodles in boiling water and once cooked, let it rest in cool water\n3. In a bowl, add your canned tuna, brown sugar, gochugaru, minced garlic, gochujang, kimchi, rice vinegar, soy sauce, the cooked noodles, and the diced green onions.\n\nI saw this recipe on my feed and knew making a few small changes would make this the perfect high protein and low calorie recipe!\n\n📩 Save this Spicy Tuna Noodle recipe to make for later and if you make it, post it and tag me in it! I’d love to see how you liked the recipe :)\n\n#highproteinmeals #lowcalorie #mealprep #weightlossmeals #healthyrecipes #koreanfood #asianfood #noodles",
+        description="Full recipe 🍝 ⇩ \n\nIngredients:\n- 1 tbsp Gochujang\n- 1 tbsp brown sugar\n- 1/2 tbsp Rice Vinegar\n- 1 tbsp Soy Sauce\n- 1 tbsp Gochugaru\n- 100g Kimchi\n- 30g Green Onion\n- 1 tbsp minced garlic\n- 100g Sempio korean high protein noodles (20g protein 360 calories)\n- 150g light canned tuna\nrecipe inspo: @__cookim_\n\nMakes 1 serving: 650 calories, 52g Protein, 105g Carbs, 4g Fat\n\nHow to make it yourself:\n1. Dice your green onions\n2. Cook the noodles in boiling water and once cooked, let it rest in cool water\n3. In a bowl, add your canned tuna, brown sugar, gochugaru, minced garlic, gochujang, kimchi, rice vinegar, soy sauce, the cooked noodles, and the diced green onions.\n\nI saw this recipe on my feed and knew making a few small changes would make this the perfect high protein and low calorie recipe!\n\n📩 Save this Spicy Tuna Noodle recipe to make for later and if you make it, post it and tag me in it! I'd love to see how you liked the recipe :)\n\n#highproteinmeals #lowcalorie #mealprep #weightlossmeals #healthyrecipes #koreanfood #asianfood #noodles",
         transcript="welcome back to i can't eat enough protein the series where i share with you tasty high protein dishes that take less than 30 minutes to make and today let's make korean kimchi noodles but packed with over 50 g of protein a few weeks ago i was scrolling through my for you page and stumbled upon a viral kimchi noodle recipe that looks so good and so easy to make that i knew i had to try it but i feel like i can take it one step further and turn it into a high protein dish that's perfect for our series these specific noodles from senel are 360 calories for 20 g of protein and they taste really good too so here instead of using regular old noodles i'm going to use these korean high protein noodles that are honestly such a hidden gem that i found at my local korean market we'll then pair that with some canant tuna since it's one of the leanest most convenient protein sources out there and goes perfect with these noodles and the kimchi as always the four recipes in the caption let me know what you think woo"
     )
     

@@ -152,6 +152,16 @@ class RecipeIngredient(BaseModel):
     unit: MeasurementUnit = MeasurementUnit.NONE
     ingredient: str
 
+    def __str__(self) -> str:
+        """Convert ingredient to string format"""
+        if self.amount == 0:
+            return self.ingredient
+        
+        amount_str = str(self.amount) if self.amount % 1 != 0 else str(int(self.amount))
+        unit_str = f" {self.unit.value}" if self.unit != MeasurementUnit.NONE else ""
+        
+        return f"{amount_str}{unit_str} {self.ingredient}".strip()
+
     @classmethod
     def from_string(cls, ingredient_str: str) -> 'RecipeIngredient':
         # Handle fractions and decimals
@@ -197,17 +207,15 @@ class RecipeIngredient(BaseModel):
         return MeasurementUnit.get_weight_in_grams(self.amount, self.unit, self.ingredient)
 
 class Recipe(BaseModel):
-    ingredients: List[Union[str, Dict[str, Any], RecipeIngredient]]
-    instructions: List[str]
-    preparation_time: Optional[int] = None
-    cooking_time: Optional[int] = None
-    servings: Optional[int] = None
-    serving_size: Optional[NutrientInfo] = Field(
-        default_factory=lambda: NutrientInfo(amount=100.0, unit="g"),
-        description="Serving size for the recipe"
-    )
-    serving_suggestions: Optional[List[str]] = None
-    keywords: Optional[List[str]] = []
+    name: str
+    description: str
+    ingredients: List[Union[str, RecipeIngredient]]  # Allow both string and RecipeIngredient
+    instructions: List[str]  # List of step-by-step instructions
+    prep_time: int  # In minutes
+    cook_time: int  # In minutes
+    servings: int
+    serving_suggestions: Optional[List[str]] = []
+    keywords: List[str] = []
 
     @field_validator('ingredients')
     @classmethod
@@ -237,7 +245,23 @@ class Recipe(BaseModel):
             formatted_ingredients.append(formatted)
         return formatted_ingredients
 
-    model_config = ConfigDict(from_attributes=True)
+    def model_dump(self, *args, **kwargs):
+        """Custom serialization to convert ingredients to strings"""
+        data = super().model_dump(*args, **kwargs)
+        # Convert ingredients to strings if they're RecipeIngredient objects
+        data['ingredients'] = [
+            str(ing) if isinstance(ing, RecipeIngredient) 
+            else ing 
+            for ing in self.ingredients
+        ]
+        return data
+
+    model_config = ConfigDict(
+        from_attributes=True,
+        json_encoders={
+            RecipeIngredient: lambda x: str(x)  # Convert RecipeIngredient to string when serializing
+        }
+    )
 
 class IngredientNutrition(BaseModel):
     ingredient: NutritionIngredient
