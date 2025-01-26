@@ -4,3 +4,7 @@ recipify-9e8e7-firebase-adminsdk-ocdn4-64a5bd2b68.json
 *.json
 *.txt
 youtube.com_cookies.txt
+*.log
+*.json
+*.txt
+.pyc
