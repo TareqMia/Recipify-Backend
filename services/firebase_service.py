@@ -62,3 +62,13 @@ class FirebaseService:
             recipes.append(doc.to_dict())
             
         return recipes
+    
+    @staticmethod 
+    def delete_recipe(user_id: str, video_id: str) -> None:
+        """Delete a recipe for a specific user"""
+        logger.info(f"Deleting recipe {video_id} for user {user_id}")
+        
+        recipe_ref = db.collection('user_recipes').document(f"{user_id}_{video_id}")
+        recipe_ref.delete()
+        
+        return {"message": "Recipe deleted successfully"}

@@ -214,6 +214,30 @@ async def get_user_recipes(
             detail=f"An error occurred while fetching recipes for user {user_id}"
         )
         
+        
+@router.delete("/recipes/{user_id}/{video_id}") 
+async def delete_user_recipe(
+    user_id: str,
+    video_id: str,
+    firebase_service: FirebaseService = Depends()
+):
+    """
+    Delete a recipe for a specific user
+    """
+    try:
+        # Delete the recipe from Firebase
+      
+        logger.info(f"Deleted recipe {video_id} for user {user_id}")
+        firebase_service.delete_recipe(user_id, video_id)
+        return {"message": "Recipe deleted successfully"}
+        
+    except Exception as e:
+        logger.error(f"Error deleting recipe {video_id} for user {user_id}: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while deleting recipe {video_id} for user {user_id}"
+        )
+        
     
         
     
