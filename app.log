@@ -13931,3 +13931,6226 @@ google.auth.exceptions.TransportError: ('Connection aborted.', RemoteDisconnecte
 2025-01-29 23:00:07.792 - INFO - Deleting recipe ghrNqrSDGvo for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
 2025-01-29 23:00:13.000 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
 2025-01-29 23:00:13.147 - INFO - Retrieved 8 recipes from Firebase
+2025-01-29 23:02:00.172 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-29 23:02:06.265 - INFO - Processing video URL: https://www.youtube.com/watch?v=CWg_Rhgqxfc&ab_channel=HennaSharee
+2025-01-29 23:02:06.268 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-29 23:02:06.270 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=CWg_Rhgqxfc&ab_channel=HennaSharee
+2025-01-29 23:02:06.270 - INFO - Checking if video CWg_Rhgqxfc exists in Firebase
+2025-01-29 23:02:06.364 - INFO - Document exists: CWg_Rhgqxfc
+2025-01-29 23:02:06.364 - INFO - Video CWg_Rhgqxfc already processed, returning cached data.
+2025-01-29 23:02:06.369 - ERROR - Validation error with cached data: 6 validation errors for VideoResponse
+recipe.description
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.ingredients
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.instructions
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.prep_time
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.cook_time
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+recipe.servings
+  Field required [type=missing, input_value={'cuisine': 'Italian', 'c...: [], 'name': 'Lasagna'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2025-01-29 23:02:06.369 - INFO - Video CWg_Rhgqxfc not found in cache, processing...
+2025-01-29 23:02:06.585 - INFO - Successfully retrieved video info - Title: The BEST Way to Make Lasagna, Duration: 61
+2025-01-29 23:02:06.585 - INFO - Fetched video info: Title='The BEST Way to Make Lasagna', Duration=61
+2025-01-29 23:02:07.420 - INFO - Found credentials in environment variables.
+2025-01-29 23:02:14.153 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-29 23:02:14.162 - INFO - Successfully classified video content
+2025-01-29 23:02:48.895 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-29 23:02:49.046 - INFO - Retrieved 8 recipes from Firebase
+2025-01-29 23:02:49.531 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-29 23:02:49.688 - INFO - Retrieved 9 recipes from Firebase
+2025-01-29 23:03:34.764 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-29 23:03:34.893 - INFO - Processing video URL: https://www.youtube.com/watch?v=ghrNqrSDGvo&ab_channel=OneStopChop
+2025-01-29 23:03:34.895 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-29 23:03:34.898 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=ghrNqrSDGvo&ab_channel=OneStopChop
+2025-01-29 23:03:34.898 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-29 23:03:35.012 - INFO - Document exists: ghrNqrSDGvo
+2025-01-29 23:03:35.012 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-29 23:04:08.358 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-29 23:04:08.561 - INFO - Retrieved 9 recipes from Firebase
+2025-01-29 23:04:08.979 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-29 23:04:09.136 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:02:55.772 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:02:56.710 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:02:56.721 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:02:56.882 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:03:12.968 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:03:13.229 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:03:24.421 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:03:24.594 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:04:09.569 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:04:09.746 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:04:09.750 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:04:09.934 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:04:20.758 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:04:20.952 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:04:21.074 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:04:21.236 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:04:26.477 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:04:26.620 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:06:30.395 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:30.605 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:06:30.615 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:30.770 - INFO - Retrieved 10 recipes from Firebase
+2025-01-30 07:06:38.548 - INFO - Deleted recipe CWg_Rhgqxfc for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:38.551 - INFO - Deleting recipe CWg_Rhgqxfc for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:38.712 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:38.855 - INFO - Retrieved 9 recipes from Firebase
+2025-01-30 07:06:39.031 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:06:39.166 - INFO - Retrieved 9 recipes from Firebase
+2025-01-30 07:10:46.973 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:10:47.224 - INFO - Retrieved 9 recipes from Firebase
+2025-01-30 07:10:47.230 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:10:47.378 - INFO - Retrieved 9 recipes from Firebase
+2025-01-30 07:11:00.441 - INFO - Deleted recipe PPkRmvrAHGQ for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:11:00.446 - INFO - Deleting recipe PPkRmvrAHGQ for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:11:00.601 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:11:00.751 - INFO - Retrieved 8 recipes from Firebase
+2025-01-30 07:14:56.079 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:14:56.251 - INFO - Retrieved 8 recipes from Firebase
+2025-01-30 07:14:56.257 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:14:56.469 - INFO - Retrieved 8 recipes from Firebase
+2025-01-30 07:16:09.326 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:16:09.477 - INFO - Retrieved 8 recipes from Firebase
+2025-01-30 07:16:11.412 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 07:16:11.549 - INFO - Retrieved 8 recipes from Firebase
+2025-01-30 18:38:41.637 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 18:38:42.098 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 18:39:18.116 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 18:39:18.313 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:11:51.683 - INFO - Calculating nutrition facts for 16 ingredients
+2025-01-30 19:12:13.327 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-30 19:12:13.328 - INFO - Total calories: 830.7
+2025-01-30 19:12:13.328 - INFO - Total protein: 66.0g
+2025-01-30 19:12:13.328 - INFO - Total fat: 54.0g
+2025-01-30 19:12:13.328 - INFO - Total carbs: 41.0g
+2025-01-30 19:12:13.328 - INFO - 
+Per ingredient breakdown:
+2025-01-30 19:12:13.328 - INFO - 
+yukon gold potatoes:
+2025-01-30 19:12:13.328 - INFO -   Calories: 0.0
+2025-01-30 19:12:13.328 - INFO -   Protein: 1.8g
+2025-01-30 19:12:13.328 - INFO -   Fat: 0.3g
+2025-01-30 19:12:13.328 - INFO -   Carbs: 16.0g
+2025-01-30 19:12:13.328 - INFO - 
+olive oil:
+2025-01-30 19:12:13.328 - INFO -   Calories: 2.7
+2025-01-30 19:12:13.329 - INFO -   Protein: 0.0g
+2025-01-30 19:12:13.329 - INFO -   Fat: 0.3g
+2025-01-30 19:12:13.329 - INFO -   Carbs: 0.0g
+2025-01-30 19:12:13.329 - INFO - 
+cajun seasoning:
+2025-01-30 19:12:13.329 - INFO -   Calories: 22.9
+2025-01-30 19:12:13.329 - INFO -   Protein: 0.5g
+2025-01-30 19:12:13.329 - INFO -   Fat: 0.9g
+2025-01-30 19:12:13.329 - INFO -   Carbs: 3.1g
+2025-01-30 19:12:13.329 - INFO - 
+cumin:
+2025-01-30 19:12:13.329 - INFO -   Calories: 18.5
+2025-01-30 19:12:13.329 - INFO -   Protein: 0.9g
+2025-01-30 19:12:13.329 - INFO -   Fat: 1.1g
+2025-01-30 19:12:13.329 - INFO -   Carbs: 2.2g
+2025-01-30 19:12:13.329 - INFO - 
+chipotle powder:
+2025-01-30 19:12:13.329 - INFO -   Calories: 9.6
+2025-01-30 19:12:13.329 - INFO -   Protein: 0.1g
+2025-01-30 19:12:13.329 - INFO -   Fat: 0.7g
+2025-01-30 19:12:13.329 - INFO -   Carbs: 0.7g
+2025-01-30 19:12:13.330 - INFO - 
+tomato:
+2025-01-30 19:12:13.330 - INFO -   Calories: 10.0
+2025-01-30 19:12:13.330 - INFO -   Protein: 0.4g
+2025-01-30 19:12:13.330 - INFO -   Fat: 0.2g
+2025-01-30 19:12:13.330 - INFO -   Carbs: 2.0g
+2025-01-30 19:12:13.330 - INFO - 
+red onion:
+2025-01-30 19:12:13.330 - INFO -   Calories: 24.2
+2025-01-30 19:12:13.330 - INFO -   Protein: 0.5g
+2025-01-30 19:12:13.330 - INFO -   Fat: 0.1g
+2025-01-30 19:12:13.330 - INFO -   Carbs: 5.5g
+2025-01-30 19:12:13.330 - INFO - 
+cilantro:
+2025-01-30 19:12:13.330 - INFO -   Calories: 2.3
+2025-01-30 19:12:13.330 - INFO -   Protein: 0.2g
+2025-01-30 19:12:13.330 - INFO -   Fat: 0.1g
+2025-01-30 19:12:13.330 - INFO -   Carbs: 0.4g
+2025-01-30 19:12:13.330 - INFO - 
+lime juice:
+2025-01-30 19:12:13.330 - INFO -   Calories: 3.7
+2025-01-30 19:12:13.330 - INFO -   Protein: 0.1g
+2025-01-30 19:12:13.330 - INFO -   Fat: 0.0g
+2025-01-30 19:12:13.330 - INFO -   Carbs: 1.2g
+2025-01-30 19:12:13.330 - INFO - 
+ground beef:
+2025-01-30 19:12:13.330 - INFO -   Calories: 522.0
+2025-01-30 19:12:13.330 - INFO -   Protein: 51.2g
+2025-01-30 19:12:13.330 - INFO -   Fat: 33.6g
+2025-01-30 19:12:13.330 - INFO -   Carbs: 0.0g
+2025-01-30 19:12:13.330 - INFO - 
+tomato paste:
+2025-01-30 19:12:13.330 - INFO -   Calories: 0.0
+2025-01-30 19:12:13.331 - INFO -   Protein: 0.6g
+2025-01-30 19:12:13.331 - INFO -   Fat: 0.1g
+2025-01-30 19:12:13.331 - INFO -   Carbs: 3.0g
+2025-01-30 19:12:13.331 - INFO - 
+water:
+2025-01-30 19:12:13.331 - INFO -   Calories: 0.0
+2025-01-30 19:12:13.331 - INFO -   Protein: 0.0g
+2025-01-30 19:12:13.331 - INFO -   Fat: 0.0g
+2025-01-30 19:12:13.331 - INFO -   Carbs: 0.0g
+2025-01-30 19:12:13.331 - INFO - 
+cheese:
+2025-01-30 19:12:13.331 - INFO -   Calories: 181.6
+2025-01-30 19:12:13.331 - INFO -   Protein: 9.5g
+2025-01-30 19:12:13.331 - INFO -   Fat: 13.7g
+2025-01-30 19:12:13.331 - INFO -   Carbs: 5.2g
+2025-01-30 19:12:13.331 - INFO - 
+guacamole:
+2025-01-30 19:12:13.331 - INFO -   Calories: 22.9
+2025-01-30 19:12:13.331 - INFO -   Protein: 0.3g
+2025-01-30 19:12:13.331 - INFO -   Fat: 2.1g
+2025-01-30 19:12:13.331 - INFO -   Carbs: 1.2g
+2025-01-30 19:12:13.331 - INFO - 
+sour cream:
+2025-01-30 19:12:13.331 - INFO -   Calories: 10.3
+2025-01-30 19:12:13.331 - INFO -   Protein: 0.1g
+2025-01-30 19:12:13.331 - INFO -   Fat: 1.0g
+2025-01-30 19:12:13.331 - INFO -   Carbs: 0.3g
+2025-01-30 19:12:13.331 - INFO - 
+Raw response model:
+2025-01-30 19:12:13.335 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "yukon gold potatoes",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 2.2,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 16.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 5.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.4,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 445.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "olive oil",
+        "amount": 0.3,
+        "unit": "ml"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "calories": 2.7,
+        "total_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cajun seasoning",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 22.9,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 65.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 8.9,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cumin",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 18.5,
+        "total_fat": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 8.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 45.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 88.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chipotle powder",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 9.6,
+        "total_fat": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 1.2,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 29.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tomato",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 50.0,
+          "unit": "g"
+        },
+        "calories": 10.0,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 2.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 5.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 113.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "red onion",
+        "amount": 0.5,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 55.0,
+          "unit": "g"
+        },
+        "calories": 24.2,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 5.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 9.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 108.3,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cilantro",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 10.0,
+          "unit": "g"
+        },
+        "calories": 2.3,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 52.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "lime juice",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 3.7,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.1,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 17.3,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "ground beef",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 522.0,
+        "total_fat": {
+          "amount": 33.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 12.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 174.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 762.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 51.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 48.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 4.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 604.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tomato paste",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 9.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 5.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 143.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "water",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 118.294,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.5,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cheese",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 59.147,
+          "unit": "g"
+        },
+        "calories": 181.6,
+        "total_fat": {
+          "amount": 13.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 7.6,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 46.1,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 757.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 5.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 3.7,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 3.8,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 816.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 174.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "guacamole",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 22.9,
+        "total_fat": {
+          "amount": 2.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 50.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 69.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sour cream",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 10.3,
+        "total_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 5.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 7.9,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 656.8170799999999,
+      "unit": "g"
+    },
+    "calories": 830.7,
+    "total_fat": {
+      "amount": 54.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 22.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 222.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1702.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 41.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 5.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 6.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 66.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 4.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 958.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 10.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1839.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-30 19:40:08.144 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:40:08.609 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:40:11.396 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:40:11.559 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:40:36.493 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:40:36.643 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:40:39.388 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:40:39.526 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:41:12.109 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:41:12.264 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:41:43.924 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:41:44.088 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:41:59.497 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:41:59.635 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:42:30.932 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:42:31.085 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:47:13.591 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:47:13.827 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:49:27.096 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:49:27.255 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:49:46.378 - INFO - Deleted recipe ghrNqrSDGvo for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:49:46.379 - INFO - Deleting recipe ghrNqrSDGvo for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:49:46.531 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:49:46.677 - INFO - Retrieved 6 recipes from Firebase
+2025-01-30 19:49:49.571 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:49:49.714 - INFO - Retrieved 6 recipes from Firebase
+2025-01-30 19:50:17.625 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-30 19:50:18.862 - INFO - Processing video URL: https://www.youtube.com/watch?v=ghrNqrSDGvo&ab_channel=OneStopChop
+2025-01-30 19:50:18.864 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-30 19:50:18.866 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=ghrNqrSDGvo&ab_channel=OneStopChop
+2025-01-30 19:50:18.867 - INFO - Checking if video ghrNqrSDGvo exists in Firebase
+2025-01-30 19:50:18.965 - INFO - Document exists: ghrNqrSDGvo
+2025-01-30 19:50:18.965 - INFO - Video ghrNqrSDGvo already processed, returning cached data.
+2025-01-30 19:50:30.517 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:50:30.666 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:51:01.756 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:51:01.906 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:51:31.406 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:51:31.587 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:51:36.593 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:51:36.731 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:54:07.773 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:54:08.083 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:54:23.868 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:54:24.003 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:57:17.873 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:57:18.033 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:57:18.040 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:57:18.216 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:58:56.879 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:58:57.039 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:58:57.049 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:58:57.215 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:59:27.827 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:59:27.987 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:59:27.998 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:59:28.129 - INFO - Retrieved 7 recipes from Firebase
+2025-01-30 19:59:43.865 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-30 19:59:44.014 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:14:06.886 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:14:07.483 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:14:25.304 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:14:25.540 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:16:55.487 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:16:55.745 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:29:20.830 - INFO - Calculating nutrition facts for 24 ingredients
+2025-01-31 07:29:51.251 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 07:29:51.252 - INFO - Total calories: 2341.1
+2025-01-31 07:29:51.252 - INFO - Total protein: 158.0g
+2025-01-31 07:29:51.252 - INFO - Total fat: 148.0g
+2025-01-31 07:29:51.252 - INFO - Total carbs: 358.0g
+2025-01-31 07:29:51.252 - INFO - 
+Per ingredient breakdown:
+2025-01-31 07:29:51.252 - INFO - 
+boneless skinless chicken thighs:
+2025-01-31 07:29:51.253 - INFO -   Calories: 0.0
+2025-01-31 07:29:51.253 - INFO -   Protein: 84.4g
+2025-01-31 07:29:51.253 - INFO -   Fat: 35.9g
+2025-01-31 07:29:51.253 - INFO -   Carbs: 0.0g
+2025-01-31 07:29:51.253 - INFO - 
+garlic clove:
+2025-01-31 07:29:51.253 - INFO -   Calories: 274.0
+2025-01-31 07:29:51.253 - INFO -   Protein: 6.0g
+2025-01-31 07:29:51.253 - INFO -   Fat: 13.0g
+2025-01-31 07:29:51.253 - INFO -   Carbs: 65.5g
+2025-01-31 07:29:51.253 - INFO - 
+ground coriander:
+2025-01-31 07:29:51.253 - INFO -   Calories: 14.7
+2025-01-31 07:29:51.253 - INFO -   Protein: 0.6g
+2025-01-31 07:29:51.253 - INFO -   Fat: 0.9g
+2025-01-31 07:29:51.253 - INFO -   Carbs: 2.7g
+2025-01-31 07:29:51.253 - INFO - 
+smoked paprika:
+2025-01-31 07:29:51.253 - INFO -   Calories: 13.9
+2025-01-31 07:29:51.253 - INFO -   Protein: 0.7g
+2025-01-31 07:29:51.253 - INFO -   Fat: 0.6g
+2025-01-31 07:29:51.253 - INFO -   Carbs: 2.7g
+2025-01-31 07:29:51.253 - INFO - 
+tandoori masala:
+2025-01-31 07:29:51.253 - INFO -   Calories: 8.4
+2025-01-31 07:29:51.253 - INFO -   Protein: 0.5g
+2025-01-31 07:29:51.253 - INFO -   Fat: 0.1g
+2025-01-31 07:29:51.253 - INFO -   Carbs: 1.6g
+2025-01-31 07:29:51.253 - INFO - 
+cumin:
+2025-01-31 07:29:51.253 - INFO -   Calories: 18.5
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.9g
+2025-01-31 07:29:51.254 - INFO -   Fat: 1.1g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 2.2g
+2025-01-31 07:29:51.254 - INFO - 
+seven spice blend:
+2025-01-31 07:29:51.254 - INFO -   Calories: 4.3
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.0g
+2025-01-31 07:29:51.254 - INFO -   Fat: 0.0g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 0.4g
+2025-01-31 07:29:51.254 - INFO - 
+black pepper:
+2025-01-31 07:29:51.254 - INFO -   Calories: 12.4
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.5g
+2025-01-31 07:29:51.254 - INFO -   Fat: 0.2g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 3.2g
+2025-01-31 07:29:51.254 - INFO - 
+white pepper:
+2025-01-31 07:29:51.254 - INFO -   Calories: 43.8
+2025-01-31 07:29:51.254 - INFO -   Protein: 1.5g
+2025-01-31 07:29:51.254 - INFO -   Fat: 0.3g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 10.1g
+2025-01-31 07:29:51.254 - INFO - 
+salt:
+2025-01-31 07:29:51.254 - INFO -   Calories: 73.6
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.9g
+2025-01-31 07:29:51.254 - INFO -   Fat: 7.2g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 1.2g
+2025-01-31 07:29:51.254 - INFO - 
+lemon juice:
+2025-01-31 07:29:51.254 - INFO -   Calories: 2.2
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.0g
+2025-01-31 07:29:51.254 - INFO -   Fat: 0.0g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 0.7g
+2025-01-31 07:29:51.254 - INFO - 
+olive oil:
+2025-01-31 07:29:51.254 - INFO -   Calories: 133.1
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.0g
+2025-01-31 07:29:51.254 - INFO -   Fat: 14.8g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 0.0g
+2025-01-31 07:29:51.254 - INFO - 
+plain yogurt:
+2025-01-31 07:29:51.254 - INFO -   Calories: 0.0
+2025-01-31 07:29:51.254 - INFO -   Protein: 3.3g
+2025-01-31 07:29:51.254 - INFO -   Fat: 0.1g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 6.3g
+2025-01-31 07:29:51.254 - INFO - 
+mayonnaise:
+2025-01-31 07:29:51.254 - INFO -   Calories: 100.6
+2025-01-31 07:29:51.254 - INFO -   Protein: 0.1g
+2025-01-31 07:29:51.254 - INFO -   Fat: 11.1g
+2025-01-31 07:29:51.254 - INFO -   Carbs: 0.1g
+2025-01-31 07:29:51.255 - INFO - 
+minced garlic:
+2025-01-31 07:29:51.255 - INFO -   Calories: 101.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 0.2g
+2025-01-31 07:29:51.255 - INFO -   Fat: 10.9g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 0.4g
+2025-01-31 07:29:51.255 - INFO - 
+ghee:
+2025-01-31 07:29:51.255 - INFO -   Calories: 129.5
+2025-01-31 07:29:51.255 - INFO -   Protein: 0.0g
+2025-01-31 07:29:51.255 - INFO -   Fat: 14.7g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 0.0g
+2025-01-31 07:29:51.255 - INFO - 
+chicken bouillon:
+2025-01-31 07:29:51.255 - INFO -   Calories: 267.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 16.7g
+2025-01-31 07:29:51.255 - INFO -   Fat: 13.9g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 18.0g
+2025-01-31 07:29:51.255 - INFO - 
+cardamom pods:
+2025-01-31 07:29:51.255 - INFO -   Calories: 933.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 32.3g
+2025-01-31 07:29:51.255 - INFO -   Fat: 20.1g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 205.4g
+2025-01-31 07:29:51.255 - INFO - 
+basmati rice:
+2025-01-31 07:29:51.255 - INFO -   Calories: 87.4
+2025-01-31 07:29:51.255 - INFO -   Protein: 4.0g
+2025-01-31 07:29:51.255 - INFO -   Fat: 1.8g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 13.4g
+2025-01-31 07:29:51.255 - INFO - 
+lettuce:
+2025-01-31 07:29:51.255 - INFO -   Calories: 20.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 0.9g
+2025-01-31 07:29:51.255 - INFO -   Fat: 0.1g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 3.7g
+2025-01-31 07:29:51.255 - INFO - 
+tomato:
+2025-01-31 07:29:51.255 - INFO -   Calories: 20.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 0.8g
+2025-01-31 07:29:51.255 - INFO -   Fat: 0.3g
+2025-01-31 07:29:51.255 - INFO -   Carbs: 4.0g
+2025-01-31 07:29:51.255 - INFO - 
+cucumber:
+2025-01-31 07:29:51.255 - INFO -   Calories: 34.0
+2025-01-31 07:29:51.255 - INFO -   Protein: 0.5g
+2025-01-31 07:29:51.255 - INFO -   Fat: 0.1g
+2025-01-31 07:29:51.256 - INFO -   Carbs: 6.8g
+2025-01-31 07:29:51.256 - INFO - 
+hot sauce:
+2025-01-31 07:29:51.256 - INFO -   Calories: 13.8
+2025-01-31 07:29:51.256 - INFO -   Protein: 0.3g
+2025-01-31 07:29:51.256 - INFO -   Fat: 0.1g
+2025-01-31 07:29:51.256 - INFO -   Carbs: 2.8g
+2025-01-31 07:29:51.256 - INFO - 
+parsley:
+2025-01-31 07:29:51.256 - INFO -   Calories: 36.0
+2025-01-31 07:29:51.256 - INFO -   Protein: 3.0g
+2025-01-31 07:29:51.256 - INFO -   Fat: 0.8g
+2025-01-31 07:29:51.256 - INFO -   Carbs: 6.3g
+2025-01-31 07:29:51.256 - INFO - 
+Raw response model:
+2025-01-31 07:29:51.259 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "boneless skinless chicken thighs",
+        "amount": 1.0,
+        "unit": "lb"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 453.592,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 35.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 7.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 415.8,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 282.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 84.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 25.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 2.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 1232.9,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "garlic clove",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 274.0,
+        "total_fat": {
+          "amount": 13.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 4.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 277.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 65.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 33.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 6.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 632.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 11.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 1020.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "ground coriander",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 14.7,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.1,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 34.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 62.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "smoked paprika",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 13.9,
+        "total_fat": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 3.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 11.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 112.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tandoori masala",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 8.4,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 13.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.6,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.3,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cumin",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 18.5,
+        "total_fat": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 8.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 45.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 88.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "seven spice blend",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 4.3,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "black pepper",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 12.4,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 21.8,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 65.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "white pepper",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 43.8,
+        "total_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 10.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 3.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 39.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 2.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 10.8,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "salt",
+        "amount": 2.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 9.85784,
+          "unit": "g"
+        },
+        "calories": 73.6,
+        "total_fat": {
+          "amount": 7.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 37.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 5.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 34.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "lemon juice",
+        "amount": 2.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 9.85784,
+          "unit": "g"
+        },
+        "calories": 2.2,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 10.2,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "olive oil",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 133.1,
+        "total_fat": {
+          "amount": 14.8,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.1,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "plain yogurt",
+        "amount": 0.33,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 78.07404,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 2.6,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 40.2,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 6.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 3.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.2,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 130.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 164.3,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mayonnaise",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 100.6,
+        "total_fat": {
+          "amount": 11.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 6.2,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 93.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "minced garlic",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 101.0,
+        "total_fat": {
+          "amount": 10.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 6.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 31.3,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 69.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.1,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 5.5,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 9.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "ghee",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 129.5,
+        "total_fat": {
+          "amount": 14.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 9.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 37.9,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.6,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chicken bouillon",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 267.0,
+        "total_fat": {
+          "amount": 13.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 3.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 13.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 23875.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 18.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 17.4,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 16.7,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 187.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 309.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cardamom pods",
+        "amount": 3.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 300.0,
+          "unit": "g"
+        },
+        "calories": 933.0,
+        "total_fat": {
+          "amount": 20.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 54.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 205.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 84.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 32.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 1149.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 41.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 3357.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "basmati rice",
+        "amount": 0.33,
+        "unit": "cup"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 78.07404,
+          "unit": "g"
+        },
+        "calories": 87.4,
+        "total_fat": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 41.4,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 246.7,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 13.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.7,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 4.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 11.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.4,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 66.4,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "lettuce",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 20.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 23.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 3.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 31.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 249.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "tomato",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 20.0,
+        "total_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 4.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 4.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 10.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 226.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cucumber",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 34.0,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 236.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 6.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 5.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 14.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 137.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "hot sauce",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 13.8,
+        "total_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 314.1,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 47.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "parsley",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 36.0,
+        "total_fat": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 56.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 6.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 3.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 3.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 138.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 6.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 554.0,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 1657.6079599999996,
+      "unit": "g"
+    },
+    "calories": 2341.1,
+    "total_fat": {
+      "amount": 148.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 38.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 548.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 25640.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 358.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 135.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 35.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 158.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 2501.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 74.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 7759.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 07:34:39.897 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:34:40.564 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:40:09.756 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:40:10.067 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:47:07.032 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:47:07.258 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:50:48.636 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:50:48.788 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:54:08.026 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:54:08.166 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 07:58:37.931 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 07:58:38.083 - INFO - Processing video URL: https://youtube.com/shorts/2CkxEQmq4DE?si=RXGIOYGu-ea_ArE0
+2025-01-31 07:58:38.094 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 07:58:38.100 - INFO - Starting to process video URL: https://youtube.com/shorts/2CkxEQmq4DE?si=RXGIOYGu-ea_ArE0
+2025-01-31 07:58:38.101 - INFO - Checking if video 2CkxEQmq4DE exists in Firebase
+2025-01-31 07:58:38.305 - INFO - Video 2CkxEQmq4DE not found in cache, processing...
+2025-01-31 07:58:38.664 - INFO - Successfully retrieved video info - Title: Foolproof Pancakes | Jamie Oliver #shorts, Duration: 46
+2025-01-31 07:58:38.664 - INFO - Fetched video info: Title='Foolproof Pancakes | Jamie Oliver #shorts', Duration=46
+2025-01-31 07:58:39.872 - INFO - Found credentials in environment variables.
+2025-01-31 07:58:44.734 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-31 07:58:44.750 - INFO - Successfully classified video content
+2025-01-31 07:58:52.683 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 07:58:52.845 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 07:59:53.558 - INFO - Calculating nutrition facts for 4 ingredients
+2025-01-31 07:59:58.636 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 07:59:58.636 - INFO - Total calories: 432.1
+2025-01-31 07:59:58.636 - INFO - Total protein: 21.0g
+2025-01-31 07:59:58.636 - INFO - Total fat: 5.0g
+2025-01-31 07:59:58.636 - INFO - Total carbs: 75.0g
+2025-01-31 07:59:58.637 - INFO - 
+Per ingredient breakdown:
+2025-01-31 07:59:58.637 - INFO - 
+mug of milk:
+2025-01-31 07:59:58.638 - INFO -   Calories: 0.0
+2025-01-31 07:59:58.638 - INFO -   Protein: 0.0g
+2025-01-31 07:59:58.638 - INFO -   Fat: 0.0g
+2025-01-31 07:59:58.638 - INFO -   Carbs: 0.0g
+2025-01-31 07:59:58.638 - INFO - 
+mug of self-raising flour:
+2025-01-31 07:59:58.638 - INFO -   Calories: 354.0
+2025-01-31 07:59:58.638 - INFO -   Protein: 9.9g
+2025-01-31 07:59:58.638 - INFO -   Fat: 1.0g
+2025-01-31 07:59:58.638 - INFO -   Carbs: 74.2g
+2025-01-31 07:59:58.639 - INFO - 
+free range egg:
+2025-01-31 07:59:58.639 - INFO -   Calories: 48.5
+2025-01-31 07:59:58.639 - INFO -   Protein: 10.1g
+2025-01-31 07:59:58.639 - INFO -   Fat: 0.9g
+2025-01-31 07:59:58.639 - INFO -   Carbs: 0.0g
+2025-01-31 07:59:58.639 - INFO - 
+sea salt:
+2025-01-31 07:59:58.639 - INFO -   Calories: 29.6
+2025-01-31 07:59:58.639 - INFO -   Protein: 1.0g
+2025-01-31 07:59:58.639 - INFO -   Fat: 2.6g
+2025-01-31 07:59:58.639 - INFO -   Carbs: 1.0g
+2025-01-31 07:59:58.639 - INFO - 
+Raw response model:
+2025-01-31 07:59:58.642 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "mug of milk",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mug of self-raising flour",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 354.0,
+        "total_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1193.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 74.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 338.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 124.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "free range egg",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 50.0,
+          "unit": "g"
+        },
+        "calories": 48.5,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 24.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 10.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 164.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sea salt",
+        "amount": 1.0,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 4.92892,
+          "unit": "g"
+        },
+        "calories": 29.6,
+        "total_fat": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 19.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 12.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.2,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 33.8,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 254.92892,
+      "unit": "g"
+    },
+    "calories": 432.1,
+    "total_fat": {
+      "amount": 5.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 1.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1237.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 75.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 21.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 353.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 8.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 322.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 08:00:50.816 - INFO - Deleted recipe 2CkxEQmq4DE for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:00:50.817 - INFO - Deleting recipe 2CkxEQmq4DE for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:00:50.987 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:00:51.224 - INFO - Retrieved 7 recipes from Firebase
+2025-01-31 08:00:54.339 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 08:00:54.424 - INFO - Processing video URL: https://youtube.com/shorts/2CkxEQmq4DE?si=RXGIOYGu-ea_ArE0
+2025-01-31 08:00:54.426 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 08:00:54.429 - INFO - Starting to process video URL: https://youtube.com/shorts/2CkxEQmq4DE?si=RXGIOYGu-ea_ArE0
+2025-01-31 08:00:54.429 - INFO - Checking if video 2CkxEQmq4DE exists in Firebase
+2025-01-31 08:00:54.529 - INFO - Document exists: 2CkxEQmq4DE
+2025-01-31 08:00:54.529 - INFO - Video 2CkxEQmq4DE already processed, returning cached data.
+2025-01-31 08:00:56.516 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:00:56.663 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:02:17.366 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:02:17.526 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:02:17.530 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:02:17.676 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:02:33.670 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:02:33.808 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:02:38.724 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:02:38.886 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:03:19.183 - INFO - Calculating nutrition facts for 4 ingredients
+2025-01-31 08:03:24.141 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 08:03:24.142 - INFO - Total calories: 417.3
+2025-01-31 08:03:24.142 - INFO - Total protein: 20.0g
+2025-01-31 08:03:24.142 - INFO - Total fat: 3.0g
+2025-01-31 08:03:24.142 - INFO - Total carbs: 75.0g
+2025-01-31 08:03:24.142 - INFO - 
+Per ingredient breakdown:
+2025-01-31 08:03:24.142 - INFO - 
+mug of milk:
+2025-01-31 08:03:24.142 - INFO -   Calories: 0.0
+2025-01-31 08:03:24.142 - INFO -   Protein: 0.0g
+2025-01-31 08:03:24.142 - INFO -   Fat: 0.0g
+2025-01-31 08:03:24.142 - INFO -   Carbs: 0.0g
+2025-01-31 08:03:24.142 - INFO - 
+mug of self-raising flour:
+2025-01-31 08:03:24.142 - INFO -   Calories: 354.0
+2025-01-31 08:03:24.142 - INFO -   Protein: 9.9g
+2025-01-31 08:03:24.142 - INFO -   Fat: 1.0g
+2025-01-31 08:03:24.143 - INFO -   Carbs: 74.2g
+2025-01-31 08:03:24.143 - INFO - 
+free range egg:
+2025-01-31 08:03:24.143 - INFO -   Calories: 48.5
+2025-01-31 08:03:24.143 - INFO -   Protein: 10.1g
+2025-01-31 08:03:24.143 - INFO -   Fat: 0.9g
+2025-01-31 08:03:24.143 - INFO -   Carbs: 0.0g
+2025-01-31 08:03:24.143 - INFO - 
+sea salt:
+2025-01-31 08:03:24.143 - INFO -   Calories: 14.8
+2025-01-31 08:03:24.143 - INFO -   Protein: 0.5g
+2025-01-31 08:03:24.143 - INFO -   Fat: 1.3g
+2025-01-31 08:03:24.143 - INFO -   Carbs: 0.5g
+2025-01-31 08:03:24.143 - INFO - 
+Raw response model:
+2025-01-31 08:03:24.145 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "mug of milk",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mug of self-raising flour",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 354.0,
+        "total_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1193.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 74.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 338.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 124.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "free range egg",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 50.0,
+          "unit": "g"
+        },
+        "calories": 48.5,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 24.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 10.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 164.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sea salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 2.46446,
+          "unit": "g"
+        },
+        "calories": 14.8,
+        "total_fat": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 9.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 16.9,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 252.46446,
+      "unit": "g"
+    },
+    "calories": 417.3,
+    "total_fat": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 1.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1227.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 75.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 20.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 346.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 8.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 305.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 08:03:27.365 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:03:27.521 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:03:28.649 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:03:28.785 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:03:48.004 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:03:48.162 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:04:11.285 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:04:11.491 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:04:29.408 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:04:29.548 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:04:50.767 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 08:04:50.859 - INFO - Processing video URL: https://www.youtube.com/shorts/yW4MHPiKot4
+2025-01-31 08:04:50.861 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 08:04:50.863 - INFO - Starting to process video URL: https://www.youtube.com/shorts/yW4MHPiKot4
+2025-01-31 08:04:50.863 - INFO - Checking if video yW4MHPiKot4 exists in Firebase
+2025-01-31 08:04:50.959 - INFO - Video yW4MHPiKot4 not found in cache, processing...
+2025-01-31 08:04:51.141 - INFO - Successfully retrieved video info - Title: Stickin' Chicken Wings | Jamie Oliver #shorts, Duration: 60
+2025-01-31 08:04:51.141 - INFO - Fetched video info: Title='Stickin' Chicken Wings | Jamie Oliver #shorts', Duration=60
+2025-01-31 08:04:56.544 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-31 08:04:56.551 - INFO - Successfully classified video content
+2025-01-31 08:05:13.253 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:05:13.398 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:05:25.781 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 08:05:25.917 - INFO - Processing video URL: https://www.youtube.com/shorts/yW4MHPiKot4
+2025-01-31 08:05:25.919 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 08:05:25.928 - INFO - Starting to process video URL: https://www.youtube.com/shorts/yW4MHPiKot4
+2025-01-31 08:05:25.928 - INFO - Checking if video yW4MHPiKot4 exists in Firebase
+2025-01-31 08:05:26.087 - INFO - Document exists: yW4MHPiKot4
+2025-01-31 08:05:26.088 - INFO - Video yW4MHPiKot4 already processed, returning cached data.
+2025-01-31 08:05:29.186 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:05:29.318 - INFO - Retrieved 8 recipes from Firebase
+2025-01-31 08:05:29.770 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:05:29.907 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:05:44.389 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:05:44.541 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:08:19.491 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:08:19.654 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:08:26.656 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:08:26.801 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:08:45.012 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:08:45.192 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:49:49.084 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:49:49.525 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:49:54.701 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 08:49:55.805 - INFO - Processing video URL: https://www.youtube.com/watch?v=KETPZPm6148&ab_channel=JamieOliver
+2025-01-31 08:49:55.807 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 08:49:55.809 - INFO - Starting to process video URL: https://www.youtube.com/watch?v=KETPZPm6148&ab_channel=JamieOliver
+2025-01-31 08:49:55.809 - INFO - Checking if video KETPZPm6148 exists in Firebase
+2025-01-31 08:49:55.895 - INFO - Video KETPZPm6148 not found in cache, processing...
+2025-01-31 08:49:56.100 - INFO - Successfully retrieved video info - Title: How to make Chocolate Brownies | Jamie Oliver, Duration: 308
+2025-01-31 08:49:56.101 - INFO - Fetched video info: Title='How to make Chocolate Brownies | Jamie Oliver', Duration=308
+2025-01-31 08:49:56.871 - INFO - Found credentials in environment variables.
+2025-01-31 08:50:01.446 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-31 08:50:01.502 - INFO - Successfully classified video content
+2025-01-31 08:50:10.940 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:50:11.085 - INFO - Retrieved 9 recipes from Firebase
+2025-01-31 08:50:11.530 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:50:11.702 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:50:21.500 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:50:21.684 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:50:31.844 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:50:31.988 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:51:30.864 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 08:51:38.587 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 08:51:38.588 - INFO - Total calories: 4863.6
+2025-01-31 08:51:38.588 - INFO - Total protein: 77.0g
+2025-01-31 08:51:38.588 - INFO - Total fat: 365.0g
+2025-01-31 08:51:38.588 - INFO - Total carbs: 354.0g
+2025-01-31 08:51:38.588 - INFO - 
+Per ingredient breakdown:
+2025-01-31 08:51:38.588 - INFO - 
+70% cocoa solid chocolate:
+2025-01-31 08:51:38.588 - INFO -   Calories: 1495.0
+2025-01-31 08:51:38.588 - INFO -   Protein: 19.5g
+2025-01-31 08:51:38.589 - INFO -   Fat: 106.6g
+2025-01-31 08:51:38.589 - INFO -   Carbs: 114.8g
+2025-01-31 08:51:38.589 - INFO - 
+butter:
+2025-01-31 08:51:38.589 - INFO -   Calories: 2250.0
+2025-01-31 08:51:38.589 - INFO -   Protein: 0.0g
+2025-01-31 08:51:38.589 - INFO -   Fat: 250.0g
+2025-01-31 08:51:38.589 - INFO -   Carbs: 0.0g
+2025-01-31 08:51:38.589 - INFO - 
+free-range, organic eggs:
+2025-01-31 08:51:38.589 - INFO -   Calories: 194.0
+2025-01-31 08:51:38.589 - INFO -   Protein: 40.3g
+2025-01-31 08:51:38.589 - INFO -   Fat: 3.6g
+2025-01-31 08:51:38.589 - INFO -   Carbs: 0.0g
+2025-01-31 08:51:38.589 - INFO - 
+golden caster sugar:
+2025-01-31 08:51:38.590 - INFO -   Calories: 752.5
+2025-01-31 08:51:38.590 - INFO -   Protein: 8.2g
+2025-01-31 08:51:38.590 - INFO -   Fat: 0.5g
+2025-01-31 08:51:38.590 - INFO -   Carbs: 200.1g
+2025-01-31 08:51:38.590 - INFO - 
+self-raising flour:
+2025-01-31 08:51:38.590 - INFO -   Calories: 104.7
+2025-01-31 08:51:38.590 - INFO -   Protein: 2.9g
+2025-01-31 08:51:38.590 - INFO -   Fat: 0.3g
+2025-01-31 08:51:38.590 - INFO -   Carbs: 21.9g
+2025-01-31 08:51:38.590 - INFO - 
+cocoa powder:
+2025-01-31 08:51:38.590 - INFO -   Calories: 67.4
+2025-01-31 08:51:38.590 - INFO -   Protein: 5.8g
+2025-01-31 08:51:38.590 - INFO -   Fat: 4.1g
+2025-01-31 08:51:38.590 - INFO -   Carbs: 17.1g
+2025-01-31 08:51:38.590 - INFO - 
+Raw response model:
+2025-01-31 08:51:38.592 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "70% cocoa solid chocolate",
+        "amount": 250.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 250.0,
+          "unit": "g"
+        },
+        "calories": 1495.0,
+        "total_fat": {
+          "amount": 106.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 61.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 7.5,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 50.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 114.8,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 27.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 60.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 19.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 182.5,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 29.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 1787.5,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "butter",
+        "amount": 250.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 250.0,
+          "unit": "g"
+        },
+        "calories": 2250.0,
+        "total_fat": {
+          "amount": 250.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 150.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 750.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "free-range, organic eggs",
+        "amount": 4.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 194.0,
+        "total_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 98.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 40.3,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 8.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 14.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 656.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "golden caster sugar",
+        "amount": 250.0,
+        "unit": "g"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 250.0,
+          "unit": "g"
+        },
+        "calories": 752.5,
+        "total_fat": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 60.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 200.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 8.2,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 164.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 8.2,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 160.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 2.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 1865.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "self-raising flour",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 104.7,
+        "total_fat": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 352.8,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 21.9,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.8,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 100.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.4,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 36.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "cocoa powder",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 29.5736,
+          "unit": "g"
+        },
+        "calories": 67.4,
+        "total_fat": {
+          "amount": 4.1,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 2.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.2,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 17.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 10.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 5.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 37.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 4.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 449.5,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 1009.1471999999999,
+      "unit": "g"
+    },
+    "calories": 4863.6,
+    "total_fat": {
+      "amount": 365.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 215.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 758.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 567.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 354.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 47.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 225.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 77.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 488.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 52.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 4795.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 08:52:25.685 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:52:25.890 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:52:45.519 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:52:45.681 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:29.056 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:29.301 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:29.309 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:29.461 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:46.543 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:46.689 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:48.744 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:49.045 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:53.260 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:53.421 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:53:57.495 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:53:57.642 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:54:18.260 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:54:18.413 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:54:22.792 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:54:22.945 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 08:55:59.854 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 08:56:00.040 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 10:40:22.402 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:40:23.032 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 10:50:10.438 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:50:10.736 - INFO - Retrieved 10 recipes from Firebase
+2025-01-31 10:52:59.165 - INFO - Calculating nutrition facts for 4 ingredients
+2025-01-31 10:53:04.354 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 10:53:04.355 - INFO - Total calories: 417.3
+2025-01-31 10:53:04.355 - INFO - Total protein: 20.0g
+2025-01-31 10:53:04.355 - INFO - Total fat: 3.0g
+2025-01-31 10:53:04.355 - INFO - Total carbs: 75.0g
+2025-01-31 10:53:04.355 - INFO - 
+Per ingredient breakdown:
+2025-01-31 10:53:04.355 - INFO - 
+mug of milk:
+2025-01-31 10:53:04.355 - INFO -   Calories: 0.0
+2025-01-31 10:53:04.355 - INFO -   Protein: 0.0g
+2025-01-31 10:53:04.355 - INFO -   Fat: 0.0g
+2025-01-31 10:53:04.355 - INFO -   Carbs: 0.0g
+2025-01-31 10:53:04.355 - INFO - 
+mug of self-raising flour:
+2025-01-31 10:53:04.355 - INFO -   Calories: 354.0
+2025-01-31 10:53:04.355 - INFO -   Protein: 9.9g
+2025-01-31 10:53:04.355 - INFO -   Fat: 1.0g
+2025-01-31 10:53:04.355 - INFO -   Carbs: 74.2g
+2025-01-31 10:53:04.355 - INFO - 
+free range egg:
+2025-01-31 10:53:04.355 - INFO -   Calories: 48.5
+2025-01-31 10:53:04.355 - INFO -   Protein: 10.1g
+2025-01-31 10:53:04.355 - INFO -   Fat: 0.9g
+2025-01-31 10:53:04.355 - INFO -   Carbs: 0.0g
+2025-01-31 10:53:04.355 - INFO - 
+sea salt:
+2025-01-31 10:53:04.355 - INFO -   Calories: 14.8
+2025-01-31 10:53:04.355 - INFO -   Protein: 0.5g
+2025-01-31 10:53:04.355 - INFO -   Fat: 1.3g
+2025-01-31 10:53:04.355 - INFO -   Carbs: 0.5g
+2025-01-31 10:53:04.355 - INFO - 
+Raw response model:
+2025-01-31 10:53:04.358 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "mug of milk",
+        "amount": 2.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 200.0,
+          "unit": "g"
+        },
+        "calories": 0.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 0.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "mug of self-raising flour",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 354.0,
+        "total_fat": {
+          "amount": 1.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1193.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 74.2,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 338.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 4.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 124.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "free range egg",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 50.0,
+          "unit": "g"
+        },
+        "calories": 48.5,
+        "total_fat": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.4,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 24.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 10.1,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 2.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 3.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 164.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sea salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 2.46446,
+          "unit": "g"
+        },
+        "calories": 14.8,
+        "total_fat": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 9.5,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 16.9,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 352.46446,
+      "unit": "g"
+    },
+    "calories": 417.3,
+    "total_fat": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 1.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 1227.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 75.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 3.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 20.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 346.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 8.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 305.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 10:56:49.970 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 10:56:50.099 - INFO - Processing video URL: https://www.youtube.com/shorts/hwjaSZeNiRA
+2025-01-31 10:56:50.105 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 10:56:50.108 - INFO - Starting to process video URL: https://www.youtube.com/shorts/hwjaSZeNiRA
+2025-01-31 10:56:50.109 - INFO - Checking if video hwjaSZeNiRA exists in Firebase
+2025-01-31 10:56:50.295 - INFO - Video hwjaSZeNiRA not found in cache, processing...
+2025-01-31 10:56:50.473 - INFO - Successfully retrieved video info - Title: I ate this almost daily when I was in Uni, Duration: 42
+2025-01-31 10:56:50.474 - INFO - Fetched video info: Title='I ate this almost daily when I was in Uni', Duration=42
+2025-01-31 10:56:56.525 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-31 10:56:56.531 - INFO - Successfully classified video content
+2025-01-31 10:57:34.138 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:57:34.339 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 10:59:02.632 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:59:02.800 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 10:59:03.274 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:59:03.450 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 10:59:22.884 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:59:23.061 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 10:59:29.942 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 10:59:30.118 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 11:00:10.973 - INFO - Using cookie file: youtube.com_cookies.txt
+2025-01-31 11:00:11.088 - INFO - Processing video URL: https://www.youtube.com/shorts/o5jidy7ne8I
+2025-01-31 11:00:11.090 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-31 11:00:11.094 - INFO - Starting to process video URL: https://www.youtube.com/shorts/o5jidy7ne8I
+2025-01-31 11:00:11.094 - INFO - Checking if video o5jidy7ne8I exists in Firebase
+2025-01-31 11:00:11.184 - INFO - Video o5jidy7ne8I not found in cache, processing...
+2025-01-31 11:00:11.386 - INFO - Successfully retrieved video info - Title: How To Make Pizza Sauce #shorts #pizza, Duration: 36
+2025-01-31 11:00:11.386 - INFO - Fetched video info: Title='How To Make Pizza Sauce #shorts #pizza', Duration=36
+2025-01-31 11:00:16.420 - INFO - HTTP Request: POST https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-haiku-20240307-v1:0/invoke "HTTP/1.1 200 OK"
+2025-01-31 11:00:16.432 - INFO - Successfully classified video content
+2025-01-31 11:01:03.236 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 11:01:03.459 - INFO - Retrieved 11 recipes from Firebase
+2025-01-31 11:01:03.832 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 11:01:04.000 - INFO - Retrieved 12 recipes from Firebase
+2025-01-31 23:03:36.509 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-01-31 23:03:37.052 - INFO - Retrieved 12 recipes from Firebase
+2025-01-31 23:18:53.039 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:19:00.605 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 23:19:00.606 - INFO - Total calories: 1390.8
+2025-01-31 23:19:00.606 - INFO - Total protein: 117.0g
+2025-01-31 23:19:00.606 - INFO - Total fat: 89.0g
+2025-01-31 23:19:00.606 - INFO - Total carbs: 27.0g
+2025-01-31 23:19:00.606 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:19:00.606 - INFO - 
+chicken wings:
+2025-01-31 23:19:00.606 - INFO -   Calories: 1120.4
+2025-01-31 23:19:00.606 - INFO -   Protein: 102.5g
+2025-01-31 23:19:00.606 - INFO -   Fat: 75.7g
+2025-01-31 23:19:00.606 - INFO -   Carbs: 0.0g
+2025-01-31 23:19:00.606 - INFO - 
+sesame seeds:
+2025-01-31 23:19:00.606 - INFO -   Calories: 93.3
+2025-01-31 23:19:00.606 - INFO -   Protein: 3.0g
+2025-01-31 23:19:00.606 - INFO -   Fat: 9.0g
+2025-01-31 23:19:00.606 - INFO -   Carbs: 1.7g
+2025-01-31 23:19:00.606 - INFO - 
+chilies:
+2025-01-31 23:19:00.606 - INFO -   Calories: 126.0
+2025-01-31 23:19:00.606 - INFO -   Protein: 9.0g
+2025-01-31 23:19:00.606 - INFO -   Fat: 3.6g
+2025-01-31 23:19:00.607 - INFO -   Carbs: 14.4g
+2025-01-31 23:19:00.607 - INFO - 
+teriyaki sauce:
+2025-01-31 23:19:00.607 - INFO -   Calories: 13.2
+2025-01-31 23:19:00.607 - INFO -   Protein: 0.9g
+2025-01-31 23:19:00.607 - INFO -   Fat: 0.0g
+2025-01-31 23:19:00.607 - INFO -   Carbs: 2.3g
+2025-01-31 23:19:00.607 - INFO - 
+spring onions:
+2025-01-31 23:19:00.607 - INFO -   Calories: 35.2
+2025-01-31 23:19:00.607 - INFO -   Protein: 2.0g
+2025-01-31 23:19:00.607 - INFO -   Fat: 0.2g
+2025-01-31 23:19:00.607 - INFO -   Carbs: 8.1g
+2025-01-31 23:19:00.607 - INFO - 
+red wine vinegar:
+2025-01-31 23:19:00.607 - INFO -   Calories: 2.8
+2025-01-31 23:19:00.607 - INFO -   Protein: 0.0g
+2025-01-31 23:19:00.607 - INFO -   Fat: 0.0g
+2025-01-31 23:19:00.607 - INFO -   Carbs: 0.0g
+2025-01-31 23:19:00.607 - INFO - 
+Raw response model:
+2025-01-31 23:19:00.609 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "chicken wings",
+        "amount": 1.0,
+        "unit": "lb"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 453.592,
+          "unit": "g"
+        },
+        "calories": 1120.4,
+        "total_fat": {
+          "amount": 75.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 21.2,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 313.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1696.4,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 102.5,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.5,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 54.4,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 5.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 626.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sesame seeds",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 93.3,
+        "total_fat": {
+          "amount": 9.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 6.9,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 1.7,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 3.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 8.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 54.7,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chilies",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 126.0,
+        "total_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 18.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 311.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 14.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.8,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 236.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "teriyaki sauce",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 13.2,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 566.3,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 2.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 3.7,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.3,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 33.3,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "spring onions",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 110.0,
+          "unit": "g"
+        },
+        "calories": 35.2,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 17.6,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 8.1,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.9,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 2.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 79.2,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.6,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 303.6,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "red wine vinegar",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 2.8,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 1.2,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 0.9,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 5.8,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 707.9523999999999,
+      "unit": "g"
+    },
+    "calories": 1390.8,
+    "total_fat": {
+      "amount": 89.0,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 24.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 331.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 2600.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 27.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 7.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 6.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 117.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 165.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 10.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 1259.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 23:22:47.681 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:22:49.003 - ERROR - Error calculating nutrition facts: name 'total_label' is not defined
+Traceback (most recent call last):
+  File "/Users/tareqmia/recipify-backend/api/routes.py", line 165, in get_nutrition_facts
+    nutrition_response = await nutrition_service.async_calculate_nutrition(request.ingredients)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tareqmia/recipify-backend/services/nutrition_service.py", line 467, in async_calculate_nutrition
+    total=total_label
+          ^^^^^^^^^^^
+NameError: name 'total_label' is not defined
+2025-01-31 23:26:25.035 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:26:29.848 - INFO - 
+=== NUTRITION ENDPOINT RESPONSE ===
+2025-01-31 23:26:29.849 - INFO - Total calories: 1144.0
+2025-01-31 23:26:29.849 - INFO - Total protein: 0.0g
+2025-01-31 23:26:29.849 - INFO - Total fat: 81.7g
+2025-01-31 23:26:29.849 - INFO - Total carbs: 0.0g
+2025-01-31 23:26:29.849 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:26:29.849 - INFO - 
+chicken wings:
+2025-01-31 23:26:29.850 - INFO -   Calories: 247.0
+2025-01-31 23:26:29.850 - INFO -   Protein: 22.6g
+2025-01-31 23:26:29.850 - INFO -   Fat: 16.7g
+2025-01-31 23:26:29.850 - INFO -   Carbs: 0.0g
+2025-01-31 23:26:29.850 - INFO - 
+sesame seeds:
+2025-01-31 23:26:29.850 - INFO -   Calories: 631.0
+2025-01-31 23:26:29.850 - INFO -   Protein: 20.4g
+2025-01-31 23:26:29.850 - INFO -   Fat: 61.2g
+2025-01-31 23:26:29.850 - INFO -   Carbs: 11.7g
+2025-01-31 23:26:29.850 - INFO - 
+chilies:
+2025-01-31 23:26:29.850 - INFO -   Calories: 126.0
+2025-01-31 23:26:29.850 - INFO -   Protein: 9.0g
+2025-01-31 23:26:29.850 - INFO -   Fat: 3.6g
+2025-01-31 23:26:29.850 - INFO -   Carbs: 14.4g
+2025-01-31 23:26:29.850 - INFO - 
+teriyaki sauce:
+2025-01-31 23:26:29.851 - INFO -   Calories: 89.0
+2025-01-31 23:26:29.851 - INFO -   Protein: 5.9g
+2025-01-31 23:26:29.851 - INFO -   Fat: 0.0g
+2025-01-31 23:26:29.851 - INFO -   Carbs: 15.6g
+2025-01-31 23:26:29.851 - INFO - 
+spring onions:
+2025-01-31 23:26:29.851 - INFO -   Calories: 32.0
+2025-01-31 23:26:29.851 - INFO -   Protein: 1.8g
+2025-01-31 23:26:29.851 - INFO -   Fat: 0.2g
+2025-01-31 23:26:29.851 - INFO -   Carbs: 7.3g
+2025-01-31 23:26:29.851 - INFO - 
+red wine vinegar:
+2025-01-31 23:26:29.851 - INFO -   Calories: 19.0
+2025-01-31 23:26:29.851 - INFO -   Protein: 0.0g
+2025-01-31 23:26:29.851 - INFO -   Fat: 0.0g
+2025-01-31 23:26:29.851 - INFO -   Carbs: 0.3g
+2025-01-31 23:26:29.851 - INFO - 
+Raw response model:
+2025-01-31 23:26:29.852 - INFO - {
+  "ingredients": [
+    {
+      "ingredient": {
+        "name": "chicken wings",
+        "amount": 1.5,
+        "unit": "lb"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 680.3879999999999,
+          "unit": "g"
+        },
+        "calories": 247.0,
+        "total_fat": {
+          "amount": 16.7,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 4.7,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 69.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 374.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 22.6,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.1,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 12.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.1,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 138.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "sesame seeds",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 631.0,
+        "total_fat": {
+          "amount": 61.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 9.1,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 47.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 11.7,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 11.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.5,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 20.4,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 60.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 6.4,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 370.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "chilies",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 126.0,
+        "total_fat": {
+          "amount": 3.6,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 18.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 311.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 14.4,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.8,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 1.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 9.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 18.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.8,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 236.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "teriyaki sauce",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 89.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 3830.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 15.6,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.1,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 14.1,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 5.9,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 25.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.7,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 225.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "spring onions",
+        "amount": 1.0,
+        "unit": ""
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 100.0,
+          "unit": "g"
+        },
+        "calories": 32.0,
+        "total_fat": {
+          "amount": 0.2,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 16.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 7.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 2.6,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 2.3,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 1.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 72.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 1.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 276.0,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "ingredient": {
+        "name": "red wine vinegar",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      "nutrition": {
+        "serving_size": {
+          "amount": 14.7868,
+          "unit": "g"
+        },
+        "calories": 19.0,
+        "total_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "amount": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "amount": 8.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "amount": 0.3,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "total_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "added_sugars": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "protein": {
+          "amount": 0.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "amount": 0.0,
+          "unit": "mcg"
+        },
+        "calcium": {
+          "amount": 6.0,
+          "unit": "mg"
+        },
+        "iron": {
+          "amount": 0.5,
+          "unit": "mg"
+        },
+        "potassium": {
+          "amount": 39.0,
+          "unit": "mg"
+        }
+      }
+    }
+  ],
+  "total": {
+    "serving_size": {
+      "amount": 924.7483999999998,
+      "unit": "g"
+    },
+    "calories": 1144.0,
+    "total_fat": {
+      "amount": 81.7,
+      "unit": "g"
+    },
+    "saturated_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "trans_fat": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "cholesterol": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "sodium": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "total_carbohydrates": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "dietary_fiber": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "total_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "added_sugars": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "protein": {
+      "amount": 0.0,
+      "unit": "g"
+    },
+    "vitamin_d": {
+      "amount": 0.0,
+      "unit": "mcg"
+    },
+    "calcium": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "iron": {
+      "amount": 0.0,
+      "unit": "mg"
+    },
+    "potassium": {
+      "amount": 0.0,
+      "unit": "mg"
+    }
+  }
+}
+2025-01-31 23:30:27.635 - INFO - Calculating nutrition facts for 7 ingredients
+2025-01-31 23:30:32.932 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:31:37.833 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:31:42.188 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:32:21.012 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:32:25.466 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:33:34.342 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:33:38.503 - INFO - Nutrition Respinse: ingredients=[IngredientNutrition(ingredient=NutritionIngredient(name='chicken wings', amount=1.0, unit='lb'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=453.592, unit='g'), calories=247.0, total_fat=NutrientInfo(amount=16.7, unit='g'), saturated_fat=NutrientInfo(amount=4.7, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=69.0, unit='mg'), sodium=NutrientInfo(amount=374.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=0.0, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=0.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=22.6, unit='g'), vitamin_d=NutrientInfo(amount=0.1, unit='mcg'), calcium=NutrientInfo(amount=12.0, unit='mg'), iron=NutrientInfo(amount=1.1, unit='mg'), potassium=NutrientInfo(amount=138.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='sesame seeds', amount=2.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=29.5736, unit='g'), calories=631.0, total_fat=NutrientInfo(amount=61.2, unit='g'), saturated_fat=NutrientInfo(amount=9.1, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=47.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=11.7, unit='g'), dietary_fiber=NutrientInfo(amount=11.6, unit='g'), total_sugars=NutrientInfo(amount=0.5, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=20.4, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=60.0, unit='mg'), iron=NutrientInfo(amount=6.4, unit='mg'), potassium=NutrientInfo(amount=370.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='chilies', amount=1.0, unit=''), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=100.0, unit='g'), calories=126.0, total_fat=NutrientInfo(amount=3.6, unit='g'), saturated_fat=NutrientInfo(amount=1.3, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=18.0, unit='mg'), sodium=NutrientInfo(amount=311.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=14.4, unit='g'), dietary_fiber=NutrientInfo(amount=2.8, unit='g'), total_sugars=NutrientInfo(amount=1.3, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=9.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=18.0, unit='mg'), iron=NutrientInfo(amount=1.8, unit='mg'), potassium=NutrientInfo(amount=236.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='teriyaki sauce', amount=1.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=14.7868, unit='g'), calories=89.0, total_fat=NutrientInfo(amount=0.0, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=3830.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=15.6, unit='g'), dietary_fiber=NutrientInfo(amount=0.1, unit='g'), total_sugars=NutrientInfo(amount=14.1, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=5.9, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=25.0, unit='mg'), iron=NutrientInfo(amount=1.7, unit='mg'), potassium=NutrientInfo(amount=225.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='spring onions', amount=1.0, unit=''), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=100.0, unit='g'), calories=32.0, total_fat=NutrientInfo(amount=0.2, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=16.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=7.3, unit='g'), dietary_fiber=NutrientInfo(amount=2.6, unit='g'), total_sugars=NutrientInfo(amount=2.3, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=1.8, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=72.0, unit='mg'), iron=NutrientInfo(amount=1.5, unit='mg'), potassium=NutrientInfo(amount=276.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='red wine vinegar', amount=1.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=14.7868, unit='g'), calories=19.0, total_fat=NutrientInfo(amount=0.0, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=8.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=0.3, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=0.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=0.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=6.0, unit='mg'), iron=NutrientInfo(amount=0.5, unit='mg'), potassium=NutrientInfo(amount=39.0, unit='mg')))] total=NutritionLabel(serving_size=NutrientInfo(amount=712.7392, unit='g'), calories=1144.0, total_fat=NutrientInfo(amount=81.7, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=0.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=0.0, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=0.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=0.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=0.0, unit='mg'), iron=NutrientInfo(amount=0.0, unit='mg'), potassium=NutrientInfo(amount=0.0, unit='mg'))
+2025-01-31 23:33:38.503 - INFO - 
+Per ingredient breakdown:
+2025-01-31 23:33:58.601 - INFO - Calculating nutrition facts for 6 ingredients
+2025-01-31 23:34:05.258 - INFO - Nutrition Respinse: ingredients=[IngredientNutrition(ingredient=NutritionIngredient(name='chicken wings', amount=1.0, unit='lb'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=453.592, unit='g'), calories=1120.4, total_fat=NutrientInfo(amount=75.7, unit='g'), saturated_fat=NutrientInfo(amount=21.2, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=313.0, unit='mg'), sodium=NutrientInfo(amount=1696.4, unit='mg'), total_carbohydrates=NutrientInfo(amount=0.0, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=0.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=102.5, unit='g'), vitamin_d=NutrientInfo(amount=0.5, unit='mcg'), calcium=NutrientInfo(amount=54.4, unit='mg'), iron=NutrientInfo(amount=5.1, unit='mg'), potassium=NutrientInfo(amount=626.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='sesame seeds', amount=2.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=29.5736, unit='g'), calories=186.6, total_fat=NutrientInfo(amount=18.1, unit='g'), saturated_fat=NutrientInfo(amount=2.7, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=13.9, unit='mg'), total_carbohydrates=NutrientInfo(amount=3.5, unit='g'), dietary_fiber=NutrientInfo(amount=3.4, unit='g'), total_sugars=NutrientInfo(amount=0.1, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=6.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=17.7, unit='mg'), iron=NutrientInfo(amount=1.9, unit='mg'), potassium=NutrientInfo(amount=109.4, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='chilies', amount=1.0, unit=''), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=100.0, unit='g'), calories=126.0, total_fat=NutrientInfo(amount=3.6, unit='g'), saturated_fat=NutrientInfo(amount=1.3, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=18.0, unit='mg'), sodium=NutrientInfo(amount=311.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=14.4, unit='g'), dietary_fiber=NutrientInfo(amount=2.8, unit='g'), total_sugars=NutrientInfo(amount=1.3, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=9.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=18.0, unit='mg'), iron=NutrientInfo(amount=1.8, unit='mg'), potassium=NutrientInfo(amount=236.0, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='teriyaki sauce', amount=1.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=14.7868, unit='g'), calories=13.2, total_fat=NutrientInfo(amount=0.0, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=566.3, unit='mg'), total_carbohydrates=NutrientInfo(amount=2.3, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=2.1, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=0.9, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=3.7, unit='mg'), iron=NutrientInfo(amount=0.3, unit='mg'), potassium=NutrientInfo(amount=33.3, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='spring onions', amount=1.0, unit=''), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=110.0, unit='g'), calories=35.2, total_fat=NutrientInfo(amount=0.2, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=17.6, unit='mg'), total_carbohydrates=NutrientInfo(amount=8.1, unit='g'), dietary_fiber=NutrientInfo(amount=2.9, unit='g'), total_sugars=NutrientInfo(amount=2.6, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=2.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=79.2, unit='mg'), iron=NutrientInfo(amount=1.6, unit='mg'), potassium=NutrientInfo(amount=303.6, unit='mg'))), IngredientNutrition(ingredient=NutritionIngredient(name='red wine vinegar', amount=1.0, unit='tbsp'), nutrition=NutritionLabel(serving_size=NutrientInfo(amount=14.7868, unit='g'), calories=2.8, total_fat=NutrientInfo(amount=0.0, unit='g'), saturated_fat=NutrientInfo(amount=0.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=0.0, unit='mg'), sodium=NutrientInfo(amount=1.2, unit='mg'), total_carbohydrates=NutrientInfo(amount=0.0, unit='g'), dietary_fiber=NutrientInfo(amount=0.0, unit='g'), total_sugars=NutrientInfo(amount=0.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=0.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=0.9, unit='mg'), iron=NutrientInfo(amount=0.1, unit='mg'), potassium=NutrientInfo(amount=5.8, unit='mg')))] total=NutritionLabel(serving_size=NutrientInfo(amount=722.7392, unit='g'), calories=1484.2, total_fat=NutrientInfo(amount=98.0, unit='g'), saturated_fat=NutrientInfo(amount=25.0, unit='g'), trans_fat=NutrientInfo(amount=0.0, unit='g'), cholesterol=NutrientInfo(amount=331.0, unit='mg'), sodium=NutrientInfo(amount=2606.0, unit='mg'), total_carbohydrates=NutrientInfo(amount=28.0, unit='g'), dietary_fiber=NutrientInfo(amount=9.0, unit='g'), total_sugars=NutrientInfo(amount=6.0, unit='g'), added_sugars=NutrientInfo(amount=0.0, unit='g'), protein=NutrientInfo(amount=120.0, unit='g'), vitamin_d=NutrientInfo(amount=0.0, unit='mcg'), calcium=NutrientInfo(amount=174.0, unit='mg'), iron=NutrientInfo(amount=11.0, unit='mg'), potassium=NutrientInfo(amount=1314.0, unit='mg'))
+2025-01-31 23:34:05.259 - INFO - 
+Per ingredient breakdown:

@@ -56,19 +56,11 @@ class NutritionService:
             'dataType': ['Survey (FNDDS)', 'Foundation', 'SR Legacy'],
             'pageSize': 1
         }
-        
-        print(f"\n=== FOOD SEARCH REQUEST ===")
-        print(f"Endpoint: {endpoint}")
-        print(f"Query: {search_query}")
-        print(f"Params: {params}")
-        
+          
         response = requests.get(endpoint, params=params)
         response.raise_for_status()
         result = response.json()
         
-        print(f"\n=== FOOD SEARCH RESPONSE ===")
-        print(f"Status Code: {response.status_code}")
-        print(f"Foods found: {len(result.get('foods', []))}")
         if result.get('foods'):
             print(f"First food match: {result['foods'][0].get('description')}")
             print(f"Food ID: {result['foods'][0].get('fdcId')}")
@@ -291,15 +283,11 @@ class NutritionService:
         
         for ingredient in ingredients:
             try:
-                print(f"\n=== PROCESSING INGREDIENT: {ingredient.name} ===")
-                print(f"Amount: {ingredient.amount} {ingredient.unit}")
-                
                 # Store current ingredient name for convert_to_grams
                 self.current_ingredient = ingredient.name
                 
                 # Get clean ingredient name for API search
                 clean_name = ingredient.get_clean_name()
-                print(f"Clean name for search: {clean_name}")
                 
                 # Search for the ingredient in FDC
                 search_result = self.search_food(clean_name)
@@ -312,16 +300,13 @@ class NutritionService:
                         continue
                     
                 food = search_result['foods'][0]
-                print(f"Using food: {food.get('description')} (ID: {food.get('fdcId')})")
                 
                 # Get nutrients for this food
                 nutrients = self.get_food_nutrients(food['fdcId'])
-                print(f"\nRetrieved nutrients: {nutrients}")
-                
+               
                 # Calculate amount in grams
                 amount_in_grams = self.convert_to_grams(ingredient.amount, ingredient.unit)
-                print(f"\nConverted amount: {amount_in_grams}g")
-                
+              
                 total_weight += amount_in_grams
                 
                 # Calculate nutrients for this ingredient
@@ -398,21 +383,5 @@ class NutritionService:
             ingredients=ingredient_nutrients,
             total=total_label
         )
-        
-        print("\n=== FINAL NUTRITION RESPONSE ===")
-        print(f"Response object: {response}")
-        print("\nIngredients:")
-        for ing in response.ingredients:
-            print(f"\n{ing.ingredient.name} ({ing.ingredient.amount} {ing.ingredient.unit or 'whole'}):")
-            print(f"  Calories: {ing.nutrition.calories}")
-            print(f"  Protein: {ing.nutrition.protein.amount}g")
-            print(f"  Total Fat: {ing.nutrition.total_fat.amount}g")
-            print(f"  Total Carbs: {ing.nutrition.total_carbohydrates.amount}g")
-            
-        print("\nTotal Nutrition:")
-        print(f"Calories: {response.total.calories}")
-        print(f"Protein: {response.total.protein.amount}g")
-        print(f"Total Fat: {response.total.total_fat.amount}g")
-        print(f"Total Carbs: {response.total.total_carbohydrates.amount}g")
-        
+
         return response 

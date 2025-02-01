@@ -79,7 +79,7 @@ async def process_video(
                 return response
             except ValidationError as ve:
                 logger.error(f"Validation error with cached data: {ve}")
-                # Proceed to process the video anew
+                # Proceed to process the video
 
         # Process the video as it's not cached
         logger.info(f"Video {video_id} not found in cache, processing...")
@@ -155,31 +155,17 @@ async def process_video(
         )
         
 @router.post("/nutrition/", response_model=NutritionResponse)
-def get_nutrition_facts(
+async def get_nutrition_facts(
     request: NutritionRequest,
     nutrition_service: NutritionService = Depends()
 ):
     try:
         logger.info(f"Calculating nutrition facts for {len(request.ingredients)} ingredients")
-        nutrition_response = nutrition_service.calculate_nutrition(request.ingredients)
+        nutrition_response =  nutrition_service.calculate_nutrition(request.ingredients)
+        logger.info(f"Nutrition Respinse: {nutrition_response}")
         
         # Log the response before returning
-        logger.info("\n=== NUTRITION ENDPOINT RESPONSE ===")
-        logger.info(f"Total calories: {nutrition_response.total.calories}")
-        logger.info(f"Total protein: {nutrition_response.total.protein.amount}g")
-        logger.info(f"Total fat: {nutrition_response.total.total_fat.amount}g")
-        logger.info(f"Total carbs: {nutrition_response.total.total_carbohydrates.amount}g")
         logger.info("\nPer ingredient breakdown:")
-        for ing in nutrition_response.ingredients:
-            logger.info(f"\n{ing.ingredient.name}:")
-            logger.info(f"  Calories: {ing.nutrition.calories}")
-            logger.info(f"  Protein: {ing.nutrition.protein.amount}g")
-            logger.info(f"  Fat: {ing.nutrition.total_fat.amount}g")
-            logger.info(f"  Carbs: {ing.nutrition.total_carbohydrates.amount}g")
-        
-        # Print the raw response model
-        logger.info("\nRaw response model:")
-        logger.info(nutrition_response.model_dump_json(indent=2))
         
         return nutrition_response
     except Exception as e:
@@ -237,7 +223,4 @@ async def delete_user_recipe(
             status_code=500,
             detail=f"An error occurred while deleting recipe {video_id} for user {user_id}"
         )
-        
-    
-        
     
