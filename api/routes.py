@@ -17,6 +17,7 @@ from services.transcript_service import TranscriptService
 from services.video_service import VideoService
 from services.firebase_service import FirebaseService
 from services.nutrition_service import NutritionService
+from services.nutrition_service_v2 import NutritionServiceV2
 
 from logger import logger
 from pyinstrument import Profiler
@@ -48,7 +49,7 @@ async def process_video(
     yt_dlp_client: YoutubeDL = Depends(get_yt_dlp_client),
     transcript_service: TranscriptService = Depends(),
     recipe_service: RecipeService = Depends(get_recipe_service),
-    nutrition_service: NutritionService = Depends(),
+    nutrition_service: NutritionServiceV2 = Depends(),
 ):
     logger.info(f"Processing video URL: {video.url}")
     
@@ -157,10 +158,11 @@ async def process_video(
 @router.post("/nutrition/", response_model=NutritionResponse)
 async def get_nutrition_facts(
     request: NutritionRequest,
-    nutrition_service: NutritionService = Depends()
+    nutrition_service: NutritionServiceV2 = Depends()
 ):
     try:
         logger.info(f"Calculating nutrition facts for {len(request.ingredients)} ingredients")
+        logger.info(f"Request: {request}")
         nutrition_response =  nutrition_service.calculate_nutrition(request.ingredients)
         logger.info(f"Nutrition Respinse: {nutrition_response}")
         
