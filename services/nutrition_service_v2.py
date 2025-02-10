@@ -238,7 +238,7 @@ class NutritionServiceV2:
             'api_key': self.api_key,
             'query': query,
             'dataType': ['Survey (FNDDS)', 'Foundation', 'SR Legacy'],
-            'pageSize': 5  # Get more results for better matching
+            'pageSize': 25  # Increased to get more potential matches
         }
 
         try:
@@ -253,43 +253,112 @@ class NutritionServiceV2:
             scored_foods = []
             query_words = set(query.lower().split())
             
+            # Define scoring weights
+            EXACT_MATCH_BONUS = 100
+            WORD_MATCH_WEIGHT = 10
+            LENGTH_PENALTY_WEIGHT = 2
+            MODIFIER_PENALTY_WEIGHT = 15
+            PREFERRED_CATEGORY_BONUS = 20
+            BRAND_PENALTY = 10
+            PREPARED_FOOD_PENALTY = 25  # New penalty for prepared foods
+            
             for food in result['foods']:
                 description = food['description'].lower()
                 description_words = set(description.split())
+                data_type = food.get('dataType', '').lower()
                 
-                # Calculate word match score
-                word_match_score = len(query_words.intersection(description_words))
+                # Initialize score components
+                score = 0
                 
-                # Prefer exact matches
-                exact_match_bonus = 10 if query.lower() in description else 0
+                # 1. Exact match bonus
+                if query_lower == description:
+                    score += EXACT_MATCH_BONUS
                 
-                # Prefer shorter descriptions (more specific matches)
-                length_penalty = len(description_words) / 10
+                # 2. Word matching score
+                matching_words = query_words.intersection(description_words)
+                word_match_score = len(matching_words) * WORD_MATCH_WEIGHT
+                # Extra points if matching words are in the same order
+                if all(word in description for word in query_lower.split()):
+                    word_match_score *= 1.5
+                score += word_match_score
                 
-                # Penalize modified versions of basic ingredients
+                # 3. Length penalty (prefer shorter, more specific descriptions)
+                length_penalty = len(description_words) * LENGTH_PENALTY_WEIGHT
+                score -= length_penalty
+                
+                # 4. Preferred data type bonus
+                if data_type in ['sr legacy', 'foundation']:
+                    score += PREFERRED_CATEGORY_BONUS
+                
+                # 5. Brand name penalty
+                if 'brand' in data_type or 'branded' in data_type:
+                    score -= BRAND_PENALTY
+                
+                # 6. Prepared food penalty - penalize items that are prepared dishes
+                prepared_food_penalty = 0
+                prepared_indicators = ['sandwich', 'dish', 'recipe', 'prepared', 'with', 'served', 'in', 'on']
+                for indicator in prepared_indicators:
+                    if indicator in description:
+                        prepared_food_penalty += PREPARED_FOOD_PENALTY
+                score -= prepared_food_penalty
+                
+                # 7. Modifier penalties for basic ingredients
                 modifier_penalty = 0
-                basic_ingredients = ['milk', 'cheese', 'butter', 'cream', 'oil', 'flour', 'sugar']
-                for basic in basic_ingredients:
-                    if basic in query_lower:
-                        # If the description contains modifiers like "coconut", "almond", etc.
-                        # when searching for a basic ingredient, penalize it
-                        modifiers = ['coconut', 'almond', 'soy', 'oat', 'rice', 'flavored', 'modified']
+                basic_ingredients = {
+                    'milk': ['coconut', 'almond', 'soy', 'oat', 'rice', 'goat', 'flavored'],
+                    'cheese': ['processed', 'food', 'product', 'substitute'],
+                    'butter': ['substitute', 'spread', 'margarine'],
+                    'cream': ['substitute', 'non-dairy', 'imitation'],
+                    'oil': ['blend', 'substitute'],
+                    'flour': ['blend', 'mix'],
+                    'sugar': ['substitute', 'blend', 'artificial']
+                }
+                
+                for basic_ing, modifiers in basic_ingredients.items():
+                    if basic_ing in query_lower:
                         for modifier in modifiers:
                             if modifier in description and modifier not in query_lower:
-                                modifier_penalty += 5
+                                modifier_penalty += MODIFIER_PENALTY_WEIGHT
                 
-                total_score = word_match_score + exact_match_bonus - length_penalty - modifier_penalty
+                score -= modifier_penalty
                 
-                # Create a tuple with score first for sorting
-                scored_foods.append((total_score, {
+                # 8. Preparation method matching
+                prep_methods = ['raw', 'cooked', 'boiled', 'baked', 'fried', 'steamed', 'fresh']
+                query_preps = [method for method in prep_methods if method in query_lower]
+                desc_preps = [method for method in prep_methods if method in description]
+                
+                # Prefer items with matching preparation methods
+                if query_preps and desc_preps:
+                    if set(query_preps) == set(desc_preps):
+                        score += 15
+                elif not query_preps and 'raw' in description:
+                    # If no prep method specified in query, prefer raw/fresh items
+                    score += 10
+                
+                # Store detailed scoring for debugging
+                scored_foods.append((score, {
                     'fdcId': food.get('fdcId'),
                     'description': food.get('description'),
                     'dataType': food.get('dataType'),
-                    'score': total_score
+                    'score': score,
+                    'score_breakdown': {
+                        'word_match': word_match_score,
+                        'length_penalty': length_penalty,
+                        'modifier_penalty': modifier_penalty,
+                        'prepared_food_penalty': prepared_food_penalty,
+                        'data_type': data_type,
+                        'matching_words': list(matching_words)
+                    }
                 }))
 
             # Sort by score in descending order
             scored_foods.sort(key=lambda x: x[0], reverse=True)
+            
+            # Print top matches for debugging
+            print("\nTop 3 matches for", query)
+            for score, food in scored_foods[:3]:
+                print(f"Score {score:.1f}: {food['description']} ({food['dataType']})")
+                print(f"Breakdown: {food['score_breakdown']}")
             
             # Return the best match if found
             if scored_foods:
@@ -389,6 +458,7 @@ class NutritionServiceV2:
     def calculate_nutrition(self, ingredients: List[NutritionIngredient]) -> NutritionResponse:
         """Calculate nutrition facts with improved accuracy"""
         ingredient_nutrients = []
+        ingredient_details = []  # New list to store detailed matching info
         total_nutrients = {key: 0 for key in self.nutrient_map.keys()}
         total_weight = 0
 
@@ -415,6 +485,17 @@ class NutritionServiceV2:
 
                 matched_food = search_result['foods'][0]
                 print(f"Matched food: {matched_food.get('description')}")
+
+                # Store detailed matching info
+                ingredient_details.append({
+                    'original_ingredient': ingredient.dict(),
+                    'matched_food': matched_food.get('description'),
+                    'matched_id': matched_food.get('fdcId'),
+                    'data_type': matched_food.get('dataType'),
+                    'converted_amount': amount_in_grams,
+                    'original_amount': ingredient.amount,
+                    'original_unit': ingredient.unit,
+                })
 
                 # Get nutrients
                 nutrients = self.get_food_nutrients(str(matched_food['fdcId']))
@@ -455,7 +536,9 @@ class NutritionServiceV2:
 
                 ingredient_nutrients.append(IngredientNutrition(
                     ingredient=ingredient,
-                    nutrition=ingredient_label
+                    nutrition=ingredient_label,
+                    matched_food=matched_food.get('description'),
+                    converted_amount=amount_in_grams
                 ))
                 print(f"Successfully processed {ingredient.name}")
 
@@ -489,5 +572,6 @@ class NutritionServiceV2:
 
         return NutritionResponse(
             ingredients=ingredient_nutrients,
-            total=total_label
+            total=total_label,
+            ingredient_details=ingredient_details
         ) 

@@ -5,7 +5,7 @@ from anthropic import AnthropicBedrock
 from pydantic import ValidationError
 
 from models.schemas import Recipe, VideoContent, RecipeClassification
-from recipe_classifier import classify_video_content
+from recipe_classifier import classify_video_content, classify_recipe_video_gemini
 from cohere import Client 
 
 # Initialize the Anthropic client globally
@@ -30,11 +30,12 @@ class RecipeService:
             RecipeClassification object with analysis results
         """
         try:
-            classification = classify_video_content(video_content)
+            #classification = classify_video_content(video_content)
+            classification = classify_recipe_video_gemini(video_content)
             logging.info("Successfully classified video content")
             return classification
         except Exception as e:
-            logging.error(f"Error during video classification: {str(e)}")
+            print(f"Error during video classification: {str(e)}")
             raise
 
     async def generate_recipe(self, video_url: str, prompt: str) -> Optional[Recipe]:

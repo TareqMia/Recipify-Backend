@@ -12,6 +12,7 @@ from pydantic import ValidationError
 from yt_dlp import YoutubeDL
 
 from models.schemas import ContentCategory, VideoRequest, VideoResponse, VideoContent, NutritionRequest, NutritionLabel, NutritionIngredient, NutritionResponse
+from recipe_classifier import Recipe
 from services.recipe_service import RecipeService
 from services.transcript_service import TranscriptService
 from services.video_service import VideoService
@@ -101,30 +102,79 @@ async def process_video(
 
         # Classify the video content
         classification = recipe_service.classify_video_content(video_content)
-
+        
+    
+        logger.info(f"[DEBUG]: {classification}")
+        
+        logger.info(f"DEBUG: {classification.keys()}")
+        
         video_data = {
             "video_id": video_id,
-            "title": title,
+            "title": "",
             "description": description,
             "transcript": transcript,
-            "is_recipe_video": classification.is_recipe == ContentCategory.recipe,
+            "is_recipe_video": classification["is_recipe"] == ContentCategory.recipe,
             "created_at": datetime.utcnow().isoformat()
         }
 
-        if classification.is_recipe == ContentCategory.recipe:
+        if classification["is_recipe"] == ContentCategory.recipe:
+            
+            recipe_details = classification["recipe_details"]
+            
             processed_data = video_service.process_recipe_for_llm(title, description, transcript)
-            recipe = classification.recipe_details
-            
-            # Ensure keywords are included in recipe data
-            if recipe and 'keywords' not in recipe:
-                recipe['keywords'] = classification.suggested_tags
-            
+           
+            # Convert ingredients to strings
+            ingredients_list = []
+            if recipe_details.get('ingredients'):
+                for ing in recipe_details['ingredients']:
+                    if isinstance(ing, dict):
+                        # Format ingredient string from dict
+                        parts = []
+                        if ing.get('quantity'):
+                            parts.append(str(ing['quantity']))
+                        if ing.get('unit'):
+                            parts.append(str(ing['unit']))
+                        parts.append(ing.get('name', ''))
+                        if ing.get('notes'):
+                            parts.append(f"({ing['notes']})")
+                        ingredients_list.append(" ".join(parts).strip())
+                    else:
+                        ingredients_list.append(str(ing))
+
+            # Ensure all required Recipe fields are present according to models/schemas.py Recipe model
+            recipe_data = {
+                "name": recipe_details.get('recipe_name', title),
+                "description": recipe_details.get('description', description),
+                "ingredients": ingredients_list,
+                "instructions": recipe_details.get('instructions', []),
+                "prep_time": recipe_details.get('prep_time', 0) or 0,  # Convert None to 0
+                "cook_time": recipe_details.get('cook_time', 0) or 0,  # Convert None to 0
+                "servings": recipe_details.get('serving_size', 1) or 1,  # Convert None to 1
+                "serving_suggestions": recipe_details.get('serving_tips', []),
+                "keywords": recipe_details.get('keywords', []),
+                
+                # Additional fields
+                "cuisine": recipe_details.get('cuisine'),
+                "course": recipe_details.get('course'),
+                "difficulty": recipe_details.get('difficulty'),
+                "allergens": recipe_details.get('allergens', []),
+                "dietary_tags": recipe_details.get('dietary_tags', []),
+                "equipment": recipe_details.get('equipment', []),
+                "tips": recipe_details.get('tips', []),
+                "total_time": recipe_details.get('total_time'),
+                "ingredient_substitutions": {
+                    ing.get('name', ''): ing.get('substitute_ingredient')
+                    for ing in recipe_details.get('ingredients', [])
+                    if ing.get('substitute_ingredient')
+                } if recipe_details.get('ingredients') else {}
+            }
+
             video_data.update({
                 "processed_data": json.dumps({
-                    "classification": classification.model_dump(),
+                    "classification": classification,
                     "llm_prompt": processed_data.get('prompt', '')
                 }),
-                "recipe": recipe,
+                "recipe": recipe_data,
                 "nutrition": None  # Don't calculate nutrition facts initially
             })
         else:

@@ -2,10 +2,12 @@ from anthropic import AnthropicBedrock
 import os
 import json
 import dotenv
+from fastapi import logger
 import instructor
 from pydantic import BaseModel, Field 
 from enum import Enum
 from typing import List, Optional 
+from google import genai
 
 dotenv.load_dotenv()
 
@@ -21,6 +23,43 @@ class RecipeConfidenceLevel(str, Enum):
     MEDIUM = "MEDIUM"  
     LOW = "LOW"
     
+class Ingredient(BaseModel):
+    name: str
+    quantity: Optional[float]
+    unit: Optional[str]
+    notes: Optional[str]
+    name_for_fdc_api: str
+    substitute_ingredient: Optional[str]
+
+class Recipe(BaseModel):
+    recipe_name: str
+    instructions: List[str]
+    ingredients: List[Ingredient]
+    keywords: List[str]
+    serving_size: int
+    serving_tips: List[str]
+    
+    # # Timing and difficulty
+    prep_time: Optional[int]   # in minutes
+    cook_time: Optional[int]   # in minutes
+    total_time: Optional[int]  # in minutes
+    difficulty: Optional[str]
+    
+    # # Cuisine and course
+    cuisine: Optional[str]
+    course: Optional[str]
+    
+    # # Allergen warnings and dietary tags
+    allergens: List[str]
+    dietary_tags: List[str]
+    
+    # # Additional descriptive fields
+    description: Optional[str]
+    
+    # # Equipment or special instructions
+    equipment: List[str]
+    tips: List[str]
+    
 class VideoContent(BaseModel):
     title: str
     description: str
@@ -31,24 +70,17 @@ class RecipeClassification(BaseModel):
     is_recipe: ContentCategory
     confidence_level: RecipeConfidenceLevel
     confidence_score: float = Field(ge=0, le=1)
-    recipe_indicators: List[str] = Field(
-        description="Key phrases or elements that indicate recipe content"
-    )
-    suggested_tags: List[str] = Field(
-        description="Suggested tags for the video content"
-    )
-    recipe_details: Optional[dict] = Field(
-        description="If it's a recipe, extracted key recipe information such as ingredients, instructions, etc.",
-        default=None
-    )
+    recipe_indicators: List[str] 
+    suggested_tags: List[str] 
+    recipe_details: Recipe
     
 def classify_video_content(video_content: VideoContent) -> RecipeClassification:
     """Classify video content using Claude"""
     
     # Truncate content to fit within token limits
     title = video_content.title[:200]
-    description = video_content.description[:500]
-    transcript = video_content.transcript[:2000]
+    description = video_content.description
+    transcript = video_content.transcript
     
     analysis_prompt = f"""
     Analyze this cooking video content and extract recipe details:
@@ -72,7 +104,7 @@ def classify_video_content(video_content: VideoContent) -> RecipeClassification:
         "cook_time": Time in minutes (number),
         "servings": Number of servings (number),
         "serving_suggestions": List of serving suggestions,
-        "keywords": List of 2-3 relevant keywords
+        "keywords": List of 2-5 relevant keywords
     }}
 
     Ensure ALL fields are present and properly formatted.
@@ -94,36 +126,62 @@ def classify_video_content(video_content: VideoContent) -> RecipeClassification:
         )
         return response
     except Exception as e:
-        logger.error(f"Error during video classification: {str(e)}")
+        print(f"Error during video classification: {str(e)}")
         raise
+    
+    
+def classify_recipe_video_gemini(video_content: VideoContent) -> RecipeClassification:
+    title = video_content.title[:100]
+    description = video_content.description
+    transcript = video_content.transcript
+    
+    
+    analysis_prompt = f"""
+    Analyze this cooking video content and extract recipe details IF IT IS A RECIPE. If not, return empty:
 
-# Example usage
-def main():
-    # Example video content
-    sample_video = VideoContent(
-        title="High Protein Kimchi Noodle Recipe #healthyrecipesY",
-        description="Full recipe 🍝 ⇩ \n\nIngredients:\n- 1 tbsp Gochujang\n- 1 tbsp brown sugar\n- 1/2 tbsp Rice Vinegar\n- 1 tbsp Soy Sauce\n- 1 tbsp Gochugaru\n- 100g Kimchi\n- 30g Green Onion\n- 1 tbsp minced garlic\n- 100g Sempio korean high protein noodles (20g protein 360 calories)\n- 150g light canned tuna\nrecipe inspo: @__cookim_\n\nMakes 1 serving: 650 calories, 52g Protein, 105g Carbs, 4g Fat\n\nHow to make it yourself:\n1. Dice your green onions\n2. Cook the noodles in boiling water and once cooked, let it rest in cool water\n3. In a bowl, add your canned tuna, brown sugar, gochugaru, minced garlic, gochujang, kimchi, rice vinegar, soy sauce, the cooked noodles, and the diced green onions.\n\nI saw this recipe on my feed and knew making a few small changes would make this the perfect high protein and low calorie recipe!\n\n📩 Save this Spicy Tuna Noodle recipe to make for later and if you make it, post it and tag me in it! I'd love to see how you liked the recipe :)\n\n#highproteinmeals #lowcalorie #mealprep #weightlossmeals #healthyrecipes #koreanfood #asianfood #noodles",
-        transcript="welcome back to i can't eat enough protein the series where i share with you tasty high protein dishes that take less than 30 minutes to make and today let's make korean kimchi noodles but packed with over 50 g of protein a few weeks ago i was scrolling through my for you page and stumbled upon a viral kimchi noodle recipe that looks so good and so easy to make that i knew i had to try it but i feel like i can take it one step further and turn it into a high protein dish that's perfect for our series these specific noodles from senel are 360 calories for 20 g of protein and they taste really good too so here instead of using regular old noodles i'm going to use these korean high protein noodles that are honestly such a hidden gem that i found at my local korean market we'll then pair that with some canant tuna since it's one of the leanest most convenient protein sources out there and goes perfect with these noodles and the kimchi as always the four recipes in the caption let me know what you think woo"
-    )
+    Title: {title}
+    Description: {description}
+    Transcript excerpt: {transcript}
+    
+    """
+    
+    
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    
     
     try:
-        # Classify the video
-        result = classify_video_content(sample_video)
-        print(result.model_dump_json(indent=2))
-        
-        # Validate the results
-        assert isinstance(result, RecipeClassification)
-        if result.is_recipe == ContentCategory.recipe:
-            print("\nRecipe detected!")
-            print(f"Confidence Level: {result.confidence_level}")
-            print(f"Confidence Score: {result.confidence_score}")
-            print("\nRecipe Indicators:")
-            for indicator in result.recipe_indicators:
-                print(f"- {indicator}")
     
+        response = client.models.generate_content(
+            model='gemini-2.0-flash',
+            contents=analysis_prompt,
+            config={
+                'response_mime_type': 'application/json',
+                'response_schema': RecipeClassification.model_json_schema()
+            },
+        )
+        
+        print("====================================")
+        print(response)
+        # turn response.text into a json object
+        
+        return json.loads(response.text)
+        
+       
+        
     except Exception as e:
-        print(f"Error during classification: {str(e)}")
+        print(f"Error during video classification: {str(e)}")
+        raise
 
-if __name__ == "__main__":
-    main()
+    
+
+    
+
+    
+    
+    
+    
+    
+
+
+
    

@@ -206,6 +206,17 @@ class Recipe(BaseModel):
     servings: int
     serving_suggestions: Optional[List[str]] = []
     keywords: List[str] = []
+    
+    # Additional fields
+    cuisine: Optional[str] = None
+    course: Optional[str] = None
+    difficulty: Optional[str] = None
+    allergens: Optional[List[str]] = []
+    dietary_tags: Optional[List[str]] = []
+    equipment: Optional[List[str]] = []
+    tips: Optional[List[str]] = []
+    total_time: Optional[int] = None  # in minutes
+    ingredient_substitutions: Optional[Dict[str, str]] = {}  # ingredient -> substitute mapping
 
     @field_validator('ingredients')
     @classmethod
@@ -216,23 +227,37 @@ class Recipe(BaseModel):
         formatted_ingredients = []
         for ing in v:
             if isinstance(ing, RecipeIngredient):
-                formatted = ing
+                # Convert RecipeIngredient to string
+                parts = []
+                if ing.amount > 0:
+                    parts.append(str(ing.amount))
+                if ing.unit != MeasurementUnit.NONE:
+                    parts.append(str(ing.unit))
+                parts.append(ing.ingredient)
+                formatted_ingredients.append(" ".join(parts).strip())
             elif isinstance(ing, dict):
                 try:
-                    formatted = RecipeIngredient(
+                    # Create RecipeIngredient and convert to string
+                    recipe_ing = RecipeIngredient(
                         amount=float(ing.get("amount", 0)),
                         unit=ing.get("unit", MeasurementUnit.NONE),
                         ingredient=ing.get("ingredient", ing.get("item", ""))
                     )
+                    parts = []
+                    if recipe_ing.amount > 0:
+                        parts.append(str(recipe_ing.amount))
+                    if recipe_ing.unit != MeasurementUnit.NONE:
+                        parts.append(str(recipe_ing.unit))
+                    parts.append(recipe_ing.ingredient)
+                    formatted_ingredients.append(" ".join(parts).strip())
                 except (ValueError, TypeError):
-                    # If conversion fails, treat as a string
-                    formatted = RecipeIngredient.from_string(str(ing))
+                    # If conversion fails, use string as is
+                    formatted_ingredients.append(str(ing))
             elif isinstance(ing, str):
-                formatted = RecipeIngredient.from_string(ing)
+                formatted_ingredients.append(ing)
             else:
-                formatted = RecipeIngredient.from_string(str(ing))
+                formatted_ingredients.append(str(ing))
                 
-            formatted_ingredients.append(formatted)
         return formatted_ingredients
 
     model_config = ConfigDict(from_attributes=True)
@@ -240,10 +265,13 @@ class Recipe(BaseModel):
 class IngredientNutrition(BaseModel):
     ingredient: NutritionIngredient
     nutrition: Optional[NutritionLabel] = None
+    matched_food: Optional[str] = None  # Store the matched food description
+    converted_amount: Optional[float] = None  # Store the converted amount in grams
 
 class NutritionResponse(BaseModel):
     ingredients: Optional[List[IngredientNutrition]] = []
     total: Optional[NutritionLabel] = None
+    ingredient_details: Optional[List[Dict[str, Any]]] = []  # Store detailed ingredient matching info
 
 class VideoResponse(BaseModel):
     video_id: str
