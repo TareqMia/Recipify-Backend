@@ -26,7 +26,7 @@ class RecipeConfidenceLevel(str, Enum):
     
 class Ingredient(BaseModel):
     name: str
-    quantity: str
+    quantity: float
     unit: str
     
 
