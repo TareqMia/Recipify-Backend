@@ -148,8 +148,8 @@ class MeasurementUnit(str, Enum):
         return amount * conversion_map.get(unit, 100)
 
 class RecipeIngredient(BaseModel):
-    amount: float = 0
-    unit: MeasurementUnit = MeasurementUnit.NONE
+    amount: float
+    unit: MeasurementUnit 
     ingredient: str
 
     @classmethod
@@ -199,7 +199,7 @@ class RecipeIngredient(BaseModel):
 class Recipe(BaseModel):
     name: str
     description: str
-    ingredients: List[str]  # List of ingredients with measurements
+    ingredients: List[RecipeIngredient]  # List of ingredients with measurements
     instructions: List[str]  # List of step-by-step instructions
     prep_time: int  # In minutes
     cook_time: int  # In minutes
