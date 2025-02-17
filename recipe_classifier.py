@@ -261,7 +261,8 @@ def classify_recipe_video_gemini(video_content: VideoContent) -> RecipeClassific
     Title: {title}
     Description: {description}
     Transcript excerpt: {transcript}
-
+    
+    Be descriptive when the instructions or transcript aren't too detailed (not too wordy).  
     """
     
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
@@ -279,7 +280,6 @@ def classify_recipe_video_gemini(video_content: VideoContent) -> RecipeClassific
          
         # turn response.text into a json object
         data = json.loads(response.text) 
-        
         return data
         
        

@@ -72,3 +72,26 @@ class FirebaseService:
         recipe_ref.delete()
         
         return {"message": "Recipe deleted successfully"}
+    
+    @staticmethod 
+    def get_user_cookbooks(user_id: str) -> List[dict]:
+        """Get all cookbooks for a user
+
+        Args:
+            user_id (str): _description_
+
+        Returns:
+            List[dict]: _description_
+        """
+        
+        logger.info(f"Fetching all cookbooks for user {user_id}")
+        cookbooks = [] 
+        cookbooks_ref = db.collection('cookbooks') 
+        query = cookbooks_ref.where('owner_id', '==', user_id)
+        
+        for doc in query.stream():
+            cookbooks.append(doc.to_dict())
+            
+        return cookbooks
+            
+        

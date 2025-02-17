@@ -237,7 +237,7 @@ class NutritionServiceV2:
         params = {
             'api_key': self.api_key,
             'query': query,
-            'dataType': ['Survey (FNDDS)', 'Foundation', 'SR Legacy'],
+            'dataType': ['Branded', 'Survey (FNDDS)', 'Foundation', 'SR Legacy'],
             'pageSize': 25  # Increased to get more potential matches
         }
 

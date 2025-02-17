@@ -9,20 +9,22 @@ import boto3
 import dotenv
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import ValidationError
+from pyinstrument import Profiler
 from yt_dlp import YoutubeDL
 
-from models.schemas import ContentCategory, VideoRequest, VideoResponse, VideoContent, NutritionRequest, NutritionLabel, NutritionIngredient, NutritionResponse
+from api.dependencies import get_yt_dlp_client
+from logger import logger
+from models.schemas import (ContentCategory, NutritionIngredient,
+                            NutritionLabel, NutritionRequest,
+                            NutritionResponse, VideoContent, VideoRequest,
+                            VideoResponse)
 from recipe_classifier import Recipe, RecipeClassification
-from services.recipe_service import RecipeService
-from services.transcript_service import TranscriptService
-from services.video_service import VideoService
 from services.firebase_service import FirebaseService
 from services.nutrition_service import NutritionService
 from services.nutrition_service_v2 import NutritionServiceV2
-
-from logger import logger
-from pyinstrument import Profiler
-from api.dependencies import get_yt_dlp_client
+from services.recipe_service import RecipeService
+from services.transcript_service import TranscriptService
+from services.video_service import VideoService
 
 # Load environment variables
 dotenv.load_dotenv()
@@ -105,7 +107,6 @@ async def process_video(
         # Classify the video content
         classification: RecipeClassification = recipe_service.classify_video_content(video_content)
         
-    
         logger.info(f"[DEBUG]: {classification}")
         
         
@@ -207,6 +208,30 @@ async def get_user_recipes(
             detail=f"An error occurred while fetching recipes for user {user_id}"
         )
         
+@router.get("/cookbooks/{user_id}")
+async def get_user_cookbooks(
+    user_id: str,
+    firebase_service: FirebaseService = Depends()
+):
+    """
+    Get all cookbooks for a specific user
+    """
+    try:
+        # Get all cookbooks for the user from Firebase
+        cookbooks = firebase_service.get_user_cookbooks(user_id)
+        logger.info(f"Retrieved {len(cookbooks)} recipes from Firebase")
+        
+        if not cookbooks:
+            return []
+
+        return cookbooks
+        
+    except Exception as e:
+        logger.error(f"Error fetching cookbooks for user {user_id}: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while fetching cookbooks for user {user_id}"
+        )
         
 @router.delete("/recipes/{user_id}/{video_id}") 
 async def delete_user_recipe(
