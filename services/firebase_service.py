@@ -56,7 +56,7 @@ class FirebaseService:
         
         recipes = []
         recipes_ref = db.collection('user_recipes')
-        query = recipes_ref.where('user_id', '==', user_id)
+        query = recipes_ref.where('user_id', '==', user_id).order_by('created_at', direction=firestore.Query.DESCENDING)
         
         for doc in query.stream():
             recipes.append(doc.to_dict())

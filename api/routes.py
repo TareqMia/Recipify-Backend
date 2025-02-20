@@ -3,14 +3,18 @@ import json
 import logging
 import os
 from datetime import datetime
+import random
+import tempfile
 from typing import List
 
 import boto3
 import dotenv
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import ValidationError
+from pydantic import BaseModel, ValidationError
 from pyinstrument import Profiler
+import requests
 from yt_dlp import YoutubeDL
+import aiohttp
 
 from api.dependencies import get_yt_dlp_client
 from logger import logger
@@ -38,6 +42,18 @@ def get_bedrock_client():
         aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
         aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY')
     )
+    
+proxies = [
+    "198.23.239.134:6540:kuohohdq:o2g36joiz7t5",
+    "107.172.163.27:6543:kuohohdq:o2g36joiz7t5",
+    "173.211.0.148:6641:kuohohdq:o2g36joiz7t5",
+    "173.0.9.70:5653:kuohohdq:o2g36joiz7t5",
+    "173.0.9.209:5792:kuohohdq:o2g36joiz7t5",
+    "23.94.138.75:6349:kuohohdq:o2g36joiz7t5"
+]
+
+class URLRequest(BaseModel):
+    url: str
     
 @router.get("/hello/")
 async def hello():
@@ -255,4 +271,43 @@ async def delete_user_recipe(
             status_code=500,
             detail=f"An error occurred while deleting recipe {video_id} for user {user_id}"
         )
-    
+        
+        
+@router.post("/instagram/")
+async def process_instagram_recipe(request_body: URLRequest):
+    """Process an Instagram recipe URL by calling the local service"""
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.post(
+                'http://127.0.0.1:8001/transcribe/',
+                json={'url': request_body.url}
+            ) as response:
+                if response.status != 200:
+                    error_text = await response.text()
+                    logger.error(f"Error from local service: {error_text}")
+                    raise HTTPException(
+                        status_code=response.status,
+                        detail="Error processing Instagram URL"
+                    )
+                
+                result = await response.json()
+                if not isinstance(result, list):
+                    raise HTTPException(
+                        status_code=500,
+                        detail="Invalid response format from local service"
+                    )
+                
+                return result
+                
+    except aiohttp.ClientError as e:
+        logger.error(f"Error connecting to local service: {str(e)}")
+        raise HTTPException(
+            status_code=503,
+            detail="Could not connect to local service"
+        )
+    except Exception as e:
+        logger.error(f"Unexpected error processing Instagram URL: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail="An unexpected error occurred"
+        )
