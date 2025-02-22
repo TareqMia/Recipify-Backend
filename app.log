@@ -30591,3 +30591,155 @@ google.api_core.exceptions.FailedPrecondition: 400 The query requires an index. 
 2025-02-19 20:16:55.736 - INFO - Retrieved 32 recipes from Firebase
 2025-02-19 20:17:12.741 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
 2025-02-19 20:17:13.033 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:19:14.145 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:19:14.368 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:19:23.461 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:19:23.673 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:08.618 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:08.822 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:15.905 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:16.118 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:22.012 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:22.204 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:27.209 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:27.313 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:20:29.022 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:29.206 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:32.166 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:32.369 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:33.043 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:33.132 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:20:34.348 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:34.563 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:35.855 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:35.948 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:20:39.824 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:40.010 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:42.582 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:42.686 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:20:48.354 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:48.547 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:20:49.884 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:49.969 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:20:56.856 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:20:56.960 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:21:04.916 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:21:05.118 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:21:06.702 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:21:06.793 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:21:12.419 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:21:12.646 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:22:04.053 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:22:04.277 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:22:17.814 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:22:18.008 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:22:22.284 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:22:22.495 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:22:38.240 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:22:38.429 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:22:46.040 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:22:46.268 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:11.919 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:12.140 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:17.792 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:17.876 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:21.167 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:21.378 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:24.152 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:24.238 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:26.265 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:26.463 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:27.220 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:27.317 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:32.981 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:33.096 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:36.875 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:36.951 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:38.943 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:39.031 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:43.028 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:43.143 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:49.804 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:49.906 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:51.434 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:51.520 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:54.039 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:54.217 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:55.541 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:55.615 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:23:57.979 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:58.177 - INFO - Retrieved 32 recipes from Firebase
+2025-02-19 20:23:59.733 - INFO - Fetching all cookbooks for user oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:23:59.824 - INFO - Retrieved 9 recipes from Firebase
+2025-02-19 20:32:18.457 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-19 20:32:19.064 - INFO - Retrieved 32 recipes from Firebase
+2025-02-20 07:55:17.937 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 07:59:08.307 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 07:59:52.766 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:02:22.866 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:04:47.148 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:04:49.931 - ERROR - Unexpected error processing Instagram URL: 'list' object has no attribute 'join'
+2025-02-20 08:05:41.970 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:06:43.742 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:07:02.886 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:07:34.771 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:07:36.974 - ERROR - Unexpected error processing Instagram URL: 1 validation error for VideoContent
+transcript
+  Input should be a valid string [type=string_type, input_value=[' If you combine pistach...ts and natural sugars.'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-02-20 08:08:33.983 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:08:36.096 - ERROR - Unexpected error processing Instagram URL: 'list' object has no attribute 'join'
+2025-02-20 08:09:10.127 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 08:09:12.312 - INFO - AFC is enabled with max remote calls: 10.
+2025-02-20 08:09:18.815 - INFO - AFC remote call 1 is done.
+2025-02-20 08:09:18.819 - INFO - Successfully classified video content
+2025-02-20 08:11:48.813 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-20 13:25:23.176 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:25:23.179 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 13:25:40.833 - INFO - AFC is enabled with max remote calls: 10.
+2025-02-20 13:25:45.999 - INFO - AFC remote call 1 is done.
+2025-02-20 13:25:46.000 - INFO - Successfully classified video content
+2025-02-20 13:36:42.576 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:36:42.581 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 13:38:36.464 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:38:36.466 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 13:39:00.843 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:39:00.845 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 13:39:09.013 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:39:09.014 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 13:39:48.653 - INFO - AFC is enabled with max remote calls: 10.
+2025-02-20 13:39:54.380 - INFO - AFC remote call 1 is done.
+2025-02-20 13:39:54.384 - INFO - Successfully classified video content
+2025-02-20 13:55:05.505 - ERROR - Error from local service: {"detail":""}
+2025-02-20 13:55:05.507 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 19:50:19.337 - ERROR - Error from local service: {"detail":""}
+2025-02-20 19:50:19.357 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 19:50:35.754 - ERROR - Error from local service: {"detail":""}
+2025-02-20 19:50:35.756 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 19:51:42.225 - ERROR - Error from local service: {"detail":""}
+2025-02-20 19:51:42.228 - ERROR - Unexpected error processing Instagram URL: 
+2025-02-20 19:53:18.360 - INFO - AFC is enabled with max remote calls: 10.
+2025-02-20 19:53:24.161 - INFO - AFC remote call 1 is done.
+2025-02-20 19:53:24.165 - INFO - Successfully classified video content
+2025-02-20 19:56:51.995 - INFO - AFC is enabled with max remote calls: 10.
+2025-02-20 19:56:58.625 - INFO - AFC remote call 1 is done.
+2025-02-20 19:56:58.628 - INFO - Successfully classified video content
+2025-02-20 20:15:29.833 - WARNING - Since the GPL-licensed package `unidecode` is not installed, using Python's `unicodedata` package which yields worse results.
+2025-02-21 09:24:50.558 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:24:51.668 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:07.300 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:07.618 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:07.636 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:07.827 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:25.857 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:26.203 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:26.220 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:26.410 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:31.311 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:31.518 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:31.532 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:31.720 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:37.281 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:37.490 - INFO - Retrieved 32 recipes from Firebase
+2025-02-21 09:30:37.502 - INFO - Fetching recipes for user: oi8nU9QbcdRcgnG18KrA2T4kAjk1
+2025-02-21 09:30:37.748 - INFO - Retrieved 32 recipes from Firebase

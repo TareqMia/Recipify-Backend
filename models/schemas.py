@@ -294,7 +294,7 @@ class RecipeConfidenceLevel(str, Enum):
     LOW = "LOW"
     
 class VideoContent(BaseModel):
-    title: str
+    title: str = ""
     description: str
     transcript: str
     

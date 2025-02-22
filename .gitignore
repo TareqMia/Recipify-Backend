@@ -9,3 +9,5 @@ youtube.com_cookies.txt
 *.txt
 .pyc
 *.log
+app.log
+ models/__pycache__/*

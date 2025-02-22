@@ -273,9 +273,13 @@ async def delete_user_recipe(
         )
         
         
-@router.post("/instagram/")
-async def process_instagram_recipe(request_body: URLRequest):
+@router.post("/insta-tiktok/")
+async def process_instagram_recipe(request_body: URLRequest,  recipe_service: RecipeService = Depends(get_recipe_service)):
     """Process an Instagram recipe URL by calling the local service"""
+    
+    # check if url has already been processed. if so, then return saved recipe 
+    
+    # if not, continue to process 
     try:
         async with aiohttp.ClientSession() as session:
             async with session.post(
@@ -291,13 +295,22 @@ async def process_instagram_recipe(request_body: URLRequest):
                     )
                 
                 result = await response.json()
-                if not isinstance(result, list):
-                    raise HTTPException(
-                        status_code=500,
-                        detail="Invalid response format from local service"
-                    )
+                transcript =  ". ".join(result["transcript"])
+                caption = result["caption"]
                 
-                return result
+                print(transcript)
+                print(caption)
+                
+                
+                
+                video_content = VideoContent(description=caption, transcript=transcript)
+                
+                classification: RecipeClassification = recipe_service.classify_video_content(video_content)
+                
+                return classification
+                
+
+                
                 
     except aiohttp.ClientError as e:
         logger.error(f"Error connecting to local service: {str(e)}")
